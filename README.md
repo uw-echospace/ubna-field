@@ -12,7 +12,7 @@ Our acoustic bat call data was gathered from two sites in the Union Bay Natural 
 - Recording session #1 was from 09/09/2021 (02:00) - 09/09/2021 (23:00)
 	- Duration: 21 hours
 - Recording session #2 was from 09/16/2021 (00:00) - 09/09/2021 (09:30)
-        - Duration: 9.5 hours
+	- Duration: 9.5 hours
 - Recording session #3 was from 10/01/2021 (02:00) - 10/03/2021 (10:30)
 	- Duration: 56.5 hours
 - Recording session #4 was from 10/15/2021 (18:00) - 10/17/2021 (11:30)
