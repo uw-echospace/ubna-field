@@ -18,9 +18,16 @@ Our acoustic bat call data was gathered from two sites in the Union Bay Natural 
 - Recording session #4 was from 10/15/2021 (18:00) - 10/17/2021 (11:30)
 	- Duraion: 41.5 hours
 
-The recorders we used were Audiomoth v=1.2.0.
+Recording Session # | Start | End | Duration
+--------------------|-------|-----|---------
+1 | 2021-09-09T02:00Z | 2021-09-09T23:00Z | 21 hours
+2 | 2021-09-16T00:00Z | 2021-09-16T09:30Z | 9.5 hours
+3 | 2021-10-01T02:00Z | 2021-10-03T10:30Z | 56.5 hours
+4 | 2021-10-15T18:00Z | 2021-10-17T11:30Z | 41.5 hours
+
+The recorders we used were Audiomoth v1.2.0.
 Our main settings are:
-- Sample Rate: 250kHz (384kHz were used for our June recordings)
+- Sampling Rate: 250kHz (384kHz were used for our June recordings)
 - Gain: medium
 - Filter: none
 - Amplitude Threshold: none
