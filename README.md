@@ -2,7 +2,10 @@
 
 Our acoustic bat call data was gathered from two sites in the Union Bay Natural Area in Seattle, WA. The two sites have been labelled "Carp Pond" and "Foliage".
 
-Furthermore, all dates and times were recorded in UTC time format.
+Formatting Details:
+- All dates and times were recorded in UTC time format 
+- Recording Session tables use ISO8601 format for time and dates.
+- Activity table uses HH:MM:SS to elaborate ON/OFF cycle used in Audiomoth.
 
 1) At Carp Pond,
 
