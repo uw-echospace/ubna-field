@@ -2,6 +2,8 @@
 
 Our acoustic bat call data was gathered from two sites in the Union Bay Natural Area in Seattle, WA. The two sites have been labelled "Carp Pond" and "Foliage".
 
+Furthermore, all dates and times were recorded in UTC time format.
+
 1) At Carp Pond,
 
 Recording Session # | Start | End | Duration
@@ -35,6 +37,3 @@ Cycle # | Recording ON | Recording OFF
 
 - Daily Recording Period: 00:00:00-24:00-00
 
-(All dates and times were recorded in UTC time format)
-
-TBD
