@@ -26,11 +26,11 @@ Our main settings are:
 - Amplitude Threshold: none
 - Activity(ON/OFF) Cycle: 1795s ON, 5s OFF
 	- Example (Cycle Duration 30 minutes):
-	Cycle # | Recording ON | Recording OFF
-	--------|--------------|--------------
-	1 | 00:00:00-00:29:55 | 00:29:55-00:30:00
-	2 | 00:30:00-00:59:55 | 00:59:55-01:00:00
-	3 | 01:00:00-01:29:55 | 01:29:55-01:30:00
+Cycle # | Recording ON | Recording OFF
+--------|--------------|--------------
+1 | 00:00:00-00:29:55 | 00:29:55-00:30:00
+2 | 00:30:00-00:59:55 | 00:59:55-01:00:00
+3 | 01:00:00-01:29:55 | 01:29:55-01:30:00
 - Daily Recording Period: 00:00:00-24:00-00
 
 (All dates and times were recorded in UTC time format)
