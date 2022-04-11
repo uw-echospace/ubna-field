@@ -3,8 +3,8 @@
 Our acoustic bat call data was gathered from two sites in the Union Bay Natural Area in Seattle, WA.
 
 ## Recording sites
-- Carp Pond
-- Foliage
+- Carp Pond (47.65493544376657, -122.29466196897457)
+- Foliage (47.655208793798344, -122.29071456036488)
 
 
 ## Recording Sessions
