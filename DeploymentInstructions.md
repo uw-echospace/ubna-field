@@ -38,11 +38,11 @@ Open Acoustic Devices, the creators of the Audiomoth, also host a support forum 
 8) Ziploc bags or Audiomoth cases to shield the Audiomoth from excessive rain while recording.
 Note: If you use a ziploc bag, find a way to black out the light emitted from the Audiomoth from inside the bag. I used black tape to tape up the side of the bag that had the light. You can use whatever works.
 
-You also need to make a small but large enough hole in the area where the Audiomoth unit’s microphone will be inside the ziploc bag. 
+	You also need to make a small but large enough hole in the area where the Audiomoth unit’s microphone will be inside the ziploc bag. 
 
-You also want to ideally be able to reuse the ziploc bag for multiple deployments because we will be deploying a lot and it is preferable to not be required to set up a new ziploc bag for each deployment.
+	You also want to ideally be able to reuse the ziploc bag for multiple deployments because we will be deploying a lot and it is preferable to not be required to set up a new ziploc bag for each deployment.
 
-A rubber band or hair tie would be useful in wrapping the bag around the Audiomoth.
+	A rubber band or hair tie would be useful in wrapping the bag around the Audiomoth.
 
 9) A long rubber cord or thread will also be useful for attaching the Audiomoth to the desired tree branch. We can provide a few rubber cords. Rubber works best because it doesn’t get wet or damaged either.
 
