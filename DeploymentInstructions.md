@@ -101,5 +101,5 @@ https://www.openacousticdevices.info/led-guide
 
 ## Updating Spreadsheet:
 
-1) Go to Audiomoth Data and add in the latest deployment row and the previous deployment’s date of retrieval, # of files, GB used, and battery depletion.
+1) Go to Audiomoth Data [spreadsheet](https://docs.google.com/spreadsheets/d/1M2a_qx3xsJYWyM4Bi0UN3dYT7VXC3KalNdnd9nycW1U/edit?usp=sharing) and add in the latest deployment row and the previous deployment’s date of retrieval, # of files, GB used, and battery depletion.
 
