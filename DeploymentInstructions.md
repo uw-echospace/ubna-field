@@ -53,6 +53,7 @@ A rubber band or hair tie would be useful in wrapping the bag around the Audiomo
 1) Remove Audiomoth from the deployment site and move to a secure location where you can open up materials with relative ease.
 
 2) Take Audiomoth out of the case/ziploc bag and check the LEDs to check its status. There are many Audiomoth LED statuses but a few are the most common ones after a deployment session.
+	
 	a) No Green Light; Rapid Flashing Red Light: The Audiomoth is still recording. This means that neither the battery has died nor the SD card is full yet.
 
 	b) Both Lights Flash for 10ms; Pause; Repeat: This means that the Audiomoth has run into a recording error during its deployment. This might be because of the low battery or a full microSD card.
