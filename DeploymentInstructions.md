@@ -18,10 +18,9 @@ Open Acoustic Devices, the creators of the Audiomoth, also host a support forum 
 ## What do we need for deployment?
 
 1) Download all the desktop apps that the Audiomoth unit relies on to maintain its software, recording schedule/settings, and time.
-	
 	Download Instructions can be found here: https://www.openacousticdevices.info/applications
 
-Note: The mobile apps are unnecessary and the desktop apps will be enough.
+	Note: The mobile apps are unnecessary and the desktop apps will be enough.
 
 2) A USB type A to micro B cable with data lines. You can check if your USB cable has data lines by checking the bigger end to see if there are 4 lines inside.
 
