@@ -92,7 +92,7 @@ https://www.openacousticdevices.info/led-guide
 
 7) Once you are packed up, switch the Audiomoth to CUSTOM mode and once again check if the red LED is rapidly flashing just to make sure. You want to check as much as possible that the Audiomoth is not running into errors before you leave it for deployment. You will not be able to check the LEDs again after you put the Audiomoth into its case/ziploc bag.
 
-![Recording](/CommonLEDs/on.png)
+	![Recording](/CommonLEDs/on.png)
 		
 8) Leave the Audiomoth recording in CUSTOM mode and put the Audiomoth back in its case/ziploc bag, wrap it up with its microphone being uncovered and LEDs being covered. Secure it with the rubber band or hair tie, wrap it around once with your rubber cord, and go back to your deployment site. Make sure you do not apply too much pressure onto the microSD card area from the cord. Sufficient pressure will make the card pop back out.
 
