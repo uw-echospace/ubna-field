@@ -19,7 +19,7 @@ Open Acoustic Devices, the creators of the Audiomoth, also host a support forum 
 
 1) Download all the desktop apps that the Audiomoth unit relies on to maintain its software, recording schedule/settings, and time.
 	
-	Download Instructions can be found here: https://www.openacousticdevices.info/applications
+- Download Instructions can be found here: https://www.openacousticdevices.info/applications
 
 	Note: The mobile apps are unnecessary and the desktop apps will be enough.
 
@@ -36,13 +36,16 @@ Open Acoustic Devices, the creators of the Audiomoth, also host a support forum 
 7) There are some ways to check a battery’s charge. Personally, I have a multimeter with a voltmeter at home so I check my battery’s charge using the multimeter to check the battery’s voltage. There is a more vague way of checking the battery where you see how much it bounces off a flat table when you drop it. The best way to quantitatively know you have a fully charged battery is by using a multimeter with a voltmeter.
 
 8) Ziploc bags or Audiomoth cases to shield the Audiomoth from excessive rain while recording.
-Note: If you use a ziploc bag, find a way to black out the light emitted from the Audiomoth from inside the bag. I used black tape to tape up the side of the bag that had the light. You can use whatever works.
 
-	You also need to make a small but large enough hole in the area where the Audiomoth unit’s microphone will be inside the ziploc bag. 
+If you use a ziploc bag, 
 
-	You also want to ideally be able to reuse the ziploc bag for multiple deployments because we will be deploying a lot and it is preferable to not be required to set up a new ziploc bag for each deployment.
+- Find a way to black out the light emitted from the Audiomoth from inside the bag. I used black tape to tape up the side of the bag that had the light. You can use whatever works.
 
-	A rubber band or hair tie would be useful in wrapping the bag around the Audiomoth.
+- You also need to make a small but large enough hole in the area where the Audiomoth unit’s microphone will be inside the ziploc bag. 
+
+- You also want to ideally be able to reuse the ziploc bag for multiple deployments because we will be deploying a lot and it is preferable to not be required to set up a new ziploc bag for each deployment.
+
+- A rubber band or hair tie would be useful in wrapping the bag around the Audiomoth.
 
 9) A long rubber cord or thread will also be useful for attaching the Audiomoth to the desired tree branch. We can provide a few rubber cords. Rubber works best because it doesn’t get wet or damaged either.
 
