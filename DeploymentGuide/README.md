@@ -84,7 +84,7 @@ https://www.openacousticdevices.info/led-guide
 
 3) When you put in new batteries, the Audiomoth defaults its clock to 1/1/1970. Reconnect the Audiomoth to your laptop, open the Time app, and click on Set Time.
 
-4) Once you have done this, open the configuration app and load in the pre-saved [BatAudio.config](/BatAudio.config) and click on Configure Audiomoth. If the configuration was already loaded in for the previous deployment, you don’t have to load it in again. Time is the only thing that the Audiomoth resets after swapping batteries, the configuration will remain with the Audiomoth.
+4) Once you have done this, open the configuration app and load in the pre-saved [BatAudio.config](/ConfigurationDetails/BatAudio.config) and click on Configure Audiomoth. If the configuration was already loaded in for the previous deployment, you don’t have to load it in again. Time is the only thing that the Audiomoth resets after swapping batteries, the configuration will remain with the Audiomoth.
 
 5) Disconnect the Audiomoth and switch the Audiomoth to CUSTOM mode briefly. After a few seconds, the Audiomoth’s red LED should start rapidly flashing. This means that it is recording without any errors.
 
