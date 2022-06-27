@@ -59,11 +59,11 @@ Open Acoustic Devices, the creators of the Audiomoth, also host a support forum 
 	
 	a) No Green Light; Rapid Flashing Red Light: The Audiomoth is still recording. This means that neither the battery has died nor the SD card is full yet.
 	
-	![Recording](/CommonLEDs/on.png)
+	![Recording](/DeploymentGuide/CommonLEDs/on.png)
 
 	b) Both Lights Flash for 10ms; Pause; Repeat: This means that the Audiomoth has run into a recording error during its deployment. This might be because of the low battery or a full microSD card.
 	
-	![Error](/CommonLEDs/error.png)
+	![Error](/DeploymentGuide/CommonLEDs/error.png)
 		
 	Use this link for more information on the Audiomoth LED statuses:
 https://www.openacousticdevices.info/led-guide
@@ -92,7 +92,7 @@ https://www.openacousticdevices.info/led-guide
 
 7) Once you are packed up, switch the Audiomoth to CUSTOM mode and once again check if the red LED is rapidly flashing just to make sure. You want to check as much as possible that the Audiomoth is not running into errors before you leave it for deployment. You will not be able to check the LEDs again after you put the Audiomoth into its case/ziploc bag.
 
-	![Recording](/CommonLEDs/on.png)
+	![Recording](/DeploymentGuide/CommonLEDs/on.png)
 		
 8) Leave the Audiomoth recording in CUSTOM mode and put the Audiomoth back in its case/ziploc bag, wrap it up with its microphone being uncovered and LEDs being covered. Secure it with the rubber band or hair tie, wrap it around once with your rubber cord, and go back to your deployment site. Make sure you do not apply too much pressure onto the microSD card area from the cord. Sufficient pressure will make the card pop back out.
 
