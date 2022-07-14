@@ -1,0 +1,852 @@
+,File Size,Month,Date,Time,File Name,Recording Status,Energy in first 5 secs
+0,1.5M,Jul,2,14:34,20220702_213428.WAV,full with data,3061.1875
+1,656M,Jul,2,14:59,20220702_213700.WAV,full with data,444986.8125
+2,856M,Jul,2,15:29,20220702_220000.WAV,full with data,933.8421630859375
+3,856M,Jul,2,15:59,20220702_223000.WAV,full with data,357.2550048828125
+4,856M,Jul,2,16:29,20220702_230000.WAV,full with data,794.3562622070312
+5,856M,Jul,2,16:59,20220702_233000.WAV,full with data,13248.9619140625
+6,856M,Jul,2,17:29,20220703_000000.WAV,full with data,3702.62451171875
+7,856M,Jul,2,17:59,20220703_003000.WAV,full with data,648.0966796875
+8,856M,Jul,2,18:29,20220703_010000.WAV,full with data,485.6618957519531
+9,856M,Jul,2,18:59,20220703_013000.WAV,full with data,533.9555053710938
+10,856M,Jul,2,19:29,20220703_020000.WAV,full with data,404.0902099609375
+11,856M,Jul,2,19:59,20220703_023000.WAV,full with data,410.1553039550781
+12,856M,Jul,2,20:29,20220703_030000.WAV,full with data,439.3651123046875
+13,856M,Jul,2,20:59,20220703_033000.WAV,full with data,277.2924499511719
+14,856M,Jul,2,21:29,20220703_040000.WAV,full with data,366.9301452636719
+15,856M,Jul,2,21:59,20220703_043000.WAV,full with data,237.58633422851562
+16,856M,Jul,2,22:29,20220703_050000.WAV,full with data,1040.46630859375
+17,856M,Jul,2,22:59,20220703_053000.WAV,full with data,299.2167053222656
+18,856M,Jul,2,23:29,20220703_060000.WAV,full with data,123.614990234375
+19,856M,Jul,2,23:59,20220703_063000.WAV,full with data,111.68927764892578
+20,856M,Jul,3,00:29,20220703_070000.WAV,full with data,119.76895141601562
+21,856M,Jul,3,00:59,20220703_073000.WAV,full with data,95.42217254638672
+22,856M,Jul,3,01:29,20220703_080000.WAV,full with data,70.3986587524414
+23,856M,Jul,3,01:59,20220703_083000.WAV,full with data,293.7316589355469
+24,856M,Jul,3,02:29,20220703_090000.WAV,full with data,85.50238800048828
+25,856M,Jul,3,02:59,20220703_093000.WAV,full with data,90.65676879882812
+26,856M,Jul,3,03:29,20220703_100000.WAV,full with data,69.39006042480469
+27,856M,Jul,3,03:59,20220703_103000.WAV,full with data,102.53104400634766
+28,856M,Jul,3,04:29,20220703_110000.WAV,full with data,68.03201293945312
+29,856M,Jul,3,04:59,20220703_113000.WAV,full with data,68.55033111572266
+30,856M,Jul,3,05:29,20220703_120000.WAV,full with data,75.68539428710938
+31,856M,Jul,3,05:59,20220703_123000.WAV,full with data,107.13803100585938
+32,856M,Jul,3,06:29,20220703_130000.WAV,full with data,101.53450012207031
+33,856M,Jul,3,06:59,20220703_133000.WAV,full with data,296.6811828613281
+34,856M,Jul,3,07:29,20220703_140000.WAV,full with data,114.5199966430664
+35,856M,Jul,3,07:59,20220703_143000.WAV,full with data,104.59661102294922
+36,856M,Jul,3,08:29,20220703_150000.WAV,full with data,152.04641723632812
+37,856M,Jul,3,08:59,20220703_153000.WAV,full with data,980.2860717773438
+38,856M,Jul,3,09:29,20220703_160000.WAV,full with data,260.7697448730469
+39,856M,Jul,3,09:59,20220703_163000.WAV,full with data,292.7669677734375
+40,856M,Jul,3,10:29,20220703_170000.WAV,full with data,331.34051513671875
+41,856M,Jul,3,10:59,20220703_173000.WAV,full with data,297.039794921875
+42,856M,Jul,3,11:29,20220703_180000.WAV,full with data,635.2105712890625
+43,856M,Jul,3,11:59,20220703_183000.WAV,full with data,175.72265625
+44,856M,Jul,3,12:29,20220703_190000.WAV,full with data,595.9976806640625
+45,856M,Jul,3,12:59,20220703_193000.WAV,full with data,453.46112060546875
+46,856M,Jul,3,13:29,20220703_200000.WAV,full with data,425.7799987792969
+47,856M,Jul,3,13:59,20220703_203000.WAV,full with data,244.21029663085938
+48,856M,Jul,3,14:29,20220703_210000.WAV,full with data,517.90380859375
+49,856M,Jul,3,14:59,20220703_213000.WAV,full with data,627.653076171875
+50,488,Jul,3,14:59,20220703_220000.WAV,very small but no data,0.0
+51,488,Jul,3,15:00,20220703_220001.WAV,very small but no data,0.0
+52,488,Jul,3,15:00,20220703_220002.WAV,very small but no data,0.0
+53,488,Jul,3,15:00,20220703_220003.WAV,very small but no data,0.0
+54,488,Jul,3,15:00,20220703_220004.WAV,very small but no data,0.0
+55,488,Jul,3,15:00,20220703_220005.WAV,very small but no data,0.0
+56,488,Jul,3,15:00,20220703_220006.WAV,very small but no data,0.0
+57,488,Jul,3,15:00,20220703_220007.WAV,very small but no data,0.0
+58,488,Jul,3,15:00,20220703_220008.WAV,very small but no data,0.0
+59,488,Jul,3,15:00,20220703_220009.WAV,very small but no data,0.0
+60,488,Jul,3,15:00,20220703_220010.WAV,very small but no data,0.0
+61,488,Jul,3,15:00,20220703_220011.WAV,very small but no data,0.0
+62,488,Jul,3,15:00,20220703_220012.WAV,very small but no data,0.0
+63,488,Jul,3,15:00,20220703_220013.WAV,very small but no data,0.0
+64,488,Jul,3,15:00,20220703_220014.WAV,very small but no data,0.0
+65,488,Jul,3,15:00,20220703_220015.WAV,very small but no data,0.0
+66,488,Jul,3,15:00,20220703_220016.WAV,very small but no data,0.0
+67,488,Jul,3,15:00,20220703_220017.WAV,very small but no data,0.0
+68,488,Jul,3,15:00,20220703_220018.WAV,very small but no data,0.0
+69,488,Jul,3,15:00,20220703_220019.WAV,very small but no data,0.0
+70,488,Jul,3,15:00,20220703_220020.WAV,very small but no data,0.0
+71,488,Jul,3,15:00,20220703_220021.WAV,very small but no data,0.0
+72,488,Jul,3,15:00,20220703_220022.WAV,very small but no data,0.0
+73,488,Jul,3,15:00,20220703_220023.WAV,very small but no data,0.0
+74,488,Jul,3,15:00,20220703_220024.WAV,very small but no data,0.0
+75,488,Jul,3,15:00,20220703_220025.WAV,very small but no data,0.0
+76,488,Jul,3,15:00,20220703_220026.WAV,very small but no data,0.0
+77,488,Jul,3,15:00,20220703_220027.WAV,very small but no data,0.0
+78,488,Jul,3,15:00,20220703_220028.WAV,very small but no data,0.0
+79,488,Jul,3,15:00,20220703_220029.WAV,very small but no data,0.0
+80,488,Jul,3,15:00,20220703_220030.WAV,very small but no data,0.0
+81,488,Jul,3,15:00,20220703_220031.WAV,very small but no data,0.0
+82,488,Jul,3,15:00,20220703_220032.WAV,very small but no data,0.0
+83,488,Jul,3,15:00,20220703_220033.WAV,very small but no data,0.0
+84,488,Jul,3,15:00,20220703_220034.WAV,very small but no data,0.0
+85,488,Jul,3,15:00,20220703_220035.WAV,very small but no data,0.0
+86,488,Jul,3,15:00,20220703_220036.WAV,very small but no data,0.0
+87,488,Jul,3,15:00,20220703_220037.WAV,very small but no data,0.0
+88,488,Jul,3,15:00,20220703_220038.WAV,very small but no data,0.0
+89,488,Jul,3,15:00,20220703_220039.WAV,very small but no data,0.0
+90,488,Jul,3,15:00,20220703_220040.WAV,very small but no data,0.0
+91,488,Jul,3,15:00,20220703_220041.WAV,very small but no data,0.0
+92,488,Jul,3,15:00,20220703_220042.WAV,very small but no data,0.0
+93,488,Jul,3,15:00,20220703_220043.WAV,very small but no data,0.0
+94,488,Jul,3,15:00,20220703_220044.WAV,very small but no data,0.0
+95,488,Jul,3,15:00,20220703_220045.WAV,very small but no data,0.0
+96,488,Jul,3,15:00,20220703_220046.WAV,very small but no data,0.0
+97,488,Jul,3,15:00,20220703_220047.WAV,very small but no data,0.0
+98,488,Jul,3,15:00,20220703_220048.WAV,very small but no data,0.0
+99,488,Jul,3,15:00,20220703_220049.WAV,very small but no data,0.0
+100,488,Jul,3,15:00,20220703_220050.WAV,very small but no data,0.0
+101,488,Jul,3,15:00,20220703_220051.WAV,very small but no data,0.0
+102,488,Jul,3,15:00,20220703_220052.WAV,very small but no data,0.0
+103,488,Jul,3,15:00,20220703_220053.WAV,very small but no data,0.0
+104,488,Jul,3,15:00,20220703_220054.WAV,very small but no data,0.0
+105,488,Jul,3,15:00,20220703_220055.WAV,very small but no data,0.0
+106,488,Jul,3,15:00,20220703_220056.WAV,very small but no data,0.0
+107,488,Jul,3,15:00,20220703_220057.WAV,very small but no data,0.0
+108,488,Jul,3,15:00,20220703_220058.WAV,very small but no data,0.0
+109,488,Jul,3,15:00,20220703_220059.WAV,very small but no data,0.0
+110,488,Jul,3,15:00,20220703_220100.WAV,very small but no data,0.0
+111,488,Jul,3,15:01,20220703_220101.WAV,very small but no data,0.0
+112,488,Jul,3,15:01,20220703_220102.WAV,very small but no data,0.0
+113,488,Jul,3,15:01,20220703_220103.WAV,very small but no data,0.0
+114,488,Jul,3,15:01,20220703_220104.WAV,very small but no data,0.0
+115,488,Jul,3,15:01,20220703_220105.WAV,very small but no data,0.0
+116,488,Jul,3,15:01,20220703_220106.WAV,very small but no data,0.0
+117,488,Jul,3,15:01,20220703_220107.WAV,very small but no data,0.0
+118,488,Jul,3,15:01,20220703_220108.WAV,very small but no data,0.0
+119,488,Jul,3,15:01,20220703_220109.WAV,very small but no data,0.0
+120,488,Jul,3,15:01,20220703_220110.WAV,very small but no data,0.0
+121,488,Jul,3,15:01,20220703_220111.WAV,very small but no data,0.0
+122,488,Jul,3,15:01,20220703_220112.WAV,very small but no data,0.0
+123,488,Jul,3,15:01,20220703_220113.WAV,very small but no data,0.0
+124,488,Jul,3,15:01,20220703_220114.WAV,very small but no data,0.0
+125,488,Jul,3,15:01,20220703_220115.WAV,very small but no data,0.0
+126,488,Jul,3,15:01,20220703_220116.WAV,very small but no data,0.0
+127,488,Jul,3,15:01,20220703_220117.WAV,very small but no data,0.0
+128,488,Jul,3,15:01,20220703_220118.WAV,very small but no data,0.0
+129,488,Jul,3,15:01,20220703_220119.WAV,very small but no data,0.0
+130,488,Jul,3,15:01,20220703_220120.WAV,very small but no data,0.0
+131,488,Jul,3,15:01,20220703_220121.WAV,very small but no data,0.0
+132,488,Jul,3,15:01,20220703_220122.WAV,very small but no data,0.0
+133,488,Jul,3,15:01,20220703_220123.WAV,very small but no data,0.0
+134,488,Jul,3,15:01,20220703_220124.WAV,very small but no data,0.0
+135,488,Jul,3,15:01,20220703_220125.WAV,very small but no data,0.0
+136,488,Jul,3,15:01,20220703_220126.WAV,very small but no data,0.0
+137,488,Jul,3,15:01,20220703_220127.WAV,very small but no data,0.0
+138,488,Jul,3,15:01,20220703_220128.WAV,very small but no data,0.0
+139,488,Jul,3,15:01,20220703_220129.WAV,very small but no data,0.0
+140,488,Jul,3,15:01,20220703_220130.WAV,very small but no data,0.0
+141,488,Jul,3,15:01,20220703_220131.WAV,very small but no data,0.0
+142,488,Jul,3,15:01,20220703_220132.WAV,very small but no data,0.0
+143,488,Jul,3,15:01,20220703_220133.WAV,very small but no data,0.0
+144,488,Jul,3,15:01,20220703_220134.WAV,very small but no data,0.0
+145,488,Jul,3,15:01,20220703_220135.WAV,very small but no data,0.0
+146,488,Jul,3,15:01,20220703_220136.WAV,very small but no data,0.0
+147,488,Jul,3,15:01,20220703_220137.WAV,very small but no data,0.0
+148,488,Jul,3,15:01,20220703_220138.WAV,very small but no data,0.0
+149,488,Jul,3,15:01,20220703_220139.WAV,very small but no data,0.0
+150,488,Jul,3,15:01,20220703_220140.WAV,very small but no data,0.0
+151,488,Jul,3,15:01,20220703_220141.WAV,very small but no data,0.0
+152,488,Jul,3,15:01,20220703_220142.WAV,very small but no data,0.0
+153,488,Jul,3,15:01,20220703_220143.WAV,very small but no data,0.0
+154,488,Jul,3,15:01,20220703_220144.WAV,very small but no data,0.0
+155,488,Jul,3,15:01,20220703_220145.WAV,very small but no data,0.0
+156,488,Jul,3,15:01,20220703_220146.WAV,very small but no data,0.0
+157,488,Jul,3,15:01,20220703_220147.WAV,very small but no data,0.0
+158,488,Jul,3,15:01,20220703_220148.WAV,very small but no data,0.0
+159,488,Jul,3,15:01,20220703_220149.WAV,very small but no data,0.0
+160,488,Jul,3,15:01,20220703_220150.WAV,very small but no data,0.0
+161,488,Jul,3,15:01,20220703_220151.WAV,very small but no data,0.0
+162,488,Jul,3,15:01,20220703_220152.WAV,very small but no data,0.0
+163,488,Jul,3,15:01,20220703_220153.WAV,very small but no data,0.0
+164,488,Jul,3,15:01,20220703_220154.WAV,very small but no data,0.0
+165,488,Jul,3,15:01,20220703_220155.WAV,very small but no data,0.0
+166,488,Jul,3,15:01,20220703_220156.WAV,very small but no data,0.0
+167,488,Jul,3,15:01,20220703_220157.WAV,very small but no data,0.0
+168,488,Jul,3,15:01,20220703_220158.WAV,very small but no data,0.0
+169,488,Jul,3,15:01,20220703_220159.WAV,very small but no data,0.0
+170,488,Jul,3,15:01,20220703_220200.WAV,very small but no data,0.0
+171,488,Jul,3,15:02,20220703_220201.WAV,very small but no data,0.0
+172,488,Jul,3,15:02,20220703_220202.WAV,very small but no data,0.0
+173,488,Jul,3,15:02,20220703_220203.WAV,very small but no data,0.0
+174,488,Jul,3,15:02,20220703_220204.WAV,very small but no data,0.0
+175,488,Jul,3,15:02,20220703_220205.WAV,very small but no data,0.0
+176,488,Jul,3,15:02,20220703_220206.WAV,very small but no data,0.0
+177,488,Jul,3,15:02,20220703_220207.WAV,very small but no data,0.0
+178,488,Jul,3,15:02,20220703_220208.WAV,very small but no data,0.0
+179,488,Jul,3,15:02,20220703_220209.WAV,very small but no data,0.0
+180,488,Jul,3,15:02,20220703_220210.WAV,very small but no data,0.0
+181,488,Jul,3,15:02,20220703_220211.WAV,very small but no data,0.0
+182,488,Jul,3,15:02,20220703_220212.WAV,very small but no data,0.0
+183,488,Jul,3,15:02,20220703_220213.WAV,very small but no data,0.0
+184,488,Jul,3,15:02,20220703_220214.WAV,very small but no data,0.0
+185,488,Jul,3,15:02,20220703_220215.WAV,very small but no data,0.0
+186,488,Jul,3,15:02,20220703_220216.WAV,very small but no data,0.0
+187,488,Jul,3,15:02,20220703_220217.WAV,very small but no data,0.0
+188,488,Jul,3,15:02,20220703_220218.WAV,very small but no data,0.0
+189,488,Jul,3,15:02,20220703_220219.WAV,very small but no data,0.0
+190,488,Jul,3,15:02,20220703_220220.WAV,very small but no data,0.0
+191,488,Jul,3,15:02,20220703_220221.WAV,very small but no data,0.0
+192,488,Jul,3,15:02,20220703_220222.WAV,very small but no data,0.0
+193,488,Jul,3,15:02,20220703_220223.WAV,very small but no data,0.0
+194,488,Jul,3,15:02,20220703_220224.WAV,very small but no data,0.0
+195,488,Jul,3,15:02,20220703_220225.WAV,very small but no data,0.0
+196,488,Jul,3,15:02,20220703_220226.WAV,very small but no data,0.0
+197,488,Jul,3,15:02,20220703_220227.WAV,very small but no data,0.0
+198,488,Jul,3,15:02,20220703_220228.WAV,very small but no data,0.0
+199,488,Jul,3,15:02,20220703_220229.WAV,very small but no data,0.0
+200,488,Jul,3,15:02,20220703_220230.WAV,very small but no data,0.0
+201,488,Jul,3,15:02,20220703_220231.WAV,very small but no data,0.0
+202,488,Jul,3,15:02,20220703_220232.WAV,very small but no data,0.0
+203,488,Jul,3,15:02,20220703_220233.WAV,very small but no data,0.0
+204,488,Jul,3,15:02,20220703_220234.WAV,very small but no data,0.0
+205,488,Jul,3,15:02,20220703_220235.WAV,very small but no data,0.0
+206,488,Jul,3,15:02,20220703_220236.WAV,very small but no data,0.0
+207,488,Jul,3,15:02,20220703_220237.WAV,very small but no data,0.0
+208,488,Jul,3,15:02,20220703_220238.WAV,very small but no data,0.0
+209,488,Jul,3,15:02,20220703_220239.WAV,very small but no data,0.0
+210,488,Jul,3,15:02,20220703_220240.WAV,very small but no data,0.0
+211,488,Jul,3,15:02,20220703_220241.WAV,very small but no data,0.0
+212,488,Jul,3,15:02,20220703_220242.WAV,very small but no data,0.0
+213,488,Jul,3,15:02,20220703_220243.WAV,very small but no data,0.0
+214,488,Jul,3,15:02,20220703_220244.WAV,very small but no data,0.0
+215,488,Jul,3,15:02,20220703_220245.WAV,very small but no data,0.0
+216,488,Jul,3,15:02,20220703_220246.WAV,very small but no data,0.0
+217,488,Jul,3,15:02,20220703_220247.WAV,very small but no data,0.0
+218,488,Jul,3,15:02,20220703_220248.WAV,very small but no data,0.0
+219,488,Jul,3,15:02,20220703_220249.WAV,very small but no data,0.0
+220,488,Jul,3,15:02,20220703_220250.WAV,very small but no data,0.0
+221,488,Jul,3,15:02,20220703_220251.WAV,very small but no data,0.0
+222,488,Jul,3,15:02,20220703_220252.WAV,very small but no data,0.0
+223,488,Jul,3,15:02,20220703_220253.WAV,very small but no data,0.0
+224,488,Jul,3,15:02,20220703_220254.WAV,very small but no data,0.0
+225,488,Jul,3,15:02,20220703_220255.WAV,very small but no data,0.0
+226,488,Jul,3,15:02,20220703_220256.WAV,very small but no data,0.0
+227,488,Jul,3,15:02,20220703_220257.WAV,very small but no data,0.0
+228,488,Jul,3,15:02,20220703_220258.WAV,very small but no data,0.0
+229,488,Jul,3,15:02,20220703_220259.WAV,very small but no data,0.0
+230,488,Jul,3,15:02,20220703_220300.WAV,very small but no data,0.0
+231,488,Jul,3,15:03,20220703_220301.WAV,very small but no data,0.0
+232,488,Jul,3,15:03,20220703_220302.WAV,very small but no data,0.0
+233,488,Jul,3,15:03,20220703_220303.WAV,very small but no data,0.0
+234,488,Jul,3,15:03,20220703_220304.WAV,very small but no data,0.0
+235,488,Jul,3,15:03,20220703_220305.WAV,very small but no data,0.0
+236,488,Jul,3,15:03,20220703_220306.WAV,very small but no data,0.0
+237,488,Jul,3,15:03,20220703_220307.WAV,very small but no data,0.0
+238,488,Jul,3,15:03,20220703_220308.WAV,very small but no data,0.0
+239,488,Jul,3,15:03,20220703_220309.WAV,very small but no data,0.0
+240,488,Jul,3,15:03,20220703_220310.WAV,very small but no data,0.0
+241,488,Jul,3,15:03,20220703_220311.WAV,very small but no data,0.0
+242,488,Jul,3,15:03,20220703_220312.WAV,very small but no data,0.0
+243,488,Jul,3,15:03,20220703_220313.WAV,very small but no data,0.0
+244,488,Jul,3,15:03,20220703_220314.WAV,very small but no data,0.0
+245,488,Jul,3,15:03,20220703_220315.WAV,very small but no data,0.0
+246,488,Jul,3,15:03,20220703_220316.WAV,very small but no data,0.0
+247,488,Jul,3,15:03,20220703_220317.WAV,very small but no data,0.0
+248,488,Jul,3,15:03,20220703_220318.WAV,very small but no data,0.0
+249,488,Jul,3,15:03,20220703_220319.WAV,very small but no data,0.0
+250,488,Jul,3,15:03,20220703_220320.WAV,very small but no data,0.0
+251,488,Jul,3,15:03,20220703_220321.WAV,very small but no data,0.0
+252,488,Jul,3,15:03,20220703_220322.WAV,very small but no data,0.0
+253,488,Jul,3,15:03,20220703_220323.WAV,very small but no data,0.0
+254,488,Jul,3,15:03,20220703_220324.WAV,very small but no data,0.0
+255,488,Jul,3,15:03,20220703_220325.WAV,very small but no data,0.0
+256,488,Jul,3,15:03,20220703_220326.WAV,very small but no data,0.0
+257,488,Jul,3,15:03,20220703_220327.WAV,very small but no data,0.0
+258,488,Jul,3,15:03,20220703_220328.WAV,very small but no data,0.0
+259,488,Jul,3,15:03,20220703_220329.WAV,very small but no data,0.0
+260,488,Jul,3,15:03,20220703_220330.WAV,very small but no data,0.0
+261,488,Jul,3,15:03,20220703_220331.WAV,very small but no data,0.0
+262,488,Jul,3,15:03,20220703_220332.WAV,very small but no data,0.0
+263,488,Jul,3,15:03,20220703_220333.WAV,very small but no data,0.0
+264,488,Jul,3,15:03,20220703_220334.WAV,very small but no data,0.0
+265,488,Jul,3,15:03,20220703_220335.WAV,very small but no data,0.0
+266,488,Jul,3,15:03,20220703_220336.WAV,very small but no data,0.0
+267,488,Jul,3,15:03,20220703_220337.WAV,very small but no data,0.0
+268,488,Jul,3,15:03,20220703_220338.WAV,very small but no data,0.0
+269,488,Jul,3,15:03,20220703_220339.WAV,very small but no data,0.0
+270,488,Jul,3,15:03,20220703_220340.WAV,very small but no data,0.0
+271,488,Jul,3,15:03,20220703_220341.WAV,very small but no data,0.0
+272,488,Jul,3,15:03,20220703_220342.WAV,very small but no data,0.0
+273,488,Jul,3,15:03,20220703_220343.WAV,very small but no data,0.0
+274,488,Jul,3,15:03,20220703_220344.WAV,very small but no data,0.0
+275,488,Jul,3,15:03,20220703_220345.WAV,very small but no data,0.0
+276,488,Jul,3,15:03,20220703_220346.WAV,very small but no data,0.0
+277,488,Jul,3,15:03,20220703_220347.WAV,very small but no data,0.0
+278,488,Jul,3,15:03,20220703_220348.WAV,very small but no data,0.0
+279,488,Jul,3,15:03,20220703_220349.WAV,very small but no data,0.0
+280,488,Jul,3,15:03,20220703_220350.WAV,very small but no data,0.0
+281,488,Jul,3,15:03,20220703_220351.WAV,very small but no data,0.0
+282,488,Jul,3,15:03,20220703_220352.WAV,very small but no data,0.0
+283,488,Jul,3,15:03,20220703_220353.WAV,very small but no data,0.0
+284,488,Jul,3,15:03,20220703_220354.WAV,very small but no data,0.0
+285,488,Jul,3,15:03,20220703_220355.WAV,very small but no data,0.0
+286,488,Jul,3,15:03,20220703_220356.WAV,very small but no data,0.0
+287,488,Jul,3,15:03,20220703_220357.WAV,very small but no data,0.0
+288,488,Jul,3,15:03,20220703_220358.WAV,very small but no data,0.0
+289,488,Jul,3,15:03,20220703_220359.WAV,very small but no data,0.0
+290,488,Jul,3,15:03,20220703_220400.WAV,very small but no data,0.0
+291,488,Jul,3,15:04,20220703_220401.WAV,very small but no data,0.0
+292,488,Jul,3,15:04,20220703_220402.WAV,very small but no data,0.0
+293,488,Jul,3,15:04,20220703_220403.WAV,very small but no data,0.0
+294,488,Jul,3,15:04,20220703_220404.WAV,very small but no data,0.0
+295,488,Jul,3,15:04,20220703_220405.WAV,very small but no data,0.0
+296,488,Jul,3,15:04,20220703_220406.WAV,very small but no data,0.0
+297,488,Jul,3,15:04,20220703_220407.WAV,very small but no data,0.0
+298,488,Jul,3,15:04,20220703_220408.WAV,very small but no data,0.0
+299,488,Jul,3,15:04,20220703_220409.WAV,very small but no data,0.0
+300,488,Jul,3,15:04,20220703_220410.WAV,very small but no data,0.0
+301,488,Jul,3,15:04,20220703_220411.WAV,very small but no data,0.0
+302,488,Jul,3,15:04,20220703_220412.WAV,very small but no data,0.0
+303,488,Jul,3,15:04,20220703_220413.WAV,very small but no data,0.0
+304,488,Jul,3,15:04,20220703_220414.WAV,very small but no data,0.0
+305,488,Jul,3,15:04,20220703_220415.WAV,very small but no data,0.0
+306,488,Jul,3,15:04,20220703_220416.WAV,very small but no data,0.0
+307,488,Jul,3,15:04,20220703_220417.WAV,very small but no data,0.0
+308,488,Jul,3,15:04,20220703_220418.WAV,very small but no data,0.0
+309,488,Jul,3,15:04,20220703_220419.WAV,very small but no data,0.0
+310,488,Jul,3,15:04,20220703_220420.WAV,very small but no data,0.0
+311,488,Jul,3,15:04,20220703_220421.WAV,very small but no data,0.0
+312,488,Jul,3,15:04,20220703_220422.WAV,very small but no data,0.0
+313,488,Jul,3,15:04,20220703_220423.WAV,very small but no data,0.0
+314,488,Jul,3,15:04,20220703_220424.WAV,very small but no data,0.0
+315,488,Jul,3,15:04,20220703_220425.WAV,very small but no data,0.0
+316,488,Jul,3,15:04,20220703_220426.WAV,very small but no data,0.0
+317,488,Jul,3,15:04,20220703_220427.WAV,very small but no data,0.0
+318,488,Jul,3,15:04,20220703_220428.WAV,very small but no data,0.0
+319,488,Jul,3,15:04,20220703_220429.WAV,very small but no data,0.0
+320,488,Jul,3,15:04,20220703_220430.WAV,very small but no data,0.0
+321,488,Jul,3,15:04,20220703_220431.WAV,very small but no data,0.0
+322,488,Jul,3,15:04,20220703_220432.WAV,very small but no data,0.0
+323,488,Jul,3,15:04,20220703_220433.WAV,very small but no data,0.0
+324,488,Jul,3,15:04,20220703_220434.WAV,very small but no data,0.0
+325,488,Jul,3,15:04,20220703_220435.WAV,very small but no data,0.0
+326,488,Jul,3,15:04,20220703_220436.WAV,very small but no data,0.0
+327,488,Jul,3,15:04,20220703_220437.WAV,very small but no data,0.0
+328,488,Jul,3,15:04,20220703_220438.WAV,very small but no data,0.0
+329,488,Jul,3,15:04,20220703_220439.WAV,very small but no data,0.0
+330,488,Jul,3,15:04,20220703_220440.WAV,very small but no data,0.0
+331,488,Jul,3,15:04,20220703_220441.WAV,very small but no data,0.0
+332,488,Jul,3,15:04,20220703_220442.WAV,very small but no data,0.0
+333,488,Jul,3,15:04,20220703_220443.WAV,very small but no data,0.0
+334,488,Jul,3,15:04,20220703_220444.WAV,very small but no data,0.0
+335,488,Jul,3,15:04,20220703_220445.WAV,very small but no data,0.0
+336,488,Jul,3,15:04,20220703_220446.WAV,very small but no data,0.0
+337,488,Jul,3,15:04,20220703_220447.WAV,very small but no data,0.0
+338,488,Jul,3,15:04,20220703_220448.WAV,very small but no data,0.0
+339,488,Jul,3,15:04,20220703_220449.WAV,very small but no data,0.0
+340,488,Jul,3,15:04,20220703_220450.WAV,very small but no data,0.0
+341,488,Jul,3,15:04,20220703_220451.WAV,very small but no data,0.0
+342,488,Jul,3,15:04,20220703_220452.WAV,very small but no data,0.0
+343,488,Jul,3,15:04,20220703_220453.WAV,very small but no data,0.0
+344,488,Jul,3,15:04,20220703_220454.WAV,very small but no data,0.0
+345,488,Jul,3,15:04,20220703_220455.WAV,very small but no data,0.0
+346,488,Jul,3,15:04,20220703_220456.WAV,very small but no data,0.0
+347,488,Jul,3,15:04,20220703_220457.WAV,very small but no data,0.0
+348,488,Jul,3,15:04,20220703_220458.WAV,very small but no data,0.0
+349,488,Jul,3,15:04,20220703_220459.WAV,very small but no data,0.0
+350,488,Jul,3,15:04,20220703_220500.WAV,very small but no data,0.0
+351,488,Jul,3,15:05,20220703_220501.WAV,very small but no data,0.0
+352,488,Jul,3,15:05,20220703_220502.WAV,very small but no data,0.0
+353,488,Jul,3,15:05,20220703_220503.WAV,very small but no data,0.0
+354,488,Jul,3,15:05,20220703_220504.WAV,very small but no data,0.0
+355,488,Jul,3,15:05,20220703_220505.WAV,very small but no data,0.0
+356,488,Jul,3,15:05,20220703_220506.WAV,very small but no data,0.0
+357,488,Jul,3,15:05,20220703_220507.WAV,very small but no data,0.0
+358,488,Jul,3,15:05,20220703_220508.WAV,very small but no data,0.0
+359,488,Jul,3,15:05,20220703_220509.WAV,very small but no data,0.0
+360,488,Jul,3,15:05,20220703_220510.WAV,very small but no data,0.0
+361,488,Jul,3,15:05,20220703_220511.WAV,very small but no data,0.0
+362,488,Jul,3,15:05,20220703_220512.WAV,very small but no data,0.0
+363,488,Jul,3,15:05,20220703_220513.WAV,very small but no data,0.0
+364,488,Jul,3,15:05,20220703_220514.WAV,very small but no data,0.0
+365,488,Jul,3,15:05,20220703_220515.WAV,very small but no data,0.0
+366,488,Jul,3,15:05,20220703_220516.WAV,very small but no data,0.0
+367,488,Jul,3,15:05,20220703_220517.WAV,very small but no data,0.0
+368,488,Jul,3,15:05,20220703_220518.WAV,very small but no data,0.0
+369,488,Jul,3,15:05,20220703_220519.WAV,very small but no data,0.0
+370,488,Jul,3,15:05,20220703_220520.WAV,very small but no data,0.0
+371,488,Jul,3,15:05,20220703_220521.WAV,very small but no data,0.0
+372,488,Jul,3,15:05,20220703_220522.WAV,very small but no data,0.0
+373,488,Jul,3,15:05,20220703_220523.WAV,very small but no data,0.0
+374,488,Jul,3,15:05,20220703_220524.WAV,very small but no data,0.0
+375,488,Jul,3,15:05,20220703_220525.WAV,very small but no data,0.0
+376,488,Jul,3,15:05,20220703_220526.WAV,very small but no data,0.0
+377,488,Jul,3,15:05,20220703_220527.WAV,very small but no data,0.0
+378,488,Jul,3,15:05,20220703_220528.WAV,very small but no data,0.0
+379,488,Jul,3,15:05,20220703_220529.WAV,very small but no data,0.0
+380,488,Jul,3,15:05,20220703_220530.WAV,very small but no data,0.0
+381,488,Jul,3,15:05,20220703_220531.WAV,very small but no data,0.0
+382,488,Jul,3,15:05,20220703_220532.WAV,very small but no data,0.0
+383,488,Jul,3,15:05,20220703_220533.WAV,very small but no data,0.0
+384,488,Jul,3,15:05,20220703_220534.WAV,very small but no data,0.0
+385,488,Jul,3,15:05,20220703_220535.WAV,very small but no data,0.0
+386,488,Jul,3,15:05,20220703_220536.WAV,very small but no data,0.0
+387,488,Jul,3,15:05,20220703_220537.WAV,very small but no data,0.0
+388,488,Jul,3,15:05,20220703_220538.WAV,very small but no data,0.0
+389,488,Jul,3,15:05,20220703_220539.WAV,very small but no data,0.0
+390,488,Jul,3,15:05,20220703_220540.WAV,very small but no data,0.0
+391,488,Jul,3,15:05,20220703_220541.WAV,very small but no data,0.0
+392,488,Jul,3,15:05,20220703_220542.WAV,very small but no data,0.0
+393,488,Jul,3,15:05,20220703_220543.WAV,very small but no data,0.0
+394,488,Jul,3,15:05,20220703_220544.WAV,very small but no data,0.0
+395,488,Jul,3,15:05,20220703_220545.WAV,very small but no data,0.0
+396,488,Jul,3,15:05,20220703_220546.WAV,very small but no data,0.0
+397,488,Jul,3,15:05,20220703_220547.WAV,very small but no data,0.0
+398,488,Jul,3,15:05,20220703_220548.WAV,very small but no data,0.0
+399,488,Jul,3,15:05,20220703_220549.WAV,very small but no data,0.0
+400,488,Jul,3,15:05,20220703_220550.WAV,very small but no data,0.0
+401,488,Jul,3,15:05,20220703_220551.WAV,very small but no data,0.0
+402,488,Jul,3,15:05,20220703_220552.WAV,very small but no data,0.0
+403,488,Jul,3,15:05,20220703_220553.WAV,very small but no data,0.0
+404,488,Jul,3,15:05,20220703_220554.WAV,very small but no data,0.0
+405,488,Jul,3,15:05,20220703_220555.WAV,very small but no data,0.0
+406,488,Jul,3,15:05,20220703_220556.WAV,very small but no data,0.0
+407,488,Jul,3,15:05,20220703_220557.WAV,very small but no data,0.0
+408,488,Jul,3,15:05,20220703_220558.WAV,very small but no data,0.0
+409,488,Jul,3,15:05,20220703_220559.WAV,very small but no data,0.0
+410,488,Jul,3,15:05,20220703_220600.WAV,very small but no data,0.0
+411,488,Jul,3,15:06,20220703_220601.WAV,very small but no data,0.0
+412,488,Jul,3,15:06,20220703_220602.WAV,very small but no data,0.0
+413,488,Jul,3,15:06,20220703_220603.WAV,very small but no data,0.0
+414,488,Jul,3,15:06,20220703_220604.WAV,very small but no data,0.0
+415,488,Jul,3,15:06,20220703_220605.WAV,very small but no data,0.0
+416,488,Jul,3,15:06,20220703_220606.WAV,very small but no data,0.0
+417,488,Jul,3,15:06,20220703_220607.WAV,very small but no data,0.0
+418,488,Jul,3,15:06,20220703_220608.WAV,very small but no data,0.0
+419,488,Jul,3,15:06,20220703_220609.WAV,very small but no data,0.0
+420,488,Jul,3,15:06,20220703_220610.WAV,very small but no data,0.0
+421,488,Jul,3,15:06,20220703_220611.WAV,very small but no data,0.0
+422,488,Jul,3,15:06,20220703_220612.WAV,very small but no data,0.0
+423,488,Jul,3,15:06,20220703_220613.WAV,very small but no data,0.0
+424,488,Jul,3,15:06,20220703_220614.WAV,very small but no data,0.0
+425,488,Jul,3,15:06,20220703_220615.WAV,very small but no data,0.0
+426,488,Jul,3,15:06,20220703_220616.WAV,very small but no data,0.0
+427,488,Jul,3,15:06,20220703_220617.WAV,very small but no data,0.0
+428,488,Jul,3,15:06,20220703_220618.WAV,very small but no data,0.0
+429,488,Jul,3,15:06,20220703_220619.WAV,very small but no data,0.0
+430,488,Jul,3,15:06,20220703_220620.WAV,very small but no data,0.0
+431,488,Jul,3,15:06,20220703_220621.WAV,very small but no data,0.0
+432,488,Jul,3,15:06,20220703_220622.WAV,very small but no data,0.0
+433,488,Jul,3,15:06,20220703_220623.WAV,very small but no data,0.0
+434,488,Jul,3,15:06,20220703_220624.WAV,very small but no data,0.0
+435,488,Jul,3,15:06,20220703_220625.WAV,very small but no data,0.0
+436,488,Jul,3,15:06,20220703_220626.WAV,very small but no data,0.0
+437,488,Jul,3,15:06,20220703_220627.WAV,very small but no data,0.0
+438,488,Jul,3,15:06,20220703_220628.WAV,very small but no data,0.0
+439,488,Jul,3,15:06,20220703_220629.WAV,very small but no data,0.0
+440,488,Jul,3,15:06,20220703_220630.WAV,very small but no data,0.0
+441,488,Jul,3,15:06,20220703_220631.WAV,very small but no data,0.0
+442,488,Jul,3,15:06,20220703_220632.WAV,very small but no data,0.0
+443,488,Jul,3,15:06,20220703_220633.WAV,very small but no data,0.0
+444,488,Jul,3,15:06,20220703_220634.WAV,very small but no data,0.0
+445,488,Jul,3,15:06,20220703_220635.WAV,very small but no data,0.0
+446,488,Jul,3,15:06,20220703_220636.WAV,very small but no data,0.0
+447,488,Jul,3,15:06,20220703_220637.WAV,very small but no data,0.0
+448,488,Jul,3,15:06,20220703_220638.WAV,very small but no data,0.0
+449,488,Jul,3,15:06,20220703_220639.WAV,very small but no data,0.0
+450,488,Jul,3,15:06,20220703_220640.WAV,very small but no data,0.0
+451,488,Jul,3,15:06,20220703_220641.WAV,very small but no data,0.0
+452,488,Jul,3,15:06,20220703_220642.WAV,very small but no data,0.0
+453,488,Jul,3,15:06,20220703_220643.WAV,very small but no data,0.0
+454,488,Jul,3,15:06,20220703_220644.WAV,very small but no data,0.0
+455,488,Jul,3,15:06,20220703_220645.WAV,very small but no data,0.0
+456,488,Jul,3,15:06,20220703_220646.WAV,very small but no data,0.0
+457,488,Jul,3,15:06,20220703_220647.WAV,very small but no data,0.0
+458,488,Jul,3,15:06,20220703_220648.WAV,very small but no data,0.0
+459,488,Jul,3,15:06,20220703_220649.WAV,very small but no data,0.0
+460,488,Jul,3,15:06,20220703_220650.WAV,very small but no data,0.0
+461,488,Jul,3,15:06,20220703_220651.WAV,very small but no data,0.0
+462,488,Jul,3,15:06,20220703_220652.WAV,very small but no data,0.0
+463,488,Jul,3,15:06,20220703_220653.WAV,very small but no data,0.0
+464,488,Jul,3,15:06,20220703_220654.WAV,very small but no data,0.0
+465,488,Jul,3,15:06,20220703_220655.WAV,very small but no data,0.0
+466,488,Jul,3,15:06,20220703_220656.WAV,very small but no data,0.0
+467,488,Jul,3,15:06,20220703_220657.WAV,very small but no data,0.0
+468,488,Jul,3,15:06,20220703_220658.WAV,very small but no data,0.0
+469,488,Jul,3,15:06,20220703_220659.WAV,very small but no data,0.0
+470,488,Jul,3,15:06,20220703_220700.WAV,very small but no data,0.0
+471,488,Jul,3,15:07,20220703_220701.WAV,very small but no data,0.0
+472,488,Jul,3,15:07,20220703_220702.WAV,very small but no data,0.0
+473,488,Jul,3,15:07,20220703_220703.WAV,very small but no data,0.0
+474,488,Jul,3,15:07,20220703_220704.WAV,very small but no data,0.0
+475,488,Jul,3,15:07,20220703_220705.WAV,very small but no data,0.0
+476,488,Jul,3,15:07,20220703_220706.WAV,very small but no data,0.0
+477,488,Jul,3,15:07,20220703_220707.WAV,very small but no data,0.0
+478,488,Jul,3,15:07,20220703_220708.WAV,very small but no data,0.0
+479,488,Jul,3,15:07,20220703_220709.WAV,very small but no data,0.0
+480,488,Jul,3,15:07,20220703_220710.WAV,very small but no data,0.0
+481,488,Jul,3,15:07,20220703_220711.WAV,very small but no data,0.0
+482,488,Jul,3,15:07,20220703_220712.WAV,very small but no data,0.0
+483,488,Jul,3,15:07,20220703_220713.WAV,very small but no data,0.0
+484,488,Jul,3,15:07,20220703_220714.WAV,very small but no data,0.0
+485,488,Jul,3,15:07,20220703_220715.WAV,very small but no data,0.0
+486,488,Jul,3,15:07,20220703_220716.WAV,very small but no data,0.0
+487,488,Jul,3,15:07,20220703_220717.WAV,very small but no data,0.0
+488,488,Jul,3,15:07,20220703_220718.WAV,very small but no data,0.0
+489,488,Jul,3,15:07,20220703_220719.WAV,very small but no data,0.0
+490,488,Jul,3,15:07,20220703_220720.WAV,very small but no data,0.0
+491,488,Jul,3,15:07,20220703_220721.WAV,very small but no data,0.0
+492,488,Jul,3,15:07,20220703_220722.WAV,very small but no data,0.0
+493,488,Jul,3,15:07,20220703_220723.WAV,very small but no data,0.0
+494,488,Jul,3,15:07,20220703_220724.WAV,very small but no data,0.0
+495,488,Jul,3,15:07,20220703_220725.WAV,very small but no data,0.0
+496,488,Jul,3,15:07,20220703_220726.WAV,very small but no data,0.0
+497,488,Jul,3,15:07,20220703_220727.WAV,very small but no data,0.0
+498,488,Jul,3,15:07,20220703_220728.WAV,very small but no data,0.0
+499,488,Jul,3,15:07,20220703_220729.WAV,very small but no data,0.0
+500,488,Jul,3,15:07,20220703_220730.WAV,very small but no data,0.0
+501,488,Jul,3,15:07,20220703_220731.WAV,very small but no data,0.0
+502,488,Jul,3,15:07,20220703_220732.WAV,very small but no data,0.0
+503,488,Jul,3,15:07,20220703_220733.WAV,very small but no data,0.0
+504,488,Jul,3,15:07,20220703_220734.WAV,very small but no data,0.0
+505,488,Jul,3,15:07,20220703_220735.WAV,very small but no data,0.0
+506,488,Jul,3,15:07,20220703_220736.WAV,very small but no data,0.0
+507,488,Jul,3,15:07,20220703_220737.WAV,very small but no data,0.0
+508,488,Jul,3,15:07,20220703_220738.WAV,very small but no data,0.0
+509,488,Jul,3,15:07,20220703_220739.WAV,very small but no data,0.0
+510,488,Jul,3,15:07,20220703_220740.WAV,very small but no data,0.0
+511,488,Jul,3,15:07,20220703_220741.WAV,very small but no data,0.0
+512,488,Jul,3,15:07,20220703_220742.WAV,very small but no data,0.0
+513,488,Jul,3,15:07,20220703_220743.WAV,very small but no data,0.0
+514,488,Jul,3,15:07,20220703_220744.WAV,very small but no data,0.0
+515,488,Jul,3,15:07,20220703_220745.WAV,very small but no data,0.0
+516,488,Jul,3,15:07,20220703_220746.WAV,very small but no data,0.0
+517,488,Jul,3,15:07,20220703_220747.WAV,very small but no data,0.0
+518,488,Jul,3,15:07,20220703_220748.WAV,very small but no data,0.0
+519,488,Jul,3,15:07,20220703_220749.WAV,very small but no data,0.0
+520,488,Jul,3,15:07,20220703_220750.WAV,very small but no data,0.0
+521,488,Jul,3,15:07,20220703_220751.WAV,very small but no data,0.0
+522,488,Jul,3,15:07,20220703_220752.WAV,very small but no data,0.0
+523,488,Jul,3,15:07,20220703_220753.WAV,very small but no data,0.0
+524,488,Jul,3,15:07,20220703_220754.WAV,very small but no data,0.0
+525,488,Jul,3,15:07,20220703_220755.WAV,very small but no data,0.0
+526,488,Jul,3,15:07,20220703_220756.WAV,very small but no data,0.0
+527,488,Jul,3,15:07,20220703_220757.WAV,very small but no data,0.0
+528,488,Jul,3,15:07,20220703_220758.WAV,very small but no data,0.0
+529,488,Jul,3,15:07,20220703_220759.WAV,very small but no data,0.0
+530,488,Jul,3,15:07,20220703_220800.WAV,very small but no data,0.0
+531,488,Jul,3,15:08,20220703_220801.WAV,very small but no data,0.0
+532,488,Jul,3,15:08,20220703_220802.WAV,very small but no data,0.0
+533,488,Jul,3,15:08,20220703_220803.WAV,very small but no data,0.0
+534,488,Jul,3,15:08,20220703_220804.WAV,very small but no data,0.0
+535,488,Jul,3,15:08,20220703_220805.WAV,very small but no data,0.0
+536,488,Jul,3,15:08,20220703_220806.WAV,very small but no data,0.0
+537,488,Jul,3,15:08,20220703_220807.WAV,very small but no data,0.0
+538,488,Jul,3,15:08,20220703_220808.WAV,very small but no data,0.0
+539,488,Jul,3,15:08,20220703_220809.WAV,very small but no data,0.0
+540,488,Jul,3,15:08,20220703_220810.WAV,very small but no data,0.0
+541,488,Jul,3,15:08,20220703_220811.WAV,very small but no data,0.0
+542,488,Jul,3,15:08,20220703_220812.WAV,very small but no data,0.0
+543,488,Jul,3,15:08,20220703_220813.WAV,very small but no data,0.0
+544,488,Jul,3,15:08,20220703_220814.WAV,very small but no data,0.0
+545,488,Jul,3,15:08,20220703_220815.WAV,very small but no data,0.0
+546,488,Jul,3,15:08,20220703_220816.WAV,very small but no data,0.0
+547,488,Jul,3,15:08,20220703_220817.WAV,very small but no data,0.0
+548,488,Jul,3,15:08,20220703_220818.WAV,very small but no data,0.0
+549,488,Jul,3,15:08,20220703_220819.WAV,very small but no data,0.0
+550,488,Jul,3,15:08,20220703_220820.WAV,very small but no data,0.0
+551,488,Jul,3,15:08,20220703_220821.WAV,very small but no data,0.0
+552,488,Jul,3,15:08,20220703_220822.WAV,very small but no data,0.0
+553,488,Jul,3,15:08,20220703_220823.WAV,very small but no data,0.0
+554,488,Jul,3,15:08,20220703_220824.WAV,very small but no data,0.0
+555,488,Jul,3,15:08,20220703_220825.WAV,very small but no data,0.0
+556,488,Jul,3,15:08,20220703_220826.WAV,very small but no data,0.0
+557,488,Jul,3,15:08,20220703_220827.WAV,very small but no data,0.0
+558,488,Jul,3,15:08,20220703_220828.WAV,very small but no data,0.0
+559,488,Jul,3,15:08,20220703_220829.WAV,very small but no data,0.0
+560,488,Jul,3,15:08,20220703_220830.WAV,very small but no data,0.0
+561,488,Jul,3,15:08,20220703_220831.WAV,very small but no data,0.0
+562,488,Jul,3,15:08,20220703_220832.WAV,very small but no data,0.0
+563,488,Jul,3,15:08,20220703_220833.WAV,very small but no data,0.0
+564,488,Jul,3,15:08,20220703_220834.WAV,very small but no data,0.0
+565,488,Jul,3,15:08,20220703_220835.WAV,very small but no data,0.0
+566,488,Jul,3,15:08,20220703_220836.WAV,very small but no data,0.0
+567,488,Jul,3,15:08,20220703_220837.WAV,very small but no data,0.0
+568,488,Jul,3,15:08,20220703_220838.WAV,very small but no data,0.0
+569,488,Jul,3,15:08,20220703_220839.WAV,very small but no data,0.0
+570,488,Jul,3,15:08,20220703_220840.WAV,very small but no data,0.0
+571,488,Jul,3,15:08,20220703_220841.WAV,very small but no data,0.0
+572,488,Jul,3,15:08,20220703_220842.WAV,very small but no data,0.0
+573,488,Jul,3,15:08,20220703_220843.WAV,very small but no data,0.0
+574,488,Jul,3,15:08,20220703_220844.WAV,very small but no data,0.0
+575,488,Jul,3,15:08,20220703_220845.WAV,very small but no data,0.0
+576,488,Jul,3,15:08,20220703_220846.WAV,very small but no data,0.0
+577,488,Jul,3,15:08,20220703_220847.WAV,very small but no data,0.0
+578,488,Jul,3,15:08,20220703_220848.WAV,very small but no data,0.0
+579,488,Jul,3,15:08,20220703_220849.WAV,very small but no data,0.0
+580,488,Jul,3,15:08,20220703_220850.WAV,very small but no data,0.0
+581,488,Jul,3,15:08,20220703_220851.WAV,very small but no data,0.0
+582,488,Jul,3,15:08,20220703_220852.WAV,very small but no data,0.0
+583,488,Jul,3,15:08,20220703_220853.WAV,very small but no data,0.0
+584,488,Jul,3,15:08,20220703_220854.WAV,very small but no data,0.0
+585,488,Jul,3,15:08,20220703_220855.WAV,very small but no data,0.0
+586,488,Jul,3,15:08,20220703_220856.WAV,very small but no data,0.0
+587,488,Jul,3,15:08,20220703_220857.WAV,very small but no data,0.0
+588,488,Jul,3,15:08,20220703_220858.WAV,very small but no data,0.0
+589,488,Jul,3,15:08,20220703_220859.WAV,very small but no data,0.0
+590,488,Jul,3,15:08,20220703_220900.WAV,very small but no data,0.0
+591,488,Jul,3,15:09,20220703_220901.WAV,very small but no data,0.0
+592,488,Jul,3,15:09,20220703_220902.WAV,very small but no data,0.0
+593,488,Jul,3,15:09,20220703_220903.WAV,very small but no data,0.0
+594,488,Jul,3,15:09,20220703_220904.WAV,very small but no data,0.0
+595,488,Jul,3,15:09,20220703_220905.WAV,very small but no data,0.0
+596,488,Jul,3,15:09,20220703_220906.WAV,very small but no data,0.0
+597,488,Jul,3,15:09,20220703_220907.WAV,very small but no data,0.0
+598,488,Jul,3,15:09,20220703_220908.WAV,very small but no data,0.0
+599,488,Jul,3,15:09,20220703_220909.WAV,very small but no data,0.0
+600,488,Jul,3,15:09,20220703_220910.WAV,very small but no data,0.0
+601,488,Jul,3,15:09,20220703_220911.WAV,very small but no data,0.0
+602,488,Jul,3,15:09,20220703_220912.WAV,very small but no data,0.0
+603,488,Jul,3,15:09,20220703_220913.WAV,very small but no data,0.0
+604,488,Jul,3,15:09,20220703_220914.WAV,very small but no data,0.0
+605,488,Jul,3,15:09,20220703_220915.WAV,very small but no data,0.0
+606,488,Jul,3,15:09,20220703_220916.WAV,very small but no data,0.0
+607,488,Jul,3,15:09,20220703_220917.WAV,very small but no data,0.0
+608,488,Jul,3,15:09,20220703_220918.WAV,very small but no data,0.0
+609,488,Jul,3,15:09,20220703_220919.WAV,very small but no data,0.0
+610,488,Jul,3,15:09,20220703_220920.WAV,very small but no data,0.0
+611,488,Jul,3,15:09,20220703_220921.WAV,very small but no data,0.0
+612,488,Jul,3,15:09,20220703_220922.WAV,very small but no data,0.0
+613,488,Jul,3,15:09,20220703_220923.WAV,very small but no data,0.0
+614,488,Jul,3,15:09,20220703_220924.WAV,very small but no data,0.0
+615,488,Jul,3,15:09,20220703_220925.WAV,very small but no data,0.0
+616,488,Jul,3,15:09,20220703_220926.WAV,very small but no data,0.0
+617,488,Jul,3,15:09,20220703_220927.WAV,very small but no data,0.0
+618,488,Jul,3,15:09,20220703_220928.WAV,very small but no data,0.0
+619,488,Jul,3,15:09,20220703_220929.WAV,very small but no data,0.0
+620,488,Jul,3,15:09,20220703_220930.WAV,very small but no data,0.0
+621,488,Jul,3,15:09,20220703_220931.WAV,very small but no data,0.0
+622,488,Jul,3,15:09,20220703_220932.WAV,very small but no data,0.0
+623,488,Jul,3,15:09,20220703_220933.WAV,very small but no data,0.0
+624,488,Jul,3,15:09,20220703_220934.WAV,very small but no data,0.0
+625,488,Jul,3,15:09,20220703_220935.WAV,very small but no data,0.0
+626,488,Jul,3,15:09,20220703_220936.WAV,very small but no data,0.0
+627,488,Jul,3,15:09,20220703_220937.WAV,very small but no data,0.0
+628,488,Jul,3,15:09,20220703_220938.WAV,very small but no data,0.0
+629,488,Jul,3,15:09,20220703_220939.WAV,very small but no data,0.0
+630,488,Jul,3,15:09,20220703_220940.WAV,very small but no data,0.0
+631,488,Jul,3,15:09,20220703_220941.WAV,very small but no data,0.0
+632,488,Jul,3,15:09,20220703_220942.WAV,very small but no data,0.0
+633,488,Jul,3,15:09,20220703_220943.WAV,very small but no data,0.0
+634,488,Jul,3,15:09,20220703_220944.WAV,very small but no data,0.0
+635,488,Jul,3,15:09,20220703_220945.WAV,very small but no data,0.0
+636,488,Jul,3,15:09,20220703_220946.WAV,very small but no data,0.0
+637,488,Jul,3,15:09,20220703_220947.WAV,very small but no data,0.0
+638,488,Jul,3,15:09,20220703_220948.WAV,very small but no data,0.0
+639,488,Jul,3,15:09,20220703_220949.WAV,very small but no data,0.0
+640,488,Jul,3,15:09,20220703_220950.WAV,very small but no data,0.0
+641,488,Jul,3,15:09,20220703_220951.WAV,very small but no data,0.0
+642,488,Jul,3,15:09,20220703_220952.WAV,very small but no data,0.0
+643,488,Jul,3,15:09,20220703_220953.WAV,very small but no data,0.0
+644,488,Jul,3,15:09,20220703_220954.WAV,very small but no data,0.0
+645,488,Jul,3,15:09,20220703_220955.WAV,very small but no data,0.0
+646,488,Jul,3,15:09,20220703_220956.WAV,very small but no data,0.0
+647,488,Jul,3,15:09,20220703_220957.WAV,very small but no data,0.0
+648,488,Jul,3,15:09,20220703_220958.WAV,very small but no data,0.0
+649,488,Jul,3,15:09,20220703_220959.WAV,very small but no data,0.0
+650,488,Jul,3,15:09,20220703_221000.WAV,very small but no data,0.0
+651,488,Jul,3,15:10,20220703_221001.WAV,very small but no data,0.0
+652,488,Jul,3,15:10,20220703_221002.WAV,very small but no data,0.0
+653,488,Jul,3,15:10,20220703_221003.WAV,very small but no data,0.0
+654,488,Jul,3,15:10,20220703_221004.WAV,very small but no data,0.0
+655,488,Jul,3,15:10,20220703_221005.WAV,very small but no data,0.0
+656,488,Jul,3,15:10,20220703_221006.WAV,very small but no data,0.0
+657,488,Jul,3,15:10,20220703_221007.WAV,very small but no data,0.0
+658,488,Jul,3,15:10,20220703_221008.WAV,very small but no data,0.0
+659,488,Jul,3,15:10,20220703_221009.WAV,very small but no data,0.0
+660,488,Jul,3,15:10,20220703_221010.WAV,very small but no data,0.0
+661,488,Jul,3,15:10,20220703_221011.WAV,very small but no data,0.0
+662,488,Jul,3,15:10,20220703_221012.WAV,very small but no data,0.0
+663,488,Jul,3,15:10,20220703_221013.WAV,very small but no data,0.0
+664,488,Jul,3,15:10,20220703_221014.WAV,very small but no data,0.0
+665,488,Jul,3,15:10,20220703_221015.WAV,very small but no data,0.0
+666,488,Jul,3,15:10,20220703_221016.WAV,very small but no data,0.0
+667,488,Jul,3,15:10,20220703_221017.WAV,very small but no data,0.0
+668,488,Jul,3,15:10,20220703_221018.WAV,very small but no data,0.0
+669,488,Jul,3,15:10,20220703_221019.WAV,very small but no data,0.0
+670,488,Jul,3,15:10,20220703_221020.WAV,very small but no data,0.0
+671,488,Jul,3,15:10,20220703_221021.WAV,very small but no data,0.0
+672,488,Jul,3,15:10,20220703_221022.WAV,very small but no data,0.0
+673,488,Jul,3,15:10,20220703_221023.WAV,very small but no data,0.0
+674,488,Jul,3,15:10,20220703_221024.WAV,very small but no data,0.0
+675,488,Jul,3,15:10,20220703_221025.WAV,very small but no data,0.0
+676,488,Jul,3,15:10,20220703_221026.WAV,very small but no data,0.0
+677,488,Jul,3,15:10,20220703_221027.WAV,very small but no data,0.0
+678,488,Jul,3,15:10,20220703_221028.WAV,very small but no data,0.0
+679,488,Jul,3,15:10,20220703_221029.WAV,very small but no data,0.0
+680,488,Jul,3,15:10,20220703_221030.WAV,very small but no data,0.0
+681,488,Jul,3,15:10,20220703_221031.WAV,very small but no data,0.0
+682,488,Jul,3,15:10,20220703_221032.WAV,very small but no data,0.0
+683,488,Jul,3,15:10,20220703_221033.WAV,very small but no data,0.0
+684,488,Jul,3,15:10,20220703_221034.WAV,very small but no data,0.0
+685,488,Jul,3,15:10,20220703_221035.WAV,very small but no data,0.0
+686,488,Jul,3,15:10,20220703_221036.WAV,very small but no data,0.0
+687,488,Jul,3,15:10,20220703_221037.WAV,very small but no data,0.0
+688,488,Jul,3,15:10,20220703_221038.WAV,very small but no data,0.0
+689,488,Jul,3,15:10,20220703_221039.WAV,very small but no data,0.0
+690,488,Jul,3,15:10,20220703_221040.WAV,very small but no data,0.0
+691,488,Jul,3,15:10,20220703_221041.WAV,very small but no data,0.0
+692,488,Jul,3,15:10,20220703_221042.WAV,very small but no data,0.0
+693,488,Jul,3,15:10,20220703_221043.WAV,very small but no data,0.0
+694,488,Jul,3,15:10,20220703_221044.WAV,very small but no data,0.0
+695,488,Jul,3,15:10,20220703_221045.WAV,very small but no data,0.0
+696,488,Jul,3,15:10,20220703_221046.WAV,very small but no data,0.0
+697,488,Jul,3,15:10,20220703_221047.WAV,very small but no data,0.0
+698,488,Jul,3,15:10,20220703_221048.WAV,very small but no data,0.0
+699,488,Jul,3,15:10,20220703_221049.WAV,very small but no data,0.0
+700,488,Jul,3,15:10,20220703_221050.WAV,very small but no data,0.0
+701,488,Jul,3,15:10,20220703_221051.WAV,very small but no data,0.0
+702,488,Jul,3,15:10,20220703_221052.WAV,very small but no data,0.0
+703,488,Jul,3,15:10,20220703_221053.WAV,very small but no data,0.0
+704,488,Jul,3,15:10,20220703_221054.WAV,very small but no data,0.0
+705,488,Jul,3,15:10,20220703_221055.WAV,very small but no data,0.0
+706,488,Jul,3,15:10,20220703_221056.WAV,very small but no data,0.0
+707,488,Jul,3,15:10,20220703_221057.WAV,very small but no data,0.0
+708,488,Jul,3,15:10,20220703_221058.WAV,very small but no data,0.0
+709,488,Jul,3,15:10,20220703_221059.WAV,very small but no data,0.0
+710,488,Jul,3,15:10,20220703_221100.WAV,very small but no data,0.0
+711,488,Jul,3,15:11,20220703_221101.WAV,very small but no data,0.0
+712,488,Jul,3,15:11,20220703_221102.WAV,very small but no data,0.0
+713,488,Jul,3,15:11,20220703_221103.WAV,very small but no data,0.0
+714,488,Jul,3,15:11,20220703_221104.WAV,very small but no data,0.0
+715,488,Jul,3,15:11,20220703_221105.WAV,very small but no data,0.0
+716,488,Jul,3,15:11,20220703_221106.WAV,very small but no data,0.0
+717,488,Jul,3,15:11,20220703_221107.WAV,very small but no data,0.0
+718,488,Jul,3,15:11,20220703_221108.WAV,very small but no data,0.0
+719,488,Jul,3,15:11,20220703_221109.WAV,very small but no data,0.0
+720,488,Jul,3,15:11,20220703_221110.WAV,very small but no data,0.0
+721,488,Jul,3,15:11,20220703_221111.WAV,very small but no data,0.0
+722,488,Jul,3,15:11,20220703_221112.WAV,very small but no data,0.0
+723,488,Jul,3,15:11,20220703_221113.WAV,very small but no data,0.0
+724,488,Jul,3,15:11,20220703_221114.WAV,very small but no data,0.0
+725,488,Jul,3,15:11,20220703_221115.WAV,very small but no data,0.0
+726,488,Jul,3,15:11,20220703_221116.WAV,very small but no data,0.0
+727,488,Jul,3,15:11,20220703_221117.WAV,very small but no data,0.0
+728,488,Jul,3,15:11,20220703_221118.WAV,very small but no data,0.0
+729,488,Jul,3,15:11,20220703_221119.WAV,very small but no data,0.0
+730,488,Jul,3,15:11,20220703_221120.WAV,very small but no data,0.0
+731,488,Jul,3,15:11,20220703_221121.WAV,very small but no data,0.0
+732,488,Jul,3,15:11,20220703_221122.WAV,very small but no data,0.0
+733,488,Jul,3,15:11,20220703_221123.WAV,very small but no data,0.0
+734,488,Jul,3,15:11,20220703_221124.WAV,very small but no data,0.0
+735,488,Jul,3,15:11,20220703_221125.WAV,very small but no data,0.0
+736,488,Jul,3,15:11,20220703_221126.WAV,very small but no data,0.0
+737,488,Jul,3,15:11,20220703_221127.WAV,very small but no data,0.0
+738,488,Jul,3,15:11,20220703_221128.WAV,very small but no data,0.0
+739,488,Jul,3,15:11,20220703_221129.WAV,very small but no data,0.0
+740,488,Jul,3,15:11,20220703_221130.WAV,very small but no data,0.0
+741,488,Jul,3,15:11,20220703_221131.WAV,very small but no data,0.0
+742,488,Jul,3,15:11,20220703_221132.WAV,very small but no data,0.0
+743,488,Jul,3,15:11,20220703_221133.WAV,very small but no data,0.0
+744,488,Jul,3,15:11,20220703_221134.WAV,very small but no data,0.0
+745,488,Jul,3,15:11,20220703_221135.WAV,very small but no data,0.0
+746,488,Jul,3,15:11,20220703_221136.WAV,very small but no data,0.0
+747,488,Jul,3,15:11,20220703_221137.WAV,very small but no data,0.0
+748,524M,Jul,3,15:29,20220703_221138.WAV,full but no data,9.87070083618164
+749,856M,Jul,3,15:59,20220703_223000.WAV,full but no data,9.902825355529785
+750,856M,Jul,3,16:29,20220703_230000.WAV,full but no data,9.987319946289062
+751,856M,Jul,3,16:59,20220703_233000.WAV,full but no data,9.810563087463379
+752,856M,Jul,3,17:29,20220704_000000.WAV,full but no data,9.762393951416016
+753,856M,Jul,3,17:59,20220704_003000.WAV,full but no data,9.866576194763184
+754,856M,Jul,3,18:29,20220704_010000.WAV,full but no data,9.812685012817383
+755,856M,Jul,3,18:59,20220704_013000.WAV,full but no data,9.81024169921875
+756,856M,Jul,3,19:29,20220704_020000.WAV,full but no data,9.74951457977295
+757,856M,Jul,3,19:59,20220704_023000.WAV,full but no data,9.816917419433594
+758,856M,Jul,3,20:29,20220704_030000.WAV,full but no data,9.78565502166748
+759,856M,Jul,3,20:59,20220704_033000.WAV,full but no data,9.558794975280762
+760,856M,Jul,3,21:29,20220704_040000.WAV,full but no data,9.687177658081055
+761,856M,Jul,3,21:59,20220704_043000.WAV,full but no data,9.678234100341797
+762,856M,Jul,3,22:29,20220704_050000.WAV,full but no data,9.715432167053223
+763,856M,Jul,3,22:59,20220704_053000.WAV,full but no data,9.743297576904297
+764,856M,Jul,3,23:29,20220704_060000.WAV,full but no data,9.722540855407715
+765,856M,Jul,3,23:59,20220704_063000.WAV,full but no data,9.707406044006348
+766,856M,Jul,4,00:29,20220704_070000.WAV,full but no data,9.588430404663086
+767,856M,Jul,4,00:59,20220704_073000.WAV,full but no data,9.675882339477539
+768,856M,Jul,4,01:29,20220704_080000.WAV,full but no data,9.701251983642578
+769,856M,Jul,4,01:59,20220704_083000.WAV,full but no data,9.769380569458008
+770,856M,Jul,4,02:29,20220704_090000.WAV,full but no data,9.770367622375488
+771,856M,Jul,4,02:59,20220704_093000.WAV,full but no data,9.653792381286621
+772,856M,Jul,4,03:29,20220704_100000.WAV,full but no data,9.756933212280273
+773,856M,Jul,4,03:59,20220704_103000.WAV,full but no data,9.667410850524902
+774,856M,Jul,4,04:29,20220704_110000.WAV,full but no data,9.714836120605469
+775,856M,Jul,4,04:59,20220704_113000.WAV,full but no data,9.702181816101074
+776,856M,Jul,4,05:29,20220704_120000.WAV,full but no data,9.639505386352539
+777,856M,Jul,4,05:59,20220704_123000.WAV,full but no data,9.676769256591797
+778,856M,Jul,4,06:29,20220704_130000.WAV,full but no data,9.887084007263184
+779,856M,Jul,4,06:59,20220704_133000.WAV,full but no data,9.912492752075195
+780,856M,Jul,4,07:29,20220704_140000.WAV,full but no data,9.925729751586914
+781,856M,Jul,4,07:59,20220704_143000.WAV,full but no data,10.128328323364258
+782,856M,Jul,4,08:29,20220704_150000.WAV,full but no data,10.268899917602539
+783,856M,Jul,4,08:59,20220704_153000.WAV,full but no data,10.236297607421875
+784,856M,Jul,4,09:29,20220704_160000.WAV,full but no data,10.212164878845215
+785,856M,Jul,4,09:59,20220704_163000.WAV,full but no data,10.408975601196289
+786,856M,Jul,4,10:29,20220704_170000.WAV,full but no data,10.423532485961914
+787,856M,Jul,4,10:59,20220704_173000.WAV,full but no data,10.513298034667969
+788,856M,Jul,4,11:29,20220704_180000.WAV,full but no data,10.685120582580566
+789,856M,Jul,4,11:59,20220704_183000.WAV,full but no data,10.429574012756348
+790,800M,Jul,4,12:27,20220704_190000.WAV,full but no data,10.411771774291992
+791,488,Jul,4,12:27,20220704_192758.WAV,very small but no data,0.0
+792,488,Jul,4,12:27,20220704_192759.WAV,very small but no data,0.0
+793,488,Jul,4,12:27,20220704_192800.WAV,very small but no data,0.0
+794,488,Jul,4,12:28,20220704_192801.WAV,very small but no data,0.0
+795,488,Jul,4,12:28,20220704_192802.WAV,very small but no data,0.0
+796,488,Jul,4,12:28,20220704_192803.WAV,very small but no data,0.0
+797,488,Jul,4,12:28,20220704_192804.WAV,very small but no data,0.0
+798,488,Jul,4,12:28,20220704_192805.WAV,very small but no data,0.0
+799,488,Jul,4,12:28,20220704_192806.WAV,very small but no data,0.0
+800,488,Jul,4,12:28,20220704_192807.WAV,very small but no data,0.0
+801,488,Jul,4,12:28,20220704_192808.WAV,very small but no data,0.0
+802,488,Jul,4,12:28,20220704_192809.WAV,very small but no data,0.0
+803,51M,Jul,4,12:29,20220704_192810.WAV,full with data,593.5836181640625
+804,856M,Jul,4,12:59,20220704_193000.WAV,full with data,1397.0911865234375
+805,856M,Jul,4,13:29,20220704_200000.WAV,full with data,6469.30712890625
+806,856M,Jul,4,13:59,20220704_203000.WAV,full with data,7216.26220703125
+807,856M,Jul,4,14:29,20220704_210000.WAV,full with data,6991.2275390625
+808,856M,Jul,4,14:59,20220704_213000.WAV,full with data,2692.09765625
+809,856M,Jul,4,15:29,20220704_220000.WAV,full with data,1630.2506103515625
+810,856M,Jul,4,15:59,20220704_223000.WAV,full with data,409.4898681640625
+811,856M,Jul,4,16:29,20220704_230000.WAV,full with data,462.7034912109375
+812,856M,Jul,4,16:59,20220704_233000.WAV,full with data,492.23968505859375
+813,856M,Jul,4,17:29,20220705_000000.WAV,full with data,136.16531372070312
+814,856M,Jul,4,17:59,20220705_003000.WAV,full with data,764.4547119140625
+815,856M,Jul,4,18:29,20220705_010000.WAV,full with data,312.85577392578125
+816,856M,Jul,4,18:59,20220705_013000.WAV,full with data,261.7071838378906
+817,856M,Jul,4,19:29,20220705_020000.WAV,full with data,209.48114013671875
+818,229M,Jul,5,17:37,20220705_023000.WAV,full with data,457.17132568359375
+819,856M,Jul,4,20:29,20220705_030000.WAV,full with data,254.19822692871094
+820,856M,Jul,4,20:59,20220705_033000.WAV,full with data,559.1699829101562
+821,856M,Jul,4,21:29,20220705_040000.WAV,full with data,495.7677917480469
+822,856M,Jul,4,21:59,20220705_043000.WAV,full with data,1195.140625
+823,856M,Jul,4,22:29,20220705_050000.WAV,full with data,5574.83251953125
+824,856M,Jul,4,22:59,20220705_053000.WAV,full with data,1855.642333984375
+825,856M,Jul,4,23:29,20220705_060000.WAV,full with data,29420.7265625
+826,856M,Jul,4,23:59,20220705_063000.WAV,full with data,6035.37939453125
+827,856M,Jul,5,00:29,20220705_070000.WAV,full with data,169.51669311523438
+828,856M,Jul,5,00:59,20220705_073000.WAV,full with data,185.59336853027344
+829,856M,Jul,5,01:29,20220705_080000.WAV,full with data,105.80817413330078
+830,856M,Jul,5,01:59,20220705_083000.WAV,full with data,97.86812591552734
+831,856M,Jul,5,02:29,20220705_090000.WAV,full with data,109.84486389160156
+832,856M,Jul,5,02:59,20220705_093000.WAV,full with data,122.2562255859375
+833,856M,Jul,5,03:29,20220705_100000.WAV,full with data,91.03138732910156
+834,856M,Jul,5,03:59,20220705_103000.WAV,full with data,93.55846405029297
+835,856M,Jul,5,04:29,20220705_110000.WAV,full with data,117.04290008544922
+836,856M,Jul,5,04:59,20220705_113000.WAV,full with data,129.74485778808594
+837,856M,Jul,5,05:29,20220705_120000.WAV,full with data,194.3436279296875
+838,856M,Jul,5,05:59,20220705_123000.WAV,full with data,245.80860900878906
+839,856M,Jul,5,06:29,20220705_130000.WAV,full with data,568.1110229492188
+840,856M,Jul,5,06:59,20220705_133000.WAV,full with data,244.01760864257812
+841,856M,Jul,5,07:29,20220705_140000.WAV,full with data,187.36497497558594
+842,856M,Jul,5,07:59,20220705_143000.WAV,full with data,463.3304443359375
+843,856M,Jul,5,08:29,20220705_150000.WAV,full with data,269.9220275878906
+844,856M,Jul,5,08:59,20220705_153000.WAV,full with data,229.19544982910156
+845,856M,Jul,5,09:29,20220705_160000.WAV,full with data,336.22491455078125
+846,856M,Jul,5,09:59,20220705_163000.WAV,full with data,351.1330261230469
+847,856M,Jul,5,10:29,20220705_170000.WAV,full with data,482.64434814453125
+848,856M,Jul,5,10:59,20220705_173000.WAV,full with data,546.7057495117188
+849,856M,Jul,5,11:29,20220705_180000.WAV,full with data,595.20654296875
+850,0,Dec,31,1979,20220705_183000.WAV,empty,
