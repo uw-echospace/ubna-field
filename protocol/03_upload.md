@@ -7,18 +7,18 @@
 2. Open up terminal on the computer
 3. Copy paste the following line to terminal, hit ENTER and make sure files start to transfer
     ```bash
-    $ rsync -ahvP /media/USERNAME/UBNA_* /mnt/ubna_data_01/rec_DATE
+    $ rsync -ahvP /media/USERNAME/UBNA_* /mnt/ubna_data_01/recover-DATE
     ```
-    Remember to swap out USERNAME with your actual username and DATE with today's date in YYYYMMDD format (e.g. 20220715)
+    Remember to swap out USERNAME with your actual username and DATE with today's date in YYYYMMDD format (e.g. `recover-20220715`)
 
 
 ## Navigate to GitHub field record
 
 1. Log into GitHub if you are not already logged in
 2. Navigate to the project repository [union_bay_bats](https://github.com/uw-echospace/union-bay-bats)
-3. Go to the branch you created earlier today with branch name: deploy-DATE, where DATE is today's date in YYYYMMDD format
-3. Navigate to [field_records/ubna_2022b.md](https://github.com/uw-echospace/union-bay-bats/tree/main/field_records/ubna_2022b.md)
-4. Click the pencil button on the upper-right corder of the file view
+3. Go to the branch you created earlier today with branch name: `deploy-DATE`, where `DATE` is today's date in YYYYMMDD format
+3. Navigate to `field_records/ubna_2022b.md` (make sure you are still in the above branch!)
+4. Click the pencil button on the upper-right corder of the file view so that you can edit this md file
 
 
 ## Enter information in field datasheet
@@ -31,11 +31,17 @@
 5. Record the uploader initial
 
 
+## Add deployment pictures
+
+1. Navigate to the folder `field_records/pics`
+2. Create a folder with name `deploy-DATE`, where `DATE` is today's date in YYYYMMDD format
+3. Upload pictures into this folder, by clicking "Add file --> Upload files" on the upper-right corner
+
+
 ## Commit GitHub field record entries
 
 Once you are done with entering information for all the AudioMoth units you just recovered today:
-1. Scroll to the bottom and enter a commit message "data upload"
-2. Create a pull request with title "Deployment YYYY-MM-DD" and request review from @leewujung
+1. Scroll to the bottom and enter a commit message "upload data" or something makes sense
 
 
 ## Tidy things up
