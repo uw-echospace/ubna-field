@@ -8,8 +8,8 @@ We are currently in the pilot phase of the project, with the following short-ter
 - summarize the occurrence of bat calls throughout summer to fall
 - based on bat occurrence, try trapping bats to identify species
 
-## Cheat sheets
-Follow the steps outlined in the cheat sheets for lab preparation, field deployment/recovery, and data uploading:
+## Protocols
+Follow the steps outlined in the protocols for lab preparation, field deployment/recovery, and data uploading:
 - [01_lab.md](./cheat_sheets/01_lab.md)
 - [02_field.md](./cheat_sheets/02_field.md)
 - [03_upload.md](./cheat_sheets/03_upload.md)
