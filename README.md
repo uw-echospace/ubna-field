@@ -8,6 +8,12 @@ We are currently in the pilot phase of the project, with the following short-ter
 - summarize the occurrence of bat calls throughout summer to fall
 - based on bat occurrence, try trapping bats to identify species
 
+## Cheat sheets
+Follow the steps outlined in the cheat sheets for lab preparation, field deployment/recovery, and data uploading:
+- [01_lab.md](./cheat_sheets/01_lab.md)
+- [02_field.md](./cheat_sheets/02_field.md)
+- [03_upload.md](./cheat_sheets/03_upload.md)
+
 ## Field records
 Field records are stored under [field_records](./field_records/) and including the following entries:
 - [ubna_2021.md](./field_records/ubna_2021.md)
