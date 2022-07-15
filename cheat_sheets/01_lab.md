@@ -17,7 +17,7 @@ For each AudioMoth, go through the following so that you partially fill in 1 row
 2. Take an AudioMoth unit and record the unit number
 3. Insert an SD card into the AudioMoth and record the SD card number
 4. Put in fully charged batteries, measure the total voltage from the +/- pins on the board, and record the beginning voltage
-5. Connect AudioMoth to the computer, load the pre-saved [BatDuio.config](../ConfigurationDetails/BatAudio.config) file, and click on `Configure AudioMoth`
+5. Connect AudioMoth to the computer, load the pre-saved [BatAudio.config](../ConfigurationDetails/BatAudio.config) file, and click on `Configure AudioMoth`
 6. Go through the configured sampling rate (250 kHz), gain (medium), filter (none), and amplitude threshold (none) to make sure all are configured correctly, and record all settings on the field datasheet
 7. Disconnect the Audiomoth and switch the Audiomoth to CUSTOM mode briefly. After a few seconds, the Audiomoth’s red LED should start rapidly flashing. This means that it is recording without any errors.
 8. Switch it back into USB/OFF mode so that the AudioMoth is in stand-by mode
@@ -46,5 +46,4 @@ Check all items in the field kit:
 - Ziploc bag
 - Bug spray
 - Wader / boots
-- Boots
 
