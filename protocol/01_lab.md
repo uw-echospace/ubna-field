@@ -6,8 +6,8 @@
 1. Log into GitHub if you are not already logged in
 2. Navigate to the project repository [union_bay_bats](https://github.com/uw-echospace/union-bay-bats)
 3. Navigate to [field_records/ubna_2022b.md](https://github.com/uw-echospace/union-bay-bats/tree/main/field_records/ubna_2022b.md)
-4. Click the pencil button on the upper-right corder of the file view
-5. Start a new row in [field_records/ubna_2022b.md](../field_records/ubna_2022b.md) by copy-pasting the template row at the bottom of file
+4. Click the pencil button on the upper-right corner of the file view so that you can edit this md file
+5. Start a new row in `field_records/ubna_2022b.md` by copy-pasting the template row at the bottom of file (but don't remove the template)
 
 
 ## Prepare AudioMoth units
@@ -27,10 +27,10 @@ For each AudioMoth, go through the following so that you partially fill in 1 row
 ## Commit GitHub field record entries
 
 Once you are done with entering information for all the AudioMoth units you plan to deploy today:
-1. Scroll to the bottom and enter a commit message "lab prep"
+1. Scroll to the bottom and enter a commit message "lab prep" or something makes sense
 2. Choose "Create a new branch for this commit and start a pull request"
-3. Enter a branch name: deploy-DATE, where DATE is today's date in YYYYMMDD format
-
+3. Enter a branch name: `deploy-DATE`, where `DATE` is today's date in YYYYMMDD format
+4. Create a Pull Request with title : `deploy-DATE`, just like what you had for the deployment
 
 ## Check field kit / gear
 
