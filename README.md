@@ -10,9 +10,9 @@ We are currently in the pilot phase of the project, with the following short-ter
 
 ## Protocols
 Follow the steps outlined in the protocols for lab preparation, field deployment/recovery, and data uploading:
-- [01_lab.md](./cheat_sheets/01_lab.md)
-- [02_field.md](./cheat_sheets/02_field.md)
-- [03_upload.md](./cheat_sheets/03_upload.md)
+- [01_lab.md](./protocol/01_lab.md)
+- [02_field.md](./protocol/02_field.md)
+- [03_upload.md](./protocol/03_upload.md)
 
 ## Field records
 Field records are stored under [field_records](./field_records/) and including the following entries:
