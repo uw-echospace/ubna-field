@@ -7,7 +7,7 @@
 2. Open up terminal on the computer
 3. Copy paste the following line to terminal, hit ENTER and make sure files start to transfer
     ```bash
-    $ rsync -ahvP /media/USERNAME/UBNA_* /mnt/ubna_data_01/recovery_DATE
+    $ rsync -ahvP /media/USERNAME/UBNA_* /mnt/ubna_data_01/rec_DATE
     ```
     Remember to swap out USERNAME with your actual username and DATE with today's date in YYYYMMDD format (e.g. 20220715)
 
