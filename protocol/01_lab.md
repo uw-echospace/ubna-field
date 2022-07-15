@@ -1,4 +1,4 @@
-# Lab preparation cheat sheet
+# Lab preparation protocol
 
 
 ## Initiate GitHub field record entries

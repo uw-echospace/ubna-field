@@ -1,4 +1,4 @@
-# Field deployment/recovery cheat sheet
+# Field deployment/recovery protocol
 
 ## Personnel
 

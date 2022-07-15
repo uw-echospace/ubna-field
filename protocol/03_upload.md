@@ -1,4 +1,4 @@
-# Data uploading cheat sheet
+# Data uploading protocol
 
 
 ## Set up data uploading
