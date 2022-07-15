@@ -16,6 +16,7 @@
 
 1. Log into GitHub if you are not already logged in
 2. Navigate to the project repository [union_bay_bats](https://github.com/uw-echospace/union-bay-bats)
+3. Go to the branch you created earlier today with branch name: deploy-DATE, where DATE is today's date in YYYYMMDD format
 3. Navigate to [field_records/ubna_2022b.md](https://github.com/uw-echospace/union-bay-bats/tree/main/field_records/ubna_2022b.md)
 4. Click the pencil button on the upper-right corder of the file view
 
@@ -28,6 +29,13 @@
 3. Measure the total voltage from the +/- pins on the board, and record the ending voltage
 4. Record the upload folder name
 5. Record the uploader initial
+
+
+## Commit GitHub field record entries
+
+Once you are done with entering information for all the AudioMoth units you just recovered today:
+1. Scroll to the bottom and enter a commit message "data upload"
+2. Create a pull request with title "Deployment YYYY-MM-DD" and request review from @leewujung
 
 
 ## Tidy things up

@@ -1,13 +1,17 @@
 # Lab preparation cheat sheet
 
-## Initiate GitHub field record entry
+
+## Initiate GitHub field record entries
+
 1. Log into GitHub if you are not already logged in
 2. Navigate to the project repository [union_bay_bats](https://github.com/uw-echospace/union-bay-bats)
 3. Navigate to [field_records/ubna_2022b.md](https://github.com/uw-echospace/union-bay-bats/tree/main/field_records/ubna_2022b.md)
 4. Click the pencil button on the upper-right corder of the file view
 5. Start a new row in [field_records/ubna_2022b.md](../field_records/ubna_2022b.md) by copy-pasting the template row at the bottom of file
 
+
 ## Prepare AudioMoth units
+
 For each AudioMoth, go through the following so that you partially fill in 1 row on the field datasheet:
 1. Fill in today's date
 2. Take an AudioMoth unit and record the unit number
@@ -19,7 +23,17 @@ For each AudioMoth, go through the following so that you partially fill in 1 row
 8. Switch it back into USB/OFF mode so that the AudioMoth is in stand-by mode
 9. Put AudioMoth in a ziploc bag and make sure the blinking lights are covered with tape
 
+
+## Commit GitHub field record entries
+
+Once you are done with entering information for all the AudioMoth units you plan to deploy today:
+1. Scroll to the bottom and enter a commit message "lab prep"
+2. Choose "Create a new branch for this commit and start a pull request"
+3. Enter a branch name: deploy-DATE, where DATE is today's date in YYYYMMDD format
+
+
 ## Check field kit / gear
+
 Check all items in the field kit:
 - Field datasheet
 - Spare fully-charged batteries
