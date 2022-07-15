@@ -1,10 +1,11 @@
-# 2022 UBNA field records A: prior to July 15
+# 2022 UBNA field records A: prior to July 12
 
 All dates and times were recorded in UTC and following ISO8601 format.
 
 ## Locations
-- Carp Pond (47.65493544376657, -122.29466196897457)
-- Foliage (47.655208793798344, -122.29071456036488)
+
+Approximate locations of the recording sites:
+- Foliage (47.655208, -122.290714)
 
 ### Foliage
 
