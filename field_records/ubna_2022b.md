@@ -16,7 +16,7 @@ Specific locations are recorded separately for each deployment.
 
 Date and Time deployed (local) | Date and Time recovered (local) | AudioMoth # | SD card # | Site | Latitude | Longitude | Sampling rate (Hz) | Gain | Filter | Amplitude threshold | Battery start (V) | Battery end (V) | Deployer | Scribe | Uploader | Upload folder name | Notes
 -----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----
-2022-07-12 11:54:00 | 2022-07-15 14:55:00 | A | 008 | Carp Pond | 47° 39' 15.918'' N | 122° 17' 41.910'' W | 250000 | None | None | None | (4.3) | 3.398 | WJL | JS | JS | recover-20220715 | Ziploc Bag
+2022-07-12 11:54:00 | 2022-07-15 14:55:00 | A | 008 | Carp Pond | 47° 39' 15.918'' N | 122° 17' 41.910'' W | 250000 | Medium | None | None | (4.3) | 3.398 | WJL | JS | JS | recover-20220715 | Ziploc Bag
 2022-07-12 12:12:00 | 2022-07-15 14:30:25 | B | 007 | Foliage | 47° 39' 18.588'' N | 122° 17' 26.862'' W | 250000 | None | None | None | (4.3) | 3.391 | AK | JS | JS | recover-20220715 | Ziploc Bag
 2022-07-15 14:36:00 | 2022-07-17 12:08:00 | C | 005 | Foliage | 47° 39' 19.038'' N | 122° 17' 26.610'' W | 250000 | Medium | None | None | 4.146 (4.2) | 3.805 (3.9) | AK | JS | JS | recover-20220717 | Ziploc Bag
 2022-07-15 15:04:00 | 2022-07-17 12:28:00 | D | 006 | Carp Pond | 47° 39' 15.990'' N | 122° 17' 41.988'' W | 250000 | Medium | None | None | 4.138 (4.2) | 3.792 (3.9) | JS | JS | JS | recover-20220717 | Case
