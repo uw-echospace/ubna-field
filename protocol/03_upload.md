@@ -34,8 +34,8 @@
 ## Add deployment pictures
 
 1. Navigate to the folder `field_records/pics`
-2. Create a folder with name `deploy-DATE`, where `DATE` is today's date in YYYYMMDD format
-3. Upload pictures into this folder, by clicking "Add file --> Upload files" on the upper-right corner
+2. Name your pic files following the format `deploy-DATE-audiomoth-NUM`, where `DATE` is today's date in YYYYMMDD format and `NUM` is the AudioMoth unit number for the one shown in the picture
+3. Upload pictures into `field_records/pics`, by clicking "Add file --> Upload files" on the upper-right corner
 
 
 ## Commit GitHub field record entries
