@@ -31,6 +31,6 @@ Date and Time deployed (local) | Date and Time recovered (local) | AudioMoth # |
  =================================================================================
  ====== LINE BELOW TO COPY-PASTE:  FILL IN BEFORE AND AFTER DEPLOYMENT ===========
  =================================================================================
-DEPLOY_YYYY-MM-DDTHH:MM:SS | RECOVER_YYYY-MM-DDTHH:MM:SS | UNIT_NUM | SD_NUM | LOCATION | LAT_XX.XXXXXX | LON_XX.XXXXXX | SAMPLING_RATE | FILTER | GAIN | AMP_THRESHOLD | VOLT_START | VOLT_END | DEPLOY_PERSON | SCRIBE_PERSON | UPLOAD_PERSON | UPLOAD_FOLDER | NOTES
+DEPLOY_YYYY-MM-DDThh:mm:ss | RECOVER_YYYY-MM-DDThh:mm:ss | UNIT_NUM | SD_NUM | LOCATION | LAT_XX.XXXXXX | LON_XX.XXXXXX | SAMPLING_RATE | FILTER | GAIN | AMP_THRESHOLD | VOLT_START | VOLT_END | DEPLOY_PERSON | SCRIBE_PERSON | UPLOAD_PERSON | UPLOAD_FOLDER | NOTES
  =================================================================================
  -->
