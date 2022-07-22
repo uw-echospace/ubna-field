@@ -24,9 +24,12 @@ Date and Time deployed (local) | Date and Time recovered (local) | AudioMoth # |
 2022-07-17T12:14:00 | 2022-07-19T14:57:00 | A | 003 | Foliage | 47° 39' 19.002'' N | 122° 17' 26.310'' W | 250000 | Medium | None | None | 4.199 (4.3) | 3.817 (3.9) | AK | JS | AK | recover-20220719 | Ziploc Bag
 2022-07-17T12:41:00 | 2022-07-19T15:16:00 | F | 004 | Carp Pond | 47° 39' 31.320'' N | 122° 17' 46.200'' W | 250000 | Medium | None | None | 4.168 (4.2) | 3.777 (3.8) | JS | JS | AK | recover-20220719 | Case
 2022-07-17T12:40:00 | 2022-07-19T15:15:00 | B | 002 | Carp Pond | 47° 39' 31.320'' N | 122° 17' 46.200'' W | 250000 | Medium | None | None | 4.133 (4.3) | 3.722 (3.8) | JS | JS | AK | recover-20220719 | Ziploc Bag
-2022-07-19T15:02:00 | END_DATE_YYYY-MM-DDTHH:MM:SS | C | 012 | Foliage | 47° 39' 18.408'' N | 122° 17' 27.192'' W | 250000 | Medium | None | None | 4.114 (4.2) | VOLT_END | AK | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Ziploc Bag
-2022-07-19T15:24:00 | END_DATE_YYYY-MM-DDTHH:MM:SS | D | 013 | Carp Pond | 47° 39' 15.948'' N | 122° 17' 42.222'' W  | 250000 | Medium | None | None | 4.125 (4.2) | VOLT_END | JS | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Ziploc Bag
-2022-07-19T15:24:00 | END_DATE_YYYY-MM-DDTHH:MM:SS | E | 014 | Carp Pond | 47° 39' 15.948'' N | 122° 17' 42.222'' W  | 250000 | Medium | None | None | 4.147 (4.3) | VOLT_END | JS | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Case
+2022-07-19T15:02:00 | 2022-07-22T14:28:00 | C | 012 | Foliage | 47° 39' 18.408'' N | 122° 17' 27.192'' W | 250000 | Medium | None | None | 4.114 (4.2) | 3.293 (<3.6) | AK | JS | WL | recover-20220722 | Ziploc Bag
+2022-07-19T15:24:00 | 2022-07-22T14:48:00 | D | 013 | Carp Pond | 47° 39' 15.948'' N | 122° 17' 42.222'' W  | 250000 | Medium | None | None | 4.125 (4.2) | 3.276 (<3.6) | JS | JS | WL | recover-20220722 | Ziploc Bag
+2022-07-19T15:24:00 | 2022-07-22T14:49:00 | E | 014 | Carp Pond | 47° 39' 15.948'' N | 122° 17' 42.222'' W  | 250000 | Medium | None | None | 4.147 (4.3) | 3.299 (<3.6) | JS | JS | WL | recover-20220722 | Case
+2022-07-22T14:14:00 | RECOVER_YYYY-MM-DDThh:mm:ss | F | 010 | Telephone Field | 47° 39' 24.342'' N |  122° 17' 29.442'' W | 250000 | Medium | None | None | 4.267 (4.3) | VOLT_END | JS | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Double Battery Pack; Ziploc Bag; New Location
+2022-07-22T14:29:00 | RECOVER_YYYY-MM-DDThh:mm:ss | B | 009 | Foliage | No Valid Info | No Valid Info | 250000 | Medium | None | None | 4.260 (4.3) | VOLT_END | AK | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Double Battery Pack; Ziploc Bag
+2022-07-22T14:46:00 | RECOVER_YYYY-MM-DDThh:mm:ss | A | 001 | Carp Pond | 47° 39' 15.060'' N | 122° 17' 43.038'' W | 250000 | Medium | None | None | 4.160 (4.3) | VOLT_END | JS | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Double Battery Pack; Ziploc Bag
  <!-- 
  =================================================================================
  ====== LINE BELOW TO COPY-PASTE:  FILL IN BEFORE AND AFTER DEPLOYMENT ===========
