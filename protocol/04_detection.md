@@ -13,7 +13,7 @@
     
 ## Viewing a Sound File
 
-1. Open up a sound file on RavenPro by going to File->"Open Sound Files..." in the main menu.
+1. Open up a sound file on RavenPro by going to File>"Open Sound Files..." in the main menu.
 2. Browse for the sound file you want to view using the "Look In:" menu bar.
 3. Select the desired sound file you want to view and hit ENTER.
 4. You will be taken to a "Configure New Sound" window.
@@ -28,7 +28,7 @@
 
 ## Running the Single-File Detector
 
-1. Once you have a sound opened, open the detector function by going to Tools->Detector->"Band Limited Energy Detector" in the main menu.
+1. Once you have a sound opened, open the detector function by going to Tools>Detector>"Band Limited Energy Detector" in the main menu.
 2. Double-click on "Spectrogram" inside the right dialog box of "Available Signals and Views" and hit OK.
 3. You are now ready to configure an energy-based detector. Load in a preset configuration for either LF calls or HF calls by going to Preset in the top menu of this window. Hit OK.
 4. RavenPro will open a progress manager dialog box showing the detection progress.
@@ -54,12 +54,12 @@
 ## Running the Batch Detector
 
 1. You do not need to have any audio opened for this.
-2. Go to Tools->"Batch Detector..." to open the Batch Detector window.
+2. Go to Tools>"Batch Detector..." to open the Batch Detector window.
 3. Click on the "Detector:" dialog and select "Band Limited Energy Detector".
 4. Click "Add" to add the sound files to run the detector on. This will open up a browsing window where you can navigate to your recordings.
 5. To select multiple recordings, click on the first desired file and hold on the SHIFT key while clicking on the last desired file. This will automatically select all the recordings in between. Hit ENTER to finalize.
 6. The "Configure Detector" dialog will now be activated. Click on it and load in a preset configuration for either LF or HF calls by going to Preset in the top menu of this window. Stay on this window.
-7. Go to the "Table" setting below Preset. If you loaded in an LF preset configuration, change File Names to 'LF_<f>.txt'. If you loaded in a HF preset configuration, change File Names to 'HF_<f>.txt'. Hit OK.
+7. Go to the "Table" setting below Preset. If you loaded in an LF preset configuration, change File Names to 'LF_&lt;f&gt;.txt'. If you loaded in a HF preset configuration, change File Names to 'HF_&lt;f&gt;.txt'. Hit OK.
 8. You will be taken back to the batch detector window. Hit OK again and the progress manager will pop up to show the detection progress on all the files you have selected.
 9. Once your detector is done, repeat these steps for detecting the other type of call using the other detector preset. The batch detector will remember the files you added in. All you need to change is the detector configuration using "Configure Detector".
 
