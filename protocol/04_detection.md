@@ -5,10 +5,9 @@
 
 1. Log into the lab computer
 2. Open up terminal on the computer
-3. Copy paste the following lines to terminal, hit ENTER after each one and wait for RavenPro's start-up image to appear
+3. Copy paste the following lines to terminal, hit ENTER, and wait for RavenPro's start-up image to appear
     ```bash
-    $ cd /opt/RavenPro1.6
-    $ ./RavenPro.sh
+    $ /opt/RavenPro1.6/RavenPro.sh
     ```
     
     
