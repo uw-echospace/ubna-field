@@ -57,18 +57,16 @@
 2. Go to Tools>"Batch Detector..." to open the Batch Detector window.
 3. Click on the "Detector:" dialog and select "Band Limited Energy Detector".
 4. Click "Add" to add the sound files to run the detector on. This will open up a browsing window where you can navigate to your recordings.
-5. To select multiple recordings, click on the first desired file and hold on the SHIFT key while clicking on the last desired file. This will automatically select all the recordings in between. Hit ENTER to finalize.
+5. To select multiple recordings, click on the first desired file and hold on the SHIFT key while clicking on the last desired file. This will automatically select all the recordings in between. We will run the Batch Detector on each day of recording separately. 
+ - For example, if there are recordings 20220628_060000.WAV to 20220629_080000.WAV, we will run the Batch Detector once on recordings 20220628_060000.WAV to 20220628_233000.WAV and again on recordings 20220629_000000.WAV to 20220629_080000.WAV.
+ - Hit ENTER to finalize.
 6. The "Configure Detector" dialog will now be activated. Click on it and load in a preset configuration for either LF or HF calls by going to Preset in the top menu of this window. Stay on this window.
-7. Go to the "Table" setting below Preset. If you loaded in an LF preset configuration, change File Names to 'LF_&lt;f&gt;.txt'. If you loaded in a HF preset configuration, change File Names to 'HF_&lt;f&gt;.txt'. Hit OK.
+7. Go to the "Table" setting below Preset. Here we will configure what our file names will be and where RavenPro will store them after detection.
+ - Click on "Browse..." to the right of "Save Directory". A file navigation window should appear.
+ - Right-click inside the window and create a new folder with a name: {DATE}. {DATE} is the date of the recordings we are using. 
+ - Right-click and create another folder inside the DATE folder with a name: {DATE}_{TYPE}detections. {TYPE} is the type of preset you are using: LF or HF.
+ - Before you click "Select", copy everything inside "Folder Name:". You may rapid-click 3 times for a shortcut to copy all of it. You may also need to use CTRL+C to copy as right-click>copy does not work here. Click on "Select" after copying.
+ - The File Names will be set to "&lt;f&gt;.Table&lt;tt&gt;.txt". Change it to "/{TYPE}_&lt;f&gt;.txt". And paste what we copied in the last step to the left of "/{TYPE}".
+ - Hit "ENTER" to finalize the configuration.
 8. You will be taken back to the batch detector window. Hit OK again and the progress manager will pop up to show the detection progress on all the files you have selected.
 9. Once your detector is done, repeat these steps for detecting the other type of call using the other detector preset. The batch detector will remember the files you added in. All you need to change is the detector configuration using "Configure Detector".
-
-
-## Organizing the Batch Detector's Detections
-
-1. The batch detector stores all of its detection tables in /home/USERNAME/RavenPro1.6/Selections/
-2. The detection tables files have the file names that we gave in step 7 of Running the Batch Detector.
-3. For organization of these files, the files are categorized into DATE folders and further categorized into folders for LF detections or HF detections. The folder titles are as follows:
- - YYYYMMDD/YYYYMMDD_LFdetections
- - YYYYMMDD/YYYYMMDD_HFdetections
-4. For example, all detection tables from recordings in 2022-07-01 will go into a 20220701 folder. All detection tables created with LF presets (distinguished by LF as their first 2 characters) will go into a subfolder inside 20220701 known as 20220701_LFdetections. All detection tables created with HF presets (distinguised by HF as their first 2 characters) will go into a subfolder inside 20220701 known as 20220701_HFdetections.
