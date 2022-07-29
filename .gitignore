@@ -1,0 +1,5 @@
+# Excluding notebook checkpoints
+.ipynb_checkpoints
+
+# Exclude macOS system files
+.DS_Store
