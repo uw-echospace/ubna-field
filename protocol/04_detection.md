@@ -71,7 +71,7 @@
  - Right-click inside the window and create a new folder with a name: `recover_DATE_detect`. `DATE` is the date of the recordings we are using. 
  - Right-click and create another folder inside the DATE folder with a name: `DATE_TYPE_detections`. `TYPE` is the type of preset you are using: LF or HF.
  - Before you click "Select", copy everything inside "Folder Name:". You may rapid-click 3 times for a shortcut to copy all of it. You may also need to use CTRL+C to copy as right-click>copy does not work here. Click on "Select" after copying.
- - The File Names will be set to "&lt;f&gt;.Table&lt;tt&gt;.txt". Change it to "/{TYPE}_&lt;f&gt;.txt". And paste what we copied in the last step to the left of "/{TYPE}".
+ - The File Names will be set to `<f>.Table<tt>.txt`. Change it to `/TYPE_<f>.txt`. And paste what we copied in the last step to the left of `/TYPE`.
  - Hit "ENTER" to finalize the configuration.
 8. You will be taken back to the batch detector window. Hit OK again and the progress manager will pop up to show the detection progress on all the files you have selected.
 9. Once your detector is done, repeat these steps for detecting the other type of call using the other detector preset. The batch detector will remember the files you added in. All you need to change is the detector configuration using "Configure Detector".
