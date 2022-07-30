@@ -68,8 +68,8 @@
 6. The "Configure Detector" dialog will now be activated. Click on it and load in a preset configuration for either LF or HF calls by going to Preset in the top menu of this window. Stay on this window.
 7. Go to the "Table" setting below Preset. Here we will configure what our file names will be and where RavenPro will store them after detection.
  - Click on "Browse..." to the right of "Save Directory". A file navigation window should appear.
- - Right-click inside the window and create a new folder with a name: "recover_{DATE}_detect". {DATE} is the date of the recordings we are using. 
- - Right-click and create another folder inside the DATE folder with a name: {DATE}_{TYPE}_detections. {TYPE} is the type of preset you are using: LF or HF.
+ - Right-click inside the window and create a new folder with a name: `recover_DATE_detect`. `DATE` is the date of the recordings we are using. 
+ - Right-click and create another folder inside the DATE folder with a name: `DATE_TYPE_detections`. `TYPE` is the type of preset you are using: LF or HF.
  - Before you click "Select", copy everything inside "Folder Name:". You may rapid-click 3 times for a shortcut to copy all of it. You may also need to use CTRL+C to copy as right-click>copy does not work here. Click on "Select" after copying.
  - The File Names will be set to "&lt;f&gt;.Table&lt;tt&gt;.txt". Change it to "/{TYPE}_&lt;f&gt;.txt". And paste what we copied in the last step to the left of "/{TYPE}".
  - Hit "ENTER" to finalize the configuration.
