@@ -63,8 +63,6 @@
 3. Click on the "Detector:" dialog and select "Band Limited Energy Detector".
 4. Click "Add" to add the sound files to run the detector on. This will open up a browsing window where you can navigate to your recordings.
 5. We will be running the Batch Detector on each recover-DATE folder separately. To easily select all files within an opened folder, hit CTRL+A. After you have done this, hit ENTER.
- - For example, if there are recordings 20220628_060000.WAV to 20220629_080000.WAV, we will run the Batch Detector once on recordings 20220628_060000.WAV to 20220628_233000.WAV and again on recordings 20220629_000000.WAV to 20220629_080000.WAV.
- - Hit ENTER to finalize.
 6. The "Configure Detector" dialog will now be activated. Click on it and load in a preset configuration for either LF or HF calls by going to Preset in the top menu of this window. Stay on this window.
 7. Go to the "Table" setting below Preset. Here we will configure what our file names will be and where RavenPro will store them after detection.
  - Click on "Browse..." to the right of "Save Directory". A file navigation window should appear.
