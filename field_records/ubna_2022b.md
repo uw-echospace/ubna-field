@@ -36,6 +36,9 @@ Date and Time deployed (local) | Date and Time recovered (local) | AudioMoth # |
 2022-07-28T18:37:00 | RECOVER_YYYY-MM-DDThh:mm:ss | A | 004 | Carp Pond | 47° 39' 15.828'' N | 122° 17' 42.078'' W | 192000 | Medium | None | None | 4.103 (4.2) | VOLT_END | JS | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Double Battery Pack; Ziploc Bag
 2022-07-28T18:56:00 | RECOVER_YYYY-MM-DDThh:mm:ss | B | 005 | Central Pond | 47° 39' 17.010'' N | 122° 17' 34.632'' W | 192000 | Medium | None | None | 4.189 (4.3) | VOLT_END | JS | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Double Battery Pack; Ziploc Bag
 2022-07-28T18:16:00 | RECOVER_YYYY-MM-DDThh:mm:ss | F | 006 | Foliage | 47° 39' 18.630'' N | 122° 17' 26.832'' W | 192000 | Medium | None | None | 4.213 (4.2) | VOLT_END | JS | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Double Battery Pack; Ziploc Bag
+2022-08-01-DDThh:mm:ss | RECOVER_YYYY-MM-DDThh:mm:ss | C | 001 | LOCATION | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | 4.081 (4.2) | VOLT_END | DEPLOY_PERSON | SCRIBE_PERSON | UPLOAD_PERSON | UPLOAD_FOLDER | NOTES
+2022-08-01Thh:mm:ss | RECOVER_YYYY-MM-DDThh:mm:ss | D | 002 | LOCATION | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | 4.231 (4.3) | VOLT_END | DEPLOY_PERSON | SCRIBE_PERSON | UPLOAD_PERSON | UPLOAD_FOLDER | NOTES
+2022-08-01Thh:mm:ss | RECOVER_YYYY-MM-DDThh:mm:ss | E | 003 | LOCATION | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | 4.189 (4.3) | VOLT_END | DEPLOY_PERSON | SCRIBE_PERSON | UPLOAD_PERSON | UPLOAD_FOLDER | NOTES
  <!-- 
  =================================================================================
  ====== LINE BELOW TO COPY-PASTE:  FILL IN BEFORE AND AFTER DEPLOYMENT ===========
