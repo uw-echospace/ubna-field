@@ -73,3 +73,4 @@
     - Hit "ENTER" to finalize the configuration.
 8. You will be taken back to the batch detector window. Hit OK again and the progress manager will pop up to show the detection progress on all the files you have selected.
 9. Once your detector is done, repeat these steps for detecting the other type of call using the other detector preset. The batch detector will remember the files you added in. All you need to change is the detector configuration using "Configure Detector".
+
