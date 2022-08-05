@@ -40,8 +40,8 @@ Date and Time deployed (local) | Date and Time recovered (local) | AudioMoth # |
 2022-08-01T10:18:00 | 2022-08-04T16:00:00 | D | 002 | Foliage | 47° 39' 18.732'' N | 122° 17' 26.688'' W  | 192000 | Medium | None | None | 4.231 (4.3) | 3.737 (3.8) | AK | JS | JS | recover-20220804 | Double Battery Pack; Ziploc Bag
 2022-08-01T10:56:00 | 2022-08-04T16:50:00 | E | 003 | Central Pond | 47° 39' 16.902'' N | 122° 17' 34.548'' W | 192000 | Medium | None | None | 4.189 (4.3) | 3.736 (3.8) | AK | JS | JS | recover-20220804 | Double Battery Pack; Ziploc Bag
 2022-08-04T16:40:00 | RECOVER_YYYY-MM-DDThh:mm:ss | A | 012 | Central Pond | 47° 39' 15.708'' N | 122° 17' 47.652'' W | 192000 | Medium | None | None | 4.167 (4.3) | VOLT_END | AK | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Double Battery Pack; Ziploc Bag
-2022-08-04T16:18:00 | RECOVER_YYYY-MM-DDThh:mm:ss | B | 013 | LOCATION | 47° 39' 16.002'' N | 122° 17' 41.862'' W | 192000 | Medium | None | None | 4.122 (4.2) | VOLT_END | JS | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Double Battery Pack; Ziploc Bag
-2022-08-04T16:02:00 | RECOVER_YYYY-MM-DDThh:mm:ss | F | 014 | LOCATION | 47° 39' 18.732'' N | 122° 17' 26.802'' W | 192000 | Medium | None | None | 4.153 (4.2) | VOLT_END | AK | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Double Battery Pack; Ziploc Bag
+2022-08-04T16:18:00 | RECOVER_YYYY-MM-DDThh:mm:ss | B | 013 | Carp Pond | 47° 39' 16.002'' N | 122° 17' 41.862'' W | 192000 | Medium | None | None | 4.122 (4.2) | VOLT_END | JS | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Double Battery Pack; Ziploc Bag
+2022-08-04T16:02:00 | RECOVER_YYYY-MM-DDThh:mm:ss | F | 014 | Foliage | 47° 39' 18.732'' N | 122° 17' 26.802'' W | 192000 | Medium | None | None | 4.153 (4.2) | VOLT_END | AK | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Double Battery Pack; Ziploc Bag
  <!-- 
  =================================================================================
  ====== LINE BELOW TO COPY-PASTE:  FILL IN BEFORE AND AFTER DEPLOYMENT ===========
