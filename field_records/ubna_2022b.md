@@ -42,9 +42,9 @@ Date and Time deployed (local) | Date and Time recovered (local) | AudioMoth # |
 2022-08-04T16:40:00 | RECOVER_YYYY-MM-DDThh:mm:ss | A | 012 | Central Pond | 47° 39' 15.708'' N | 122° 17' 47.652'' W | 192000 | Medium | None | None | 4.167 (4.3) | VOLT_END | AK | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Double Battery Pack; Ziploc Bag
 2022-08-04T16:18:00 | RECOVER_YYYY-MM-DDThh:mm:ss | B | 013 | Carp Pond | 47° 39' 16.002'' N | 122° 17' 41.862'' W | 192000 | Medium | None | None | 4.122 (4.2) | VOLT_END | JS | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Double Battery Pack; Ziploc Bag
 2022-08-04T16:02:00 | RECOVER_YYYY-MM-DDThh:mm:ss | F | 014 | Foliage | 47° 39' 18.732'' N | 122° 17' 26.802'' W | 192000 | Medium | None | None | 4.153 (4.2) | VOLT_END | AK | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Double Battery Pack; Ziploc Bag
-2022-08-08Thh:mm:ss | RECOVER_YYYY-MM-DDThh:mm:ss | C | 007 | Carp Pond | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | VOLT_START | VOLT_END | DEPLOY_PERSON | SCRIBE_PERSON | UPLOAD_PERSON | UPLOAD_FOLDER | NOTES
-2022-08-08Thh:mm:ss | RECOVER_YYYY-MM-DDThh:mm:ss | D | 009 | Foliage | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | VOLT_START | VOLT_END | DEPLOY_PERSON | SCRIBE_PERSON | UPLOAD_PERSON | UPLOAD_FOLDER | NOTES
-2022-08-08Thh:mm:ss | RECOVER_YYYY-MM-DDThh:mm:ss | E | 010 | Central Pond | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | VOLT_START | VOLT_END | DEPLOY_PERSON | SCRIBE_PERSON | UPLOAD_PERSON | UPLOAD_FOLDER | NOTES
+2022-08-08Thh:mm:ss | RECOVER_YYYY-MM-DDThh:mm:ss | C | 007 | Carp Pond | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | VOLT_START | 4.112 (4.2) | DEPLOY_PERSON | SCRIBE_PERSON | UPLOAD_PERSON | UPLOAD_FOLDER | NOTES
+2022-08-08Thh:mm:ss | RECOVER_YYYY-MM-DDThh:mm:ss | D | 009 | Foliage | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | VOLT_START | 4.228 (4.3) | DEPLOY_PERSON | SCRIBE_PERSON | UPLOAD_PERSON | UPLOAD_FOLDER | NOTES
+2022-08-08Thh:mm:ss | RECOVER_YYYY-MM-DDThh:mm:ss | E | 010 | Central Pond | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | VOLT_START | 4.267 (4.4) | DEPLOY_PERSON | SCRIBE_PERSON | UPLOAD_PERSON | UPLOAD_FOLDER | NOTES
  <!-- 
  =================================================================================
  ====== LINE BELOW TO COPY-PASTE:  FILL IN BEFORE AND AFTER DEPLOYMENT ===========
