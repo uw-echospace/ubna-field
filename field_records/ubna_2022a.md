@@ -2,15 +2,8 @@
 
 All dates and times were recorded in UTC and following ISO8601 format.
 
-## Locations
-
-Approximate locations of the recording sites:
-- Foliage (47.655208, -122.290714)
-
-### Foliage
-
 Date and Time deployed (local) | Date and Time recovered (local) | AudioMoth # | SD card # | Site | Latitude | Longitude | Sampling rate (Hz) | Gain | Filter | Amplitude threshold | Battery start (V) | Battery end (V) | Deployer | Upload folder name | Notes
------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----
+-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----
 2022-06-14T15:39:00 | 2022-06-16T12:19:00 | C | 010 | Foliage | 47° 39' 18.450'' N | 122° 17' 27.048'' W | 250000 | Medium | None | None | (4.3) | (3.6) | AK | recover-20220616 | Ziploc Bag; Cloudy w/ rain
 2022-06-16T12:34:00 | 2022-06-18T13:29:00 | C | 009 | Foliage | 47° 39' 18.642'' N | 122° 17' 27.108'' W | 250000 | Medium | None | None | (4.2) | (3.6) | AK | recover-20220618 | Ziploc Bag
 2022-06-18T13:46:00 | 2022-06-20T15:46:00 | C | 010 | Foliage | 47° 39' 18.420'' N | 122° 17' 27.252'' W | 250000 | Medium | None | None | (4.2) | (3.9) | AK | recover-20220620 | Ziploc Bag
@@ -24,3 +17,5 @@ Date and Time deployed (local) | Date and Time recovered (local) | AudioMoth # |
 2022-07-07T12:29:00 | 2022-07-09T12:39:00 | D | No Valid Info | Foliage | 47° 39' 18.900'' N | 122° 17' 26.418'' W | 250000 | Medium | None | None | (4.3) | No Valid Info | AK | recover-20220709 | AudioMoth Case
 2022-07-09T12:58:00 | 2022-07-12T12:12:00 | C | 010 | Foliage | 47° 39' 18.558'' N | 122° 17' 26.718'' W | 250000 | Medium | None | None | (4.3) | No Valid Info | AK | recover-20220712 | AudioMoth Case
 2022-07-09T12:58:00 | 2022-07-12T12:12:00 | D | 009 | Foliage | 47° 39' 18.558'' N | 122° 17' 26.718'' W | 250000 | Medium | None | None | (4.3) | No Valid Info | AK | recover-20220712 | AudioMoth Case
+
+All upload folders are stored in a 5TB WD Elements external drive
