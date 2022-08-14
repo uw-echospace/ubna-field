@@ -14,8 +14,8 @@ Date and Time deployed (local) | Date and Time recovered (local) | AudioMoth # |
 2022-06-30T12:46:00 | 2022-07-02T14:26:00 | C | 009 | Foliage | 47° 39' 18.750'' N | 122° 17' 26.802'' W | 8.04 | 49:40 | 102 | 92 | 127.8 | 250000 | Medium | None | None | (4.2) | (3.8) | AK | recover-20220702_unit2 | Ziploc Bag
 2022-07-02T14:41:00 | 2022-07-05T11:41:00 | C | 010 | Foliage | No Valid Info | No Valid Info | 7.21 | 69:00 | 98 | 84.4 | 127.8 | 250000 | Medium | None | None | (4.2) | (3.8) | AK | recover-20220705_unit2 | Ziploc Bag
 2022-07-05T11:57:00 | 2022-07-07T12:07:00 | C | 009 | Foliage | 47° 39' 19.080'' N | 122° 17' 26.370'' W | 6.42 | 48:10 | 100 | 86.6 | 127.8 | 250000 | Medium | None | None | (4.3) | (3.8) | AK | recover-20220707_unit2 | Ziploc Bag
-2022-07-07T12:29:00 | 2022-07-09T12:39:00 | D | No Valid Info | Foliage | 47° 39' 18.900'' N | 122° 17' 26.418'' W | 6.19 | 48:10 | 98 | 86.6 | 127.8 | 250000 | Medium | None | None | (4.3) | No Valid Info | AK | recover-20220709_unit1 | AudioMoth Case
+2022-07-07T12:29:00 | 2022-07-09T12:39:00 | D | No Valid Info | Foliage | 47° 39' 18.900'' N | 122° 17' 26.418'' W | 6.19 | 48:10 | 98 | 86.6 | 127.8 | 250000 | Medium | None | None | (4.3) | No Valid Info | AK | recover-20220709_unit3 | AudioMoth Case
 2022-07-09T12:58:00 | 2022-07-12T12:12:00 | C | 010 | Foliage | 47° 39' 18.558'' N | 122° 17' 26.718'' W | 6.22 | 71:14 | 1771 | 127.2 | 127.8 | 250000 | Medium | None | None | (4.3) | No Valid Info | AK | recover-20220712_unit2 | AudioMoth Case
-2022-07-09T12:58:00 | 2022-07-12T12:12:00 | D | 009 | Foliage | 47° 39' 18.558'' N | 122° 17' 26.718'' W | 6.22 | 71:14 | 142 | 63.2 | 127.8 | 250000 | Medium | None | None | (4.3) | No Valid Info | AK | recover-20220712_unit1 | AudioMoth Case
+2022-07-09T12:58:00 | 2022-07-12T12:12:00 | D | 009 | Foliage | 47° 39' 18.558'' N | 122° 17' 26.718'' W | 6.22 | 71:14 | 142 | 63.2 | 127.8 | 250000 | Medium | None | None | (4.3) | No Valid Info | AK | recover-20220712_unit3 | AudioMoth Case
 
 All upload folders are stored in a 5TB WD Elements external drive
