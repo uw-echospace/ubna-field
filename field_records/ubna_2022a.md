@@ -2,20 +2,20 @@
 
 All dates and times were recorded in UTC and following ISO8601 format.
 
-Date and Time deployed (local) | Date and Time recovered (local) | AudioMoth # | SD card # | Site | Latitude | Longitude | Sampling rate (Hz) | Gain | Filter | Amplitude threshold | Battery start (V) | Battery end (V) | Deployer | Upload folder name | Notes
------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----
-2022-06-14T15:39:00 | 2022-06-16T12:19:00 | C | 010 | Foliage | 47° 39' 18.450'' N | 122° 17' 27.048'' W | 250000 | Medium | None | None | (4.3) | (3.6) | AK | recover-20220616 | Ziploc Bag; Cloudy w/ rain
-2022-06-16T12:34:00 | 2022-06-18T13:29:00 | C | 009 | Foliage | 47° 39' 18.642'' N | 122° 17' 27.108'' W | 250000 | Medium | None | None | (4.2) | (3.6) | AK | recover-20220618 | Ziploc Bag
-2022-06-18T13:46:00 | 2022-06-20T15:46:00 | C | 010 | Foliage | 47° 39' 18.420'' N | 122° 17' 27.252'' W | 250000 | Medium | None | None | (4.2) | (3.9) | AK | recover-20220620 | Ziploc Bag
-2022-06-20T16:15:00 | 2022-06-22T12:40:00 | C | 009 | Foliage | 47° 39' 18.420'' N | 122° 17' 27.252'' W | 250000 | Medium | None | None | (4.2) | (4.0) | AK | recover-20220622 | Ziploc Bag
-2022-06-22T12:57:00 | 2022-06-24T10:47:00 | C | 010 | Foliage | 47° 39' 18.708'' N | 122° 17' 26.922'' W | 250000 | Medium | None | None | (4.2) | (3.9) | AK | recover-20220624 | Ziploc Bag
-2022-06-24T11:01:00 | 2022-06-27T14:31:00 | C | 009 | Foliage | 47° 39' 18.852'' N | 122° 17' 26.532'' W | 250000 | Medium | None | None | (4.3) | (3.5) | AK | recover-20220627 | Ziploc Bag
-2022-06-27T14:44:00 | 2022-06-30T11:44:00 | C | 010 | Foliage | 47° 39' 18.408'' N | 122° 17' 26.448'' W | 250000 | Medium | None | None | (4.3) | (3.8) | AK | recover-20220630 | Ziploc Bag
-2022-06-30T12:46:00 | 2022-07-02T14:26:00 | C | 009 | Foliage | 47° 39' 18.750'' N | 122° 17' 26.802'' W | 250000 | Medium | None | None | (4.2) | (3.8) | AK | recover-20220702 | Ziploc Bag
-2022-07-02T14:41:00 | 2022-07-05T11:41:00 | C | 010 | Foliage | No Valid Info | No Valid Info | 250000 | Medium | None | None | (4.2) | (3.8) | AK | recover-20220705 | Ziploc Bag
-2022-07-05T11:57:00 | 2022-07-07T12:07:00 | C | 009 | Foliage | 47° 39' 19.080'' N | 122° 17' 26.370'' W | 250000 | Medium | None | None | (4.3) | (3.8) | AK | recover-20220707 | Ziploc Bag
-2022-07-07T12:29:00 | 2022-07-09T12:39:00 | D | No Valid Info | Foliage | 47° 39' 18.900'' N | 122° 17' 26.418'' W | 250000 | Medium | None | None | (4.3) | No Valid Info | AK | recover-20220709 | AudioMoth Case
-2022-07-09T12:58:00 | 2022-07-12T12:12:00 | C | 010 | Foliage | 47° 39' 18.558'' N | 122° 17' 26.718'' W | 250000 | Medium | None | None | (4.3) | No Valid Info | AK | recover-20220712 | AudioMoth Case
-2022-07-09T12:58:00 | 2022-07-12T12:12:00 | D | 009 | Foliage | 47° 39' 18.558'' N | 122° 17' 26.718'' W | 250000 | Medium | None | None | (4.3) | No Valid Info | AK | recover-20220712 | AudioMoth Case
+Date and Time deployed (local) | Date and Time recovered (local) | AudioMoth # | SD card # | Site | Latitude | Longitude | Altitude (m) | Duration (HH:MM) | # of Files | GB used | Storage Space (GB) | Sampling rate (Hz) | Gain | Filter | Amplitude threshold | Battery start (V) | Battery end (V) | Deployer | Upload folder name | Notes
+-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+2022-06-14T15:39:00 (2022-06-14T23:00Z) | 2022-06-16T12:19:00 (2022-06-16T19:30Z) | C | 010 | Foliage | 47° 39' 18.450'' N | 122° 17' 27.048'' W | 5.95 | 44:40 | 91 | 79.6 | 127.8 | 250000 | Medium | None | None | (4.3) | (3.6) | AK | recover-20220616 | Ziploc Bag; Cloudy w/ rain
+2022-06-16T12:34:00 (2022-06-16T20:00Z) | 2022-06-18T13:29:00 (2022-06-18T20:00Z) | C | 009 | Foliage | 47° 39' 18.642'' N | 122° 17' 27.108'' W | 4.71 | 48:55 | 98 | 86.5 | 127.8 | 250000 | Medium | None | None | (4.2) | (3.6) | AK | recover-20220618 | Ziploc Bag
+2022-06-18T13:46:00 (2022-06-18T21:00Z) | 2022-06-20T15:46:00 (2022-06-19T21:30Z) | C | 010 | Foliage | 47° 39' 18.420'' N | 122° 17' 27.252'' W | 5.59 | 50:00 | 51 | 44.8 | 127.8 | 250000 | Medium | None | None | (4.2) | (3.9) | AK | recover-20220620 | Ziploc Bag
+2022-06-20T16:15:00 (2022-06-20T23:30Z) | 2022-06-22T12:40:00 (2022-06-21T20:00Z) | C | 009 | Foliage | 47° 39' 18.420'' N | 122° 17' 27.252'' W | 4.88 | 44:25 | 43 | 37.3 | 127.8 | 250000 | Medium | None | None | (4.2) | (4.0) | AK | recover-20220622 | Ziploc Bag
+2022-06-22T12:57:00 (2022-06-22T20:30Z) | 2022-06-24T10:47:00 (2022-06-24T18:00Z) | C | 010 | Foliage | 47° 39' 18.708'' N | 122° 17' 26.922'' W | 5.71 | 45:50 | 94 | 82.4 | 127.8 | 250000 | Medium | None | None | (4.2) | (3.9) | AK | recover-20220624 | Ziploc Bag
+2022-06-24T11:01:00 | 2022-06-27T14:31:00 | C | 009 | Foliage | 47° 39' 18.852'' N | 122° 17' 26.532'' W | 5.91 | 75:30 | 142 | 127.4 | 127.8 | 250000 | Medium | None | None | (4.3) | (3.5) | AK | recover-20220627 | Ziploc Bag
+2022-06-27T14:44:00 | 2022-06-30T11:44:00 | C | 010 | Foliage | 47° 39' 18.408'' N | 122° 17' 26.448'' W | 5.92 | 69:00 | 135 | 119 | 127.8 | 250000 | Medium | None | None | (4.3) | (3.8) | AK | recover-20220630 | Ziploc Bag
+2022-06-30T12:46:00 | 2022-07-02T14:26:00 | C | 009 | Foliage | 47° 39' 18.750'' N | 122° 17' 26.802'' W | 8.04 | 49:40 | 102 | 92 | 127.8 | 250000 | Medium | None | None | (4.2) | (3.8) | AK | recover-20220702 | Ziploc Bag
+2022-07-02T14:41:00 | 2022-07-05T11:41:00 | C | 010 | Foliage | No Valid Info | No Valid Info | 7.21 | 69:00 | 98 | 84.4 | 127.8 | 250000 | Medium | None | None | (4.2) | (3.8) | AK | recover-20220705 | Ziploc Bag
+2022-07-05T11:57:00 | 2022-07-07T12:07:00 | C | 009 | Foliage | 47° 39' 19.080'' N | 122° 17' 26.370'' W | 6.42 | 48:10 | 100 | 86.6 | 127.8 | 250000 | Medium | None | None | (4.3) | (3.8) | AK | recover-20220707 | Ziploc Bag
+2022-07-07T12:29:00 | 2022-07-09T12:39:00 | D | No Valid Info | Foliage | 47° 39' 18.900'' N | 122° 17' 26.418'' W | 6.19 | 48:10 | 98 | 86.6 | 127.8 | 250000 | Medium | None | None | (4.3) | No Valid Info | AK | recover-20220709 | AudioMoth Case
+2022-07-09T12:58:00 | 2022-07-12T12:12:00 | C | 010 | Foliage | 47° 39' 18.558'' N | 122° 17' 26.718'' W | 6.22 | 71:14 | 1771 | 127.2 | 127.8 | 250000 | Medium | None | None | (4.3) | No Valid Info | AK | recover-20220712 | AudioMoth Case
+2022-07-09T12:58:00 | 2022-07-12T12:12:00 | D | 009 | Foliage | 47° 39' 18.558'' N | 122° 17' 26.718'' W | 6.22 | 71:14 | 142 | 63.2 | 127.8 | 250000 | Medium | None | None | (4.3) | No Valid Info | AK | recover-20220712 | AudioMoth Case
 
 All upload folders are stored in a 5TB WD Elements external drive
