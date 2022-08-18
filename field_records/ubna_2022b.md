@@ -45,9 +45,12 @@ Date and Time deployed (local) | Date and Time recovered (local) | AudioMoth # |
 2022-08-08T10:31:00 | 2022-08-11T16:59:00 | C | 007 | Carp Pond | 47° 39' 15.948'' N | 122° 17' 42.018'' W | 192000 | Medium | None | None | 4.112 (4.2) | 3.716 (3.8) | JS | JS | JS | recover-20220811 | Double Battery Pack; Ziploc Bag
 2022-08-08T10:16:00 | 2022-08-11T16:46:00 | D | 009 | Foliage | 47° 39' 18.828'' N | 122° 17' 26.748'' W | 192000 | Medium | None | None | 4.228 (4.3) | 3.815 (3.9) | AK | JS | JS | recover-20220811 | Double Battery Pack; Ziploc Bag
 2022-08-08T10:44:00 | 2022-08-11T17:09:00 | E | 010 | Central Pond | 47° 39' 17.088'' N | 122° 17' 34.248'' W | 192000 | Medium | None | None | 4.267 (4.4) | 3.722 (3.8) | JS | JS | JS | recover-20220811 | Double Battery Pack; Ziploc Bag
-2022-08-11Thh:mm:ss | RECOVER_YYYY-MM-DDThh:mm:ss | A | 005 | Carp Pond | 47° 39' 15.828'' N | 122° 17' 42.028'' W | 192000 | Medium | None | None | 4.200 (4.3) | VOLT_END | JS | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Double Battery Pack; Ziploc Bag
-2022-08-11Thh:mm:ss | RECOVER_YYYY-MM-DDThh:mm:ss | B | 008 | Central Pond | 47° 39' 16.842'' N | 122° 17' 34.470'' W | 192000 | Medium | None | None | 4.205 (4.3) | VOLT_END | JS | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Double Battery Pack; Ziploc Bag
-2022-08-11Thh:mm:ss | RECOVER_YYYY-MM-DDThh:mm:ss | F | 011 | Foliage | 47° 39' 19.230'' N | 122° 17' 26.862'' W | 192000 | Medium | None | None | 4.302 (4.3) | VOLT_END | AK | JS | UPLOAD_PERSON | UPLOAD_FOLDER | NOTES
+2022-08-11T16:58:00 | 2022-08-15T10:02:00 | A | 005 | Carp Pond | 47° 39' 15.828'' N | 122° 17' 42.028'' W | 192000 | Medium | None | None | 4.200 (4.3) | 3.650 | JS | JS | AK | recover-20220815 | Double Battery Pack; Ziploc Bag; Pond is receding
+2022-08-11T17:10:00 | 2022-08-15T10:11:00 | B | 008 | Central Pond | 47° 39' 16.842'' N | 122° 17' 34.470'' W | 192000 | Medium | None | None | 4.205 (4.3) | 3.623 | JS | JS | AK | recover-20220815 | Double Battery Pack; Ziploc Bag; Pond is receding
+2022-08-11T16:48:00 | 2022-08-15T9:50:00 | F | 011 | Foliage | 47° 39' 19.230'' N | 122° 17' 26.862'' W | 192000 | Medium | None | None | 4.302 (4.3) | 3.672 | AK | JS | AK | recover-20220815 | Double Battery Pack; Ziploc Bag
+2022-08-15T10:01:00 | RECOVER_YYYY-MM-DDThh:mm:ss | C | 002 | Carp Pond | 47° 39' 15.810'' N | 122° 17' 42.240'' W | 192000 | Medium | None | None | 4.291 | VOLT_END | AK | AK | UPLOAD_PERSON | UPLOAD_FOLDER | Double Battery Pack; Ziploc Bag; Pond is receding
+2022-08-15T9:51:00 | RECOVER_YYYY-MM-DDThh:mm:ss | D | 004 | Foliage | 47° 39' 18.888'' N | 122° 17' 26.832'' W | 192000 | Medium | None | None | 4.188 | VOLT_END | AK | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Double Battery Pack; Ziploc Bag
+2022-08-15T10:09:00 | RECOVER_YYYY-MM-DDThh:mm:ss | E | 006 | Central Pond | 47° 39' 16.968'' N | 122° 17' 34.488'' W  | 192000 | Medium | None | None | 4.097 | VOLT_END | JS | AK | UPLOAD_PERSON | UPLOAD_FOLDER | Double Battery Pack; Ziploc Bag; Pond is receding
  <!-- 
  =================================================================================
  ====== LINE BELOW TO COPY-PASTE:  FILL IN BEFORE AND AFTER DEPLOYMENT ===========
