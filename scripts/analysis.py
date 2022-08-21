@@ -23,4 +23,5 @@ print(f"Looking at data from {site_name}...")
 
 df = summarize_call_detection.generate_df(f"{detection_dir}/{recover_folder}")
 
+summarize_call_detection.plot_separate(df, site_name, recover_folder, save=True)
 summarize_call_detection.plot_total(df, site_name)
