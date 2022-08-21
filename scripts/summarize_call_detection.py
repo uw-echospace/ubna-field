@@ -43,10 +43,7 @@ def read_detection(detection_dir, recording_name, det_type):
 #   - File Names are strings and # of LF/HF detections are integers.
 #   - Times are in UTC format and Dates are datetime.datetime objects.
 
-def generate_df(recover_folder, audio_dur=[0, 29, 55]):
-
-    # detection_dir is the recover-DATE-UNIT_NUM-detect folder where our detections are.
-    detection_dir = f"detections/{recover_folder}"
+def generate_df(detection_dir, audio_dur=[0, 29, 55]):
 
     # Construct path object linked to the directory of files for datetime-parsing
     file_dir = Path(detection_dir)
@@ -92,7 +89,7 @@ def generate_df(recover_folder, audio_dur=[0, 29, 55]):
 # Returns:
 # A DataFrame similar to the result of generate_df but with all recordings from the given site
 
-def generate_all_df_from_site(field_records, site_name):
+def generate_all_df_from_site(field_records, site_name, detection_dir):
     cond3 = field_records["Site"]==site_name
     df_site = field_records[cond3]
     dfs = []
@@ -103,7 +100,7 @@ def generate_all_df_from_site(field_records, site_name):
         recover_folder = f"{folder_name}-{sd_card:03}-detect" 
 
         if (folder_name!="UPLOAD_FOLDER"):
-            df = generate_df(recover_folder)
+            df = generate_df(f"{detection_dir}/{recover_folder}")
             dfs.append(df)
 
     return pd.concat(dfs)
@@ -185,6 +182,7 @@ def plot_separate(df, site, recover_folder, save=False):
         fig.set_title(f"{date} in {site}", fontsize=14)
         fig.set_xticks(fig.get_xticks())
         fig.set_ylim([0, 1.1*max(df["# of LF detections"].max(), df["# of HF detections"].max())])
+        plt.show()
         
         # If the user wants to save, it goes into the below path
         if save:
@@ -214,6 +212,7 @@ def plot_total(df, site, save=False):
     fig.set_title(f"Activity from {unique_dates[0]} to {unique_dates[-1]} in {site}", fontsize=14)
     fig.set_xticks(fig.get_xticks()[::len(unique_dates)])
     fig.set_ylim([0, 1.1*max(df["# of LF detections"].max(), df["# of HF detections"].max())])
+    plt.show()
     
     # If the user wants to save, it goes into the below path
     if save:
@@ -231,10 +230,10 @@ def plot_total(df, site, save=False):
 # Returns:
 # A colormap plot of activity
 
-def plot_matrix(df, site):
-    plt.figure(figsize=(6, 10))
+def plot_matrix(df, site, type):
+    plt.figure(figsize=(8, 8))
     plt.imshow(df.to_numpy()[:,2:].astype("float64"))
-    plt.title(f"Activity from {site}")
+    plt.title(f"{type} Activity from {site}")
     plt.xlabel("# of days")
     plt.yticks(np.arange(0, df.shape[0], 2), df["Start (UTC)"][::2])
     plt.xticks(np.arange(0, df.shape[1]-2), df.columns[2:], rotation = 90)
@@ -245,8 +244,7 @@ def plot_matrix(df, site):
 # Extracts field records from the current directory. Converts .csv to dataframe.
 # Returns the dataframe
 
-def get_field_records():
-    path_to_records = Path(f"ubna_2022b.csv")
+def get_field_records(path_to_records):
 
     if (path_to_records.is_file()):
         fr = pd.read_csv(path_to_records, sep=',') 
