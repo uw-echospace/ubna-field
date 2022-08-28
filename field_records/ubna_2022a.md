@@ -20,5 +20,7 @@ Date and Time deployed (local) | Date and Time recovered (local) | AudioMoth # |
 2022-07-09T12:58:00 | 2022-07-12T12:12:00 | C | 010 | Foliage | 47° 39' 18.558'' N | 122° 17' 26.718'' W | 6.22 | 71:14 | 1771 | 127.2 | 127.8 | 250000 | Medium | None | None | (4.3) | No Valid Info | AK | recover-20220712_unit2 | 0:00 - 24:00 | Recording: 1795 secs; Sleep: 5 secs | Recording: 1436 min; Sleep: 4 min | Placed in Ziploc Bag. The files are also stored in upload folder: `recover-20220712/Audiomoth2`
 2022-07-09T12:58:00 | 2022-07-12T12:12:00 | D | 009 | Foliage | 47° 39' 18.558'' N | 122° 17' 26.718'' W | 6.22 | 71:14 | 142 | 63.2 | 127.8 | 250000 | Medium | None | None | (4.3) | No Valid Info | AK | recover-20220712_unit3 | 0:00 - 24:00 | Recording: 1795 secs; Sleep: 5 secs | Recording: 1436 min; Sleep: 4 min | Placed in Audiomoth Case. Using non-rechargeable batteries. The files are also stored in upload folder: `recover-20220712/Audiomoth4`
 
+## Notes on data storage
+
 - All upload folders were initially stored in a 5TB WD Elements external drive.
 - The folders were later backed up into 8TB WD drives for organization purposes.
