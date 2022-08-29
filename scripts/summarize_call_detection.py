@@ -1,4 +1,5 @@
 from pathlib import Path
+import site
 
 import pandas as pd
 
@@ -166,7 +167,7 @@ def pad_day_of_df(day_df, date):
 # 1) If save is true, plot is saved in ../results/raven_energy_detector_raw/call_num_summary/DATE_FOLDER/FIGS
 # 2) Several plots of activity of LF/HF calls over time. Every plot is tied to each day in the dataframe.
 
-def plot_separate(df, site, recover_folder, save=False):
+def plot_separate(df, site, save=False, save_folder="../results/raven_energy_detector_raw/call_num_summary/default/FIGS"):
     
     # To plot each day's activity separately, group by rows that have the same date
     # We need a list of unique dates from our detection files
@@ -186,7 +187,6 @@ def plot_separate(df, site, recover_folder, save=False):
         
         # If the user wants to save, it goes into the below path
         if save:
-            save_folder = f"../results/raven_energy_detector_raw/call_num_summary/{recover_folder}/FIGS"
             save_dir = Path(save_folder)
             save_dir.mkdir(parents=True, exist_ok=True)
             save_path = Path(f"{save_folder}/{date}.png")
@@ -202,7 +202,7 @@ def plot_separate(df, site, recover_folder, save=False):
 # 1) If save is true, plot is saved in ../results/raven_energy_detector_raw/call_num_summary/SITE/activity.png
 # 2) One plot as a depiction of activity of both LF and HF bats across time throughout entire deployment 
 
-def plot_total(df, site, save=False):
+def plot_total(df, site, save=False, save_folder=f"../results/raven_energy_detector_raw/call_num_summary/default"):
     
     # To plot each day's activity separately, group by rows that have the same date
     # We need a list of unique dates from our detection files
@@ -216,7 +216,6 @@ def plot_total(df, site, save=False):
     
     # If the user wants to save, it goes into the below path
     if save:
-        save_folder = f"../results/raven_energy_detector_raw/call_num_summary/{site}"
         save_dir = Path(save_folder)
         save_dir.mkdir(parents=True, exist_ok=True)
         save_path = Path(f"{save_folder}/activity.png")
