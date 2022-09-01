@@ -69,6 +69,12 @@ Date and Time deployed (local) | Date and Time recovered (local) | AudioMoth # |
 2022-08-25T18:03:00 | 2022-08-29T18:10:00 | D | 009 | Foliage | 47° 39' 18.612'' N | 122° 17' 26.718'' W | 192000 | Medium | None | None | 4.151 | 3.817 | AK | JS | AK | recover-20220828 | Using 6 IKEA AA Ni-MH batteries; Used Acoustic Chime
 2022-08-25T18:26:00 | 2022-08-29T17:24:00 | E | 010 | Central Pond | 47° 39' 16.758'' N | 122° 17' 34.632'' W | 192000 | Medium | None | None | 4.146 | 3.817 | JS | JS | AK | recover-20220828 | Using 6 IKEA AA Ni-MH batteries; Used Acoustic Chime; Pond Continuing To Recede; Deployment Site Can Be Reached Without Waders
 2022-08-25T19:48:00 | 2022-08-29T16:40:00 | F | 014 | Opposite Central Pond | 47° 39' 19.812'' N | 122° 17' 35.652'' W | 192000 | Medium | None | None | 4.142 | 3.589 | AK | JS | AK | recover-20220828 | Using 6 IKEA AA Ni-MH batteries; Used Acoustic Chime
+2022-08-29Thh:mm:ss | 2022-09-01Thh:mm:ss | A | SD_NUM | Telephone Field | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | VOLT_START | VOLT_END | DEPLOY_PERSON | SCRIBE_PERSON | UPLOAD_PERSON | UPLOAD_FOLDER | NOTES
+2022-08-29Thh:mm:ss | 2022-09-01Thh:mm:ss | B | SD_NUM | Fallen Tree | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | VOLT_START | VOLT_END | DEPLOY_PERSON | SCRIBE_PERSON | UPLOAD_PERSON | UPLOAD_FOLDER | NOTES
+2022-08-29Thh:mm:ss | 2022-09-01Thh:mm:ss | C | SD_NUM | Carp Pond | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | VOLT_START | VOLT_END | DEPLOY_PERSON | SCRIBE_PERSON | UPLOAD_PERSON | UPLOAD_FOLDER | NOTES
+2022-08-29Thh:mm:ss | 2022-09-01Thh:mm:ss | D | SD_NUM | Foliage | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | VOLT_START | VOLT_END | DEPLOY_PERSON | SCRIBE_PERSON | UPLOAD_PERSON | UPLOAD_FOLDER | NOTES
+2022-08-29Thh:mm:ss | 2022-09-01Thh:mm:ss | E | SD_NUM | Central Pond | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | VOLT_START | VOLT_END | DEPLOY_PERSON | SCRIBE_PERSON | UPLOAD_PERSON | UPLOAD_FOLDER | NOTES
+2022-08-29Thh:mm:ss | 2022-09-01Thh:mm:ss | F | SD_NUM | Opposite Central Pond | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | VOLT_START | VOLT_END | DEPLOY_PERSON | SCRIBE_PERSON | UPLOAD_PERSON | UPLOAD_FOLDER | NOTES
  <!-- 
  =================================================================================
  ====== LINE BELOW TO COPY-PASTE:  FILL IN BEFORE AND AFTER DEPLOYMENT ===========
