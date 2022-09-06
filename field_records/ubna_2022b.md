@@ -81,6 +81,12 @@ Date and Time deployed (local) | Date and Time recovered (local) | AudioMoth # |
 2022-09-01T17:29:00 | 2022-09-05T13:45:00 | D | 008 | Foliage | 47° 39' 18.828'' N | 122° 17' 26.478'' W | 192000 | Medium | None | None | 4.113 | 3.024 | AK | JS | AK | recover-20220905 | Ikea; Heat is dying down; Rained during session; Lost battery early due to weak connection to 2nd battery pack
 2022-09-01T17:47:00 | 2022-09-05T13:57:00 | E | 009 | Central Pond | (Will collect on recovery) | (Will collect on recovery) | 192000 | Medium | None | None | 4.168 | 3.411 | JS | AK | AK | recover-20220905 | Panasonic; Heat is dying down; Rained during session
 2022-09-01T18:38:00 | 2022-09-05T14:33:00 | F | 012 | Opposite Central Pond | 47° 39' 19.692'' N | 122° 17' 35.400'' W | 192000 | Medium | None | None | 4.167 | 3.297 | AK | JS | AK | recover-20220905 | Ikea; Heat is dying down; Rained during session
+NOT DEPLOYED AT LOCATION | - | A | - | Telephone Field | - | - | - | - | - | - | - | - | - | - | - | - | Brought back to lab because battery connection wires need to be re-soldered.
+NOT DEPLOYED AT LOCATION | - | B | - | Fallen Tree | - | - | - | - | - | - | - | - | - | - | - | - | Brought back to lab because battery connection wires need to be re-soldered.
+2022-09-05T14:52:00 | RECOVER_YYYY-MM-DDThh:mm:ss | F | 004 | Carp Pond | 47° 39' 15.942'' N | 122° 17' 41.910'' W | 192000 | Medium | None | None | 4.161 | VOLT_END | JS | AK | UPLOAD_PERSON | UPLOAD_FOLDER | Ikea; Audiomoth C was taken to lab; Audiomoth F from OPC was moved here.
+2022-09-05T13:49:00 | RECOVER_YYYY-MM-DDThh:mm:ss | D | 002 | Foliage | (Will collect on recovery) | (Will collect on recovery) | 192000 | Medium | None | None | 4.258 | VOLT_END | AK | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Ikea; Location pictures did not have right metadata.
+2022-09-05T14:01:00 | RECOVER_YYYY-MM-DDThh:mm:ss | E | 003 | Central Pond | (Photos need to be shared) | (Photos need to be shared) | 192000 | Medium | None | None | 4.107 | VOLT_END | JS | AK | UPLOAD_PERSON | UPLOAD_FOLDER | Panasonic;
+NOT DEPLOYED AT LOCATION | - | F | - | Fallen Tree | - | - | - | - | - | - | - | - | - | - | - | - | Moved to location "Carp Pond" because Audiomoth C's battery connection wires needed to be re-soldered.
  <!-- 
  =================================================================================
  ====== LINE BELOW TO COPY-PASTE:  FILL IN BEFORE AND AFTER DEPLOYMENT ===========
