@@ -180,6 +180,8 @@ def plot_separate(df, site, save=False, save_folder="../results/raven_energy_det
         day_df = pad_day_of_df(day_df, date)
         
         fig = day_df.plot.bar(x="Start Time (UTC)", figsize=(12, 4), fontsize=12, rot=60)
+        fig.set_xlabel("Start Time (UTC)", fontsize=14)
+        fig.set_ylabel("# of LF/HF detections", fontsize=14)
         fig.set_title(f"{date} in {site}", fontsize=14)
         fig.set_xticks(fig.get_xticks())
         fig.set_ylim([0, 1.1*max(df["# of LF detections"].max(), df["# of HF detections"].max())])
@@ -209,6 +211,8 @@ def plot_total(df, site, save=False, save_folder=f"../results/raven_energy_detec
     unique_dates = df["Date"].unique()
     
     fig = df.plot.bar(x="Start Time (UTC)", figsize=(12, 4), fontsize=12, rot=60)
+    fig.set_xlabel("Start Time (UTC)", fontsize=14)
+    fig.set_ylabel("# of LF/HF detections", fontsize=14)
     fig.set_title(f"Activity from {unique_dates[0]} to {unique_dates[-1]} in {site}", fontsize=14)
     fig.set_xticks(fig.get_xticks()[::len(unique_dates)])
     fig.set_ylim([0, 1.1*max(df["# of LF detections"].max(), df["# of HF detections"].max())])
@@ -223,7 +227,10 @@ def plot_total(df, site, save=False, save_folder=f"../results/raven_energy_detec
 
 
 # Plotting method that takes:
-# 1) DataFrame matrix where each row is a time, each column is a day, each cell value is the # of detections.
+# 1) DataFrame matrix where:
+#  - First 2 columns are start time and end time. 
+#  - Each column after is a date.
+#  - Each cell value is # of detections of that date and time.
 # 2) A given site name to title the plot
 
 # Returns:
@@ -231,9 +238,13 @@ def plot_total(df, site, save=False, save_folder=f"../results/raven_energy_detec
 
 def plot_matrix(df, site, type):
     plt.figure(figsize=(8, 8))
+    
+    # Cuts out the time columns from the dataframe to only show the cell values
     plt.imshow(df.to_numpy()[:,2:].astype("float64"))
-    plt.title(f"{type} Activity from {site}")
-    plt.xlabel("# of days")
+    plt.title(f"{type} Activity from {site}", fontsize=14)
+    plt.ylabel("Start Time of Recording (UTC)", fontsize=14)
+    plt.xlabel("Date of Recording (YYYY-MM-DD)", fontsize=14)
+
     plt.yticks(np.arange(0, df.shape[0], 2), df["Start (UTC)"][::2])
     plt.xticks(np.arange(0, df.shape[1]-2), df.columns[2:], rotation = 90)
     plt.colorbar()
