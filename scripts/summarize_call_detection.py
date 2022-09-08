@@ -10,16 +10,29 @@ from datetime import datetime as dt
 from datetime import timedelta as td
 from datetime import time
 
-
-# Given parameters:
-# 1) detection_dir is the recover-DATE-UNIT_NUM-detect folder
-# 2) recording_name is the name of our recording: DATE_TIME.WAV
-# 4) det_type can either be 'lf' or 'hf'
-
-# Output:
-# The table of detections following the format of RavenPro
-
 def read_detection(detection_dir, recording_name, det_type):
+    """Finds a .txt RavenLite/Pro selection table matching the given arguments
+     and reads it in as a Pandas DataFrame.
+    
+    Parameters
+    ------------
+    detection_dir : `str`
+        - The folder where the detection tables corresponding to a date and SD card are stored.
+        - Folder naming format: "recover-DATE-UNIT_NUM-detect"
+    recording_name : `str`
+        - The name of the recording whose detection table will be read by this function.
+        - Recording name format: "DATE_TIME.WAV"
+    det_type : `str`
+        - The type of detections that will be read.
+        - Can either be 'lf' or 'hf'
+
+    Returns
+    ------------
+    df_detection : `pandas.DataFrame`
+        - DataFrame detection table corresponding to the given recover folder, date, and time.
+        - Table mainly provides information on how many calls were detected by RavenPro
+        - in the recording period.
+    """
     
     file_name = f"{det_type}_{recording_name}.txt"
     file_path = f"{detection_dir}/{file_name}"
