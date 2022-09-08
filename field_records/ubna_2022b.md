@@ -83,9 +83,9 @@ Date and Time deployed (local) | Date and Time recovered (local) | AudioMoth # |
 2022-09-01T18:38:00 | 2022-09-05T14:33:00 | F | 012 | Opposite Central Pond | 47° 39' 19.692'' N | 122° 17' 35.400'' W | 192000 | Medium | None | None | 4.167 | 3.297 | AK | JS | AK | recover-20220905 | Ikea; Heat is dying down; Rained during session; Last pre-error recording at 09-02-2022T023:30:00
 NOT DEPLOYED AT LOCATION | - | A | - | Telephone Field | - | - | - | - | - | - | - | - | - | - | - | - | Brought back to lab because battery connection wires need to be re-soldered.
 NOT DEPLOYED AT LOCATION | - | B | - | Fallen Tree | - | - | - | - | - | - | - | - | - | - | - | - | Brought back to lab because battery connection wires need to be re-soldered.
-2022-09-05T14:52:00 | 2022-09-08T15:09:00 | F | 004 | Carp Pond | 47° 39' 15.942'' N | 122° 17' 41.910'' W | 192000 | Medium | None | None | 4.161 | 3.776 | JS | AK | AK | recover-20220908 | Ikea; Audiomoth C was taken to lab; Audiomoth F from OPC was moved here.
-2022-09-05T13:49:00 | 2022-09-08T14:52:00 | D | 002 | Foliage | 47° 39' 18.600'' N | 122° 17' 26.778'' W | 192000 | Medium | None | None | 4.258 | 3.797 | AK | JS | AK | recover-20220908 | Ikea
-2022-09-05T14:01:00 | 2022-09-08T15:00:00 | E | 003 | Central Pond | 47° 39' 17.310'' N | 122° 17' 34.062'' W | 192000 | Medium | None | None | 4.107 | 3.699 | JS | AK | AK | recover-20220908 | Panasonic
+2022-09-05T14:52:00 | 2022-09-08T15:09:00 | F | 004 | Carp Pond | 47° 39' 15.942'' N | 122° 17' 41.910'' W | 192000 | Medium | None | None | 4.161 | 3.776 | JS | AK | AK | recover-20220908 | Ikea; Audiomoth C was taken to lab; Audiomoth F from OPC was moved here; No rain during session; Recordings were all full and complete.
+2022-09-05T13:49:00 | 2022-09-08T14:52:00 | D | 002 | Foliage | 47° 39' 18.600'' N | 122° 17' 26.778'' W | 192000 | Medium | None | None | 4.258 | 3.797 | AK | JS | AK | recover-20220908 | Ikea; No rain during session; Recordings were all full and complete.
+2022-09-05T14:01:00 | 2022-09-08T15:00:00 | E | 003 | Central Pond | 47° 39' 17.310'' N | 122° 17' 34.062'' W | 192000 | Medium | None | None | 4.107 | 3.699 | JS | AK | AK | recover-20220908 | Panasonic; No rain during session; Recordings were all full and complete.
 NOT DEPLOYED AT LOCATION | - | F | - | Fallen Tree | - | - | - | - | - | - | - | - | - | - | - | - | Moved to location "Carp Pond" because Audiomoth C's battery connection wires needed to be re-soldered.
  <!-- 
  =================================================================================
