@@ -85,7 +85,7 @@ NOT DEPLOYED AT LOCATION | - | A | - | Telephone Field | - | - | - | - | - | - |
 NOT DEPLOYED AT LOCATION | - | B | - | Fallen Tree | - | - | - | - | - | - | - | - | - | - | - | - | Brought back to lab because battery connection wires need to be re-soldered.
 2022-09-05T14:52:00 | RECOVER_YYYY-MM-DDThh:mm:ss | F | 004 | Carp Pond | 47° 39' 15.942'' N | 122° 17' 41.910'' W | 192000 | Medium | None | None | 4.161 | VOLT_END | JS | AK | UPLOAD_PERSON | UPLOAD_FOLDER | Ikea; Audiomoth C was taken to lab; Audiomoth F from OPC was moved here.
 2022-09-05T13:49:00 | RECOVER_YYYY-MM-DDThh:mm:ss | D | 002 | Foliage | (Will collect on recovery) | (Will collect on recovery) | 192000 | Medium | None | None | 4.258 | VOLT_END | AK | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Ikea; Location pictures did not have right metadata.
-2022-09-05T14:01:00 | RECOVER_YYYY-MM-DDThh:mm:ss | E | 003 | Central Pond | No Valid Info | No Valid Info | 192000 | Medium | None | None | 4.107 | VOLT_END | JS | AK | UPLOAD_PERSON | UPLOAD_FOLDER | Panasonic; Location pictures did not have right metadata.
+2022-09-05T14:01:00 | RECOVER_YYYY-MM-DDThh:mm:ss | E | 003 | Central Pond | (Will collect on recovery) | (Will collect on recovery) | 192000 | Medium | None | None | 4.107 | VOLT_END | JS | AK | UPLOAD_PERSON | UPLOAD_FOLDER | Panasonic; Location pictures did not have right metadata.
 NOT DEPLOYED AT LOCATION | - | F | - | Fallen Tree | - | - | - | - | - | - | - | - | - | - | - | - | Moved to location "Carp Pond" because Audiomoth C's battery connection wires needed to be re-soldered.
  <!-- 
  =================================================================================
