@@ -58,6 +58,20 @@ def read_detection(detection_dir, recording_name, det_type):
 #   - Times are in UTC format and Dates are datetime.datetime objects.
 
 def generate_df(detection_dir, audio_dur=[0, 29, 55]):
+    """Finds a .txt RavenLite/Pro selection table matching the given arguments
+     and reads it in as a Pandas DataFrame.
+    
+    Parameters
+    ------------
+    detection_dir : `str`
+        - The folder where the detection tables corresponding to a date and SD card are stored.
+        - Folder naming format: "recover-DATE-UNIT_NUM-detect"
+    recording_name : `str`, optional
+
+    Returns
+    ------------
+    df : `pandas.DataFrame`
+    """
 
     # Construct path object linked to the directory of files for datetime-parsing
     file_dir = Path(detection_dir)
