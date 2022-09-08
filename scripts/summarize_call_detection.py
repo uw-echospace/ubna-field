@@ -47,8 +47,9 @@ def read_detection(detection_dir, recording_name, det_type):
 
 
 def generate_df(detection_dir, audio_dur=[0, 29, 55]):
-    """Finds a .txt RavenLite/Pro selection table matching the given arguments
-     and reads it in as a Pandas DataFrame.
+    """Given a folder of detection tables, this function assembles a pandas.DataFrame object of the
+    # of LF/HF RavenPro detections for each recording time period to produce a table of activity throughout
+    the AudioMoth deployment session.
     
     Parameters
     ------------
@@ -108,14 +109,27 @@ def generate_df(detection_dir, audio_dur=[0, 29, 55]):
     return df
 
 
-# Given:
-# 1) The field records for our current deployment plan
-# 2) The site name from where we want to analyze our data
-
-# Returns:
-# A DataFrame similar to the result of generate_df but with all recordings from the given site
-
 def generate_all_df_from_site(field_records, site_name, detection_dir):
+    """Given the deployment field records and a desired location to look into, this function looks
+    into the folder where all detection folders are stored to construct a DataFrame table of all actvity 
+    detected from that location .
+    
+    Parameters
+    ------------
+    field_records : `pandas.DataFrame`
+        - These deployment field records are updated with every deployment made in the field.
+    site_name : `str`
+        - The location that this function will use to select its detection folders to generate tables from.
+    detection_dir : `str`
+        - The generate folder location where all detection folders are stored for all locations and dates.
+
+    Returns
+    ------------
+    `pandas.DataFrame`
+        - An assembled DataFrame table made from smaller DataFrame tables to represent the total detected activity
+        - from the given location.
+    """
+
     cond3 = field_records["Site"]==site_name
     df_site = field_records[cond3]
     dfs = []
