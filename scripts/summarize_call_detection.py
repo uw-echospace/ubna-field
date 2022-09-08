@@ -46,17 +46,6 @@ def read_detection(detection_dir, recording_name, det_type):
     return df_detection
 
 
-# This method takes in paramaters:
-# 1) recover_folder: Name of the folder where the detections are stored.
-# 2) audio_dur: The AudioMoth's configuration for the length of each recording. Stored as an array.
-#              - [HH, MM, SS]
-
-# This method returns:
-# - A DataFrame object that has columns:
-#   - File Names, Date, Start Time, End Time, # of LF detections, # of HF detections
-#   - File Names are strings and # of LF/HF detections are integers.
-#   - Times are in UTC format and Dates are datetime.datetime objects.
-
 def generate_df(detection_dir, audio_dur=[0, 29, 55]):
     """Finds a .txt RavenLite/Pro selection table matching the given arguments
      and reads it in as a Pandas DataFrame.
@@ -66,11 +55,20 @@ def generate_df(detection_dir, audio_dur=[0, 29, 55]):
     detection_dir : `str`
         - The folder where the detection tables corresponding to a date and SD card are stored.
         - Folder naming format: "recover-DATE-UNIT_NUM-detect"
-    recording_name : `str`, optional
+    audio_dur : `list` [`int`], optional
+        - The length of each AudioMoth recording as configured. As default, 29min and 55secs.
+        - Passed in as a list of `int` objects representing [HH, MM, SS].
 
     Returns
     ------------
     df : `pandas.DataFrame`
+        - A DataFrame table of columns: File Names, Date, Start Time (UTC), End Time (UTC), 
+        - # of LF detections, and # of HF detections.
+        - File Names are `str` objects corresponding to recording names and formatted as "DATE_TIME.WAV".
+        - Date are `datetime.datetime` objects corresponding to the date of each recording.
+        - Start Time (UTC) are `datetime.time` objects in UTC format corresponding to the start times of each recording.
+        - End Time (UTC) are `datetime.time` objects in UTC format corresponding to the end times of each recording.
+        - # of LF/HF detections are `int` objects that represent the # of call detections of the respective type in each recording.
     """
 
     # Construct path object linked to the directory of files for datetime-parsing
