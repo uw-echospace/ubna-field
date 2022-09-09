@@ -31,7 +31,7 @@ def read_detection(detection_dir, recording_name, det_type):
     df_detection : `pandas.DataFrame`
         - DataFrame detection table corresponding to the given recover folder, date, and time.
         - Table mainly provides information on how many calls were detected by RavenPro
-        - in the recording period.
+          in the recording period.
     """
     
     file_name = f"{det_type}_{recording_name}.txt"
@@ -67,11 +67,11 @@ def generate_df(detection_dir, audio_dur=[0, 29, 55]):
         - File Names are `str` objects corresponding to recordings formatted as "DATE_TIME.WAV".
         - Date are `datetime.datetime` objects corresponding to the date of each recording.
         - Start Time (UTC) are `datetime.time` objects in UTC format corresponding to the 
-        - start times of each recording.
+          start times of each recording.
         - End Time (UTC) are `datetime.time` objects in UTC format corresponding to the 
-        - end times of each recording.
+          end times of each recording.
         - # of LF/HF detections are `int` objects that represent the # of call detections 
-        - of the respective type in each recording.
+          of the respective type in each recording.
     """
 
     # Construct path object linked to the directory of files for datetime-parsing
@@ -130,7 +130,7 @@ def generate_all_df_from_site(field_records, site_name, detection_dir):
     ------------
     `pandas.DataFrame` [`str`, `datetime.date`, `datetime.time`, `datetime.time`, `int`, `int`]
         - An assembled DataFrame table made from smaller DataFrame tables to represent the total detected activity
-        - from the given location.
+          from the given location.
         - Smaller DataFrame tables follow the same structure as the ones produced by generate_df()
     """
 
@@ -164,7 +164,7 @@ def pad_day_of_df(day_df, date):
     ------------
     day_df : `pandas.DataFrame` [`str`, `datetime.date`, `datetime.time`, `datetime.time`, `int`, `int`]
         - If day_df originally had missing time slots as an effect of the recorder either stopping before 24:00 
-        - or starting after 00:00, day_df will now be padded with rows representing data from the missing time slots.
+          or starting after 00:00, day_df will now be padded with rows representing data from the missing time slots.
         - The # of LF and HF detections in these padded time slots will be None type objects.
     """
 
@@ -302,7 +302,7 @@ def plot_matrix(df, site, type):
         - The location where the recordings were gathered from.
     type : `str`
         - Parameter for which type of call activity the user wants to look at
-        - Can either be "LF" or "HF".
+        - Can either be "LF" or "HF", case-sensitive.
     """
 
     plt.figure(figsize=(8, 8))
@@ -319,9 +319,6 @@ def plot_matrix(df, site, type):
     plt.colorbar()
     plt.show()
 
-
-# Extracts field records from the current directory. Converts .csv to dataframe.
-# Returns the dataframe
 
 def get_field_records(path_to_records):
     """Extracts .csv field records from given path and converts it to DataFrame object.
@@ -344,15 +341,28 @@ def get_field_records(path_to_records):
     return fr
 
 
-# Given:
-# 1) DataFrame of field records
-# 2) Specific date that exists in field records
-# 3) SD Card # that was deployed on that date
-
-# Returns:
-# Location where SD card was deployed on that date in the field records
-
 def get_site_name(fr, DATE, SD_CARD_NUM):
+    """Gets the location where an AudioMoth was deployed at a certain date
+    using the deployment field records.
+
+    Parameters
+    ------------
+    fr : `pandas.DataFrame`
+        - DataFrame table that matches the information in the .md file 
+        - stored as `repo_root_level/field_records/ubna_2022b.md`
+    DATE : `str`
+        The date when an AudioMoth was deployed
+    SD_CARD_NUM : `str`
+        The SD card inside the AudioMoth to identify which AudioMoth the user wants.
+
+    Returns
+    ------------
+    site_name : `str`
+        - Name of the location where the Audiomoth was deployed at that date
+        according to the field records.
+        - If the deployment is not recorded, site_name will be "(Site not found in Field Records)"
+    """
+
     cond1 = fr["Upload folder name"]==f"recover-{DATE}"
     cond2 =  fr["SD card #"]==int(SD_CARD_NUM)
     site = fr.loc[cond1&cond2, "Site"]
@@ -365,18 +375,46 @@ def get_site_name(fr, DATE, SD_CARD_NUM):
     return site_name
 
 
-# Given:
-# 1) A dataframe of recordings such as the ones generated from generate_df() or generate_df_from_site()
-# 2) A type of call to focus on to fill the matrix with
-# 3) A constant audio_dur corresponding to the AudioMoth's configurated recording duration per recording
-
-# Returns:
-# A matrix where each row is a time period, each column is a date, and each value is the # of detections
-# of the given call type
-# - Note: The first two columns are Start Time (UTC) and End Time (UTC) resepectively. 
-#         This was done to better insert detection data.
-
 def generate_dtype_matrix_from_df(df, dtype, audio_dur=[0, 29, 55]):
+    """This function creates a matrix where each row represents a time slot, 
+    each column represents a date in the given session, and each cell holds the # of detections
+    for the given type of bat call.
+    
+    Parameters
+    ------------
+    df : df : `pandas.DataFrame` [`str`, `datetime.date`, `datetime.time`, `datetime.time`, `int`, `int`]
+        - A table of columns: File Names, Date, Start Time (UTC), End Time (UTC), # of LF and HF detections.
+        - File Names are `str` objects corresponding to recordings formatted as "DATE_TIME.WAV".
+        - Date are `datetime.datetime` objects corresponding to the date of each recording.
+        - Start Time (UTC) are `datetime.time` objects in UTC format corresponding to the 
+          start times of each recording.
+        - End Time (UTC) are `datetime.time` objects in UTC format corresponding to the 
+          end times of each recording.
+        - # of LF/HF detections are `int` objects that represent the # of call detections 
+          of the respective type in each recording.
+    dtype : `str`
+        - The type of calls that we want the matrix's cell values to represent.
+        - Can either be "LF" or "HF", case-sensitive
+    audio_dur : `list` [`int`], optional
+        - The length of each AudioMoth recording as configured. As default, 29min and 55secs.
+        - Passed in as a list of `int` objects representing [HH, MM, SS].
+
+    Returns
+    ------------
+    time_df : `pandas.DataFrame` [[`str`, `str`, `datetime.date`, `datetime.date`, ...], 
+                                  [`datetime.time`, `datetime.time`, `int`, `int`, ...], 
+                                  [`datetime.time`, `datetime.time`, `int`, `int`, ...], 
+                                  ...]
+        - A grid of activity across dates and over times.
+        - The first row is for headers. This is where the first column says "Start (UTC)"
+          and the second column says "End (UTC)". Every column after displays the date
+          as a `datetime.date` object for the dates in the given session.
+        - All rows after the first row in the first two columns hold the starting time and
+          ending time for the recordings as `datetime.time` objects.
+        - All cells after the first two columns and the first row are `int` values
+          representing the # of detections detected at that time and day of the given type.
+    """
+    
     # Create empty DataFrame object with all the required columns    
     time_df = pd.DataFrame(columns=["Start (UTC)", "End (UTC)"])
 
