@@ -208,13 +208,13 @@ def pad_day_of_df(day_df, date):
 
 
 def plot_separate(df, site, save=False, save_folder="../results/raven_energy_detector_raw/call_num_summary/default/FIGS"):
-    """Plots separate plots for each date in a given deployment session DataFrame consisting of 
-    [File Names, Date, Start Time (UTC), End Time (UTC), # of LF detections, # of HF detections].
+    """Plots separate bar graph plots, # of LF/HF detections vs. Start Time (UTC), for each date in a given deployment session.
 
     Parameters
     ------------
     df : `pandas.DataFrame` [`str`, `datetime.date`, `datetime.time`, `datetime.time`, `int`, `int`]
         - A DataFrame table corresponding to all detection data gathered from the recording of a deployment session.
+        - Consists of [File Names, Date, Start Time (UTC), End Time (UTC), # of LF detections, # of HF detections].
     site : `str`
         - The location where the recordings were gathered from.
     save : `bool`, optional
@@ -251,17 +251,24 @@ def plot_separate(df, site, save=False, save_folder="../results/raven_energy_det
             fig.get_figure().savefig(save_path, facecolor='w', bbox_inches = "tight")
 
 
-# Plotting method that takes:
-# 1) DataFrame of # of LF/HF detections for each recording of a given session or site
-# 2) A given site name to title the plot
-# 3) A save boolean value to save the plot in a subfolder
-
-# Returns:
-# 1) If save is true, plot is saved in ../results/raven_energy_detector_raw/call_num_summary/SITE/activity.png
-# 2) One plot as a depiction of activity of both LF and HF bats across time throughout entire deployment 
-
 def plot_total(df, site, save=False, save_folder=f"../results/raven_energy_detector_raw/call_num_summary/default"):
-    
+    """Plots one full bar graph plot, # of LF/HF detections vs. Start Time (UTC)
+
+    Parameters
+    ------------
+    df : `pandas.DataFrame` [`str`, `datetime.date`, `datetime.time`, `datetime.time`, `int`, `int`]
+        - A DataFrame table corresponding to all detection data gathered from the recording of a deployment session.
+        - Consists of [File Names, Date, Start Time (UTC), End Time (UTC), # of LF detections, # of HF detections].
+    site : `str`
+        - The location where the recordings were gathered from.
+    save : `bool`, optional
+        - Flag for whether user wants to save plots or not.
+        - This is False by default
+    save_folder : `str`, optional
+        - File path for folder under which the individual date plots will be saved.
+        - By default, this will go under `../results/raven_energy_detector_raw/call_num_summary/default`
+    """
+
     # To plot each day's activity separately, group by rows that have the same date
     # We need a list of unique dates from our detection files
     unique_dates = df["Date"].unique()
@@ -282,17 +289,22 @@ def plot_total(df, site, save=False, save_folder=f"../results/raven_energy_detec
         fig.get_figure().savefig(save_path, facecolor='w', bbox_inches = "tight")
 
 
-# Plotting method that takes:
-# 1) DataFrame matrix where:
-#  - First 2 columns are start time and end time. 
-#  - Each column after is a date.
-#  - Each cell value is # of detections of that date and time.
-# 2) A given site name to title the plot
-
-# Returns:
-# A colormap plot of activity
-
 def plot_matrix(df, site, type):
+    """Plots a colormap activity grid where each column represents a date, each row represents a time, 
+    and each cell value represents the # of detections of the given type of call.
+
+    Parameters
+    ------------
+    df : `pandas.DataFrame` [`str`, `datetime.date`, `datetime.time`, `datetime.time`, `int`, `int`]
+        - A DataFrame table corresponding to all detection data gathered from the recording of a deployment session.
+        - Consists of [File Names, Date, Start Time (UTC), End Time (UTC), # of LF detections, # of HF detections].
+    site : `str`
+        - The location where the recordings were gathered from.
+    type : `str`
+        - Parameter for which type of call activity the user wants to look at
+        - Can either be "LF" or "HF".
+    """
+
     plt.figure(figsize=(8, 8))
     
     # Cuts out the time columns from the dataframe to only show the cell values
@@ -301,6 +313,7 @@ def plot_matrix(df, site, type):
     plt.ylabel("Start Time of Recording (UTC)", fontsize=14)
     plt.xlabel("Date of Recording (YYYY-MM-DD)", fontsize=14)
 
+    # Set the x and y axis according to the date and time columns of the DataFrame respectively
     plt.yticks(np.arange(0, df.shape[0], 2), df["Start (UTC)"][::2])
     plt.xticks(np.arange(0, df.shape[1]-2), df.columns[2:], rotation = 90)
     plt.colorbar()
@@ -311,6 +324,19 @@ def plot_matrix(df, site, type):
 # Returns the dataframe
 
 def get_field_records(path_to_records):
+    """Extracts .csv field records from given path and converts it to DataFrame object.
+
+    Parameters
+    ------------
+    path_to_records : `pathlib.Path`
+        - Path to the location of .csv file field records
+
+    Returns
+    ------------
+    fr : `pandas.DataFrame`
+        - DataFrame table that matches the information in the .md file 
+        - stored as `repo_root_level/field_records/ubna_2022b.md`
+    """
 
     if (path_to_records.is_file()):
         fr = pd.read_csv(path_to_records, sep=',') 
