@@ -47,9 +47,9 @@ def read_detection(detection_dir, recording_name, det_type):
 
 
 def generate_df(detection_dir, audio_dur=[0, 29, 55]):
-    """Given a folder of detection tables, this function assembles a pandas.DataFrame object of the
-    # of LF/HF RavenPro detections for each recording time period to produce a table of activity throughout
-    the AudioMoth deployment session.
+    """Given a folder of detection tables, this function assembles a pandas.DataFrame 
+    object of the of LF/HF RavenPro detections for each recording time period to produce a 
+    # table of activity throughout the AudioMoth deployment session.
     
     Parameters
     ------------
@@ -62,14 +62,16 @@ def generate_df(detection_dir, audio_dur=[0, 29, 55]):
 
     Returns
     ------------
-    df : `pandas.DataFrame`
-        - A DataFrame table of columns: File Names, Date, Start Time (UTC), End Time (UTC), 
-        - # of LF detections, and # of HF detections.
-        - File Names are `str` objects corresponding to recording names and formatted as "DATE_TIME.WAV".
+    df : `pandas.DataFrame` [`str`, `datetime.date`, `datetime.time`, `datetime.time`, `int`, `int`]
+        - A table of columns: File Names, Date, Start Time (UTC), End Time (UTC), # of LF and HF detections.
+        - File Names are `str` objects corresponding to recordings formatted as "DATE_TIME.WAV".
         - Date are `datetime.datetime` objects corresponding to the date of each recording.
-        - Start Time (UTC) are `datetime.time` objects in UTC format corresponding to the start times of each recording.
-        - End Time (UTC) are `datetime.time` objects in UTC format corresponding to the end times of each recording.
-        - # of LF/HF detections are `int` objects that represent the # of call detections of the respective type in each recording.
+        - Start Time (UTC) are `datetime.time` objects in UTC format corresponding to the 
+        - start times of each recording.
+        - End Time (UTC) are `datetime.time` objects in UTC format corresponding to the 
+        - end times of each recording.
+        - # of LF/HF detections are `int` objects that represent the # of call detections 
+        - of the respective type in each recording.
     """
 
     # Construct path object linked to the directory of files for datetime-parsing
@@ -118,6 +120,7 @@ def generate_all_df_from_site(field_records, site_name, detection_dir):
     ------------
     field_records : `pandas.DataFrame`
         - These deployment field records are updated with every deployment made in the field.
+        - Converted from .md file stored as `repo_root_level/field_records/ubna_2022b.md`
     site_name : `str`
         - The location that this function will use to select its detection folders to generate tables from.
     detection_dir : `str`
@@ -125,9 +128,10 @@ def generate_all_df_from_site(field_records, site_name, detection_dir):
 
     Returns
     ------------
-    `pandas.DataFrame`
+    `pandas.DataFrame` [`str`, `datetime.date`, `datetime.time`, `datetime.time`, `int`, `int`]
         - An assembled DataFrame table made from smaller DataFrame tables to represent the total detected activity
         - from the given location.
+        - Smaller DataFrame tables follow the same structure as the ones produced by generate_df()
     """
 
     cond3 = field_records["Site"]==site_name
@@ -146,18 +150,24 @@ def generate_all_df_from_site(field_records, site_name, detection_dir):
     return pd.concat(dfs)
 
 
-# Given:
-# 1) An unpadded dataframe with data missing either in the beginning or at the end.
-#    Example: A dataframe that has data from 06:00 onwards but not before
-# 2) The date of information that the dataframe represents.
-
-# Returns:
-# 1) A padded dataframe that has information from 00:00 to 24:00
-#  - The rows have been inserted but since these recordings do not exist in our deployment session,
-#    the # of detections for these rows have been assigned as None objects
-
 def pad_day_of_df(day_df, date):
-    
+    """Pad DataFrame tables with 0 LF/HF detections when recordings from that time slot do not exist in given data library.
+
+    Parameters
+    ------------
+    day_df : `pandas.DataFrame` [`str`, `datetime.date`, `datetime.time`, `datetime.time`, `int`, `int`]
+        - A DataFrame table corresponding to all data gathered from a date.
+    date : `datetime.date`
+        - The date that the DataFrame table corresponds to
+
+    Returns
+    ------------
+    day_df : `pandas.DataFrame` [`str`, `datetime.date`, `datetime.time`, `datetime.time`, `int`, `int`]
+        - If day_df originally had missing time slots as an effect of the recorder either stopping before 24:00 
+        - or starting after 00:00, day_df will now be padded with rows representing data from the missing time slots.
+        - The # of LF and HF detections in these padded time slots will be None type objects.
+    """
+
     # Create empty DataFrame object with all the required columns    
     left_pad_df = pd.DataFrame(columns=["File Names", "Date", "Start Time (UTC)",
                    "End Time (UTC)", "# of LF detections", "# of HF detections"])
@@ -197,17 +207,24 @@ def pad_day_of_df(day_df, date):
     return day_df
 
 
-# A plotting method that takes:
-# 1) DataFrame of # of LF/HF detections for each recording of a given session or site
-# 2) A given site name to title the plot
-# 3) A save boolean value to save the plot in a subfolder
-
-# Returns:
-# 1) If save is true, plot is saved in ../results/raven_energy_detector_raw/call_num_summary/DATE_FOLDER/FIGS
-# 2) Several plots of activity of LF/HF calls over time. Every plot is tied to each day in the dataframe.
-
 def plot_separate(df, site, save=False, save_folder="../results/raven_energy_detector_raw/call_num_summary/default/FIGS"):
-    
+    """Plots separate plots for each date in a given deployment session DataFrame consisting of 
+    [File Names, Date, Start Time (UTC), End Time (UTC), # of LF detections, # of HF detections].
+
+    Parameters
+    ------------
+    df : `pandas.DataFrame` [`str`, `datetime.date`, `datetime.time`, `datetime.time`, `int`, `int`]
+        - A DataFrame table corresponding to all detection data gathered from the recording of a deployment session.
+    site : `str`
+        - The location where the recordings were gathered from.
+    save : `bool`, optional
+        - Flag for whether user wants to save plots or not.
+        - This is False by default
+    save_folder : `str`, optional
+        - File path for folder under which the individual date plots will be saved.
+        - By default, this will go under `../results/raven_energy_detector_raw/call_num_summary/default/FIGS`
+    """
+
     # To plot each day's activity separately, group by rows that have the same date
     # We need a list of unique dates from our detection files
     unique_dates = df["Date"].unique()
