@@ -10,7 +10,7 @@ from datetime import datetime as dt
 from datetime import timedelta as td
 from datetime import time
 
-def read_detection(detection_dir, recording_name, det_type):
+def read_detection(detection_dir, recording_name, call_type):
     """Finds a .txt RavenLite/Pro selection table matching the given arguments
      and reads it in as a Pandas DataFrame.
     
@@ -22,7 +22,7 @@ def read_detection(detection_dir, recording_name, det_type):
     recording_name : `str`
         - The name of the recording whose detection table will be read by this function.
         - Recording name format: "DATE_TIME.WAV"
-    det_type : `str`
+    call_type : `str`
         - The type of detections that will be read.
         - Can either be 'lf' or 'hf'
 
@@ -34,7 +34,7 @@ def read_detection(detection_dir, recording_name, det_type):
           in the recording period.
     """
     
-    file_name = f"{det_type}_{recording_name}.txt"
+    file_name = f"{call_type}_{recording_name}.txt"
     file_path = f"{detection_dir}/{file_name}"
     
     if (Path(file_path).is_file()):
@@ -111,14 +111,14 @@ def generate_df(detection_dir, audio_dur=[0, 29, 55]):
     return df
 
 
-def generate_all_df_from_site(field_records, site_name, detection_dir):
+def generate_all_df_from_site(df_fr, site_name, detection_dir):
     """Given the deployment field records and a desired location to look into, this function looks
     into the folder where all detection folders are stored to construct a DataFrame table of all actvity 
     detected from that location .
     
     Parameters
     ------------
-    field_records : `pandas.DataFrame`
+    df_fr : `pandas.DataFrame`
         - These deployment field records are updated with every deployment made in the field.
         - Converted from .md file stored as `repo_root_level/field_records/ubna_2022b.md`
     site_name : `str`
@@ -134,8 +134,8 @@ def generate_all_df_from_site(field_records, site_name, detection_dir):
         - Smaller DataFrame tables follow the same structure as the ones produced by generate_df()
     """
 
-    cond3 = field_records["Site"]==site_name
-    df_site = field_records[cond3]
+    cond3 = df_fr["Site"]==site_name
+    df_site = df_fr[cond3]
     dfs = []
 
     for index, row in df_site.iterrows():
@@ -150,21 +150,21 @@ def generate_all_df_from_site(field_records, site_name, detection_dir):
     return pd.concat(dfs)
 
 
-def pad_day_of_df(day_df, date):
+def pad_day_of_df(df_day, date):
     """Pad DataFrame tables with 0 LF/HF detections when recordings from that time slot do not exist in given data library.
 
     Parameters
     ------------
-    day_df : `pandas.DataFrame` [`str`, `datetime.date`, `datetime.time`, `datetime.time`, `int`, `int`]
+    df_day : `pandas.DataFrame` [`str`, `datetime.date`, `datetime.time`, `datetime.time`, `int`, `int`]
         - A DataFrame table corresponding to all data gathered from a date.
     date : `datetime.date`
         - The date that the DataFrame table corresponds to
 
     Returns
     ------------
-    day_df : `pandas.DataFrame` [`str`, `datetime.date`, `datetime.time`, `datetime.time`, `int`, `int`]
-        - If day_df originally had missing time slots as an effect of the recorder either stopping before 24:00 
-          or starting after 00:00, day_df will now be padded with rows representing data from the missing time slots.
+    df_day : `pandas.DataFrame` [`str`, `datetime.date`, `datetime.time`, `datetime.time`, `int`, `int`]
+        - If df_day originally had missing time slots as an effect of the recorder either stopping before 24:00 
+          or starting after 00:00, df_day will now be padded with rows representing data from the missing time slots.
         - The # of LF and HF detections in these padded time slots will be None type objects.
     """
 
@@ -178,8 +178,8 @@ def pad_day_of_df(day_df, date):
 
     # This section builds a dataframe of empty values from 0:00 to the first time of the recordings.
     # This way we can make each plot comparable on the left edge.
-    # We insert this dataframe in the beginning of day_df.
-    s_time = day_df["Start Time (UTC)"].iloc[0]
+    # We insert this dataframe in the beginning of df_day.
+    s_time = df_day["Start Time (UTC)"].iloc[0]
     st_row = time(0, 0, 0)
     while (st_row < s_time):
         file_info = dt.combine(date, st_row)
@@ -188,12 +188,12 @@ def pad_day_of_df(day_df, date):
         left_pad_df.loc[len(left_pad_df.index)] = [recording_name, date, st_row, e_time, None, None]
         st_row = (file_info+td(minutes=30)).time()
     
-    day_df = pd.concat([left_pad_df, day_df])
+    df_day = pd.concat([left_pad_df, df_day])
     
     # This section builds a dataframe of empty values from the end time of the recordings to 24:00.
     # This way we can make each plot comparable on the right edge.
-    # We insert this dataframe at the end of day_df.
-    st_row = day_df["Start Time (UTC)"].iloc[-1]
+    # We insert this dataframe at the end of df_day.
+    st_row = df_day["Start Time (UTC)"].iloc[-1]
     e_time = time(23, 30, 0)
     while (st_row < e_time):
         file_info = dt.combine(date, st_row)
@@ -202,9 +202,9 @@ def pad_day_of_df(day_df, date):
         st_row = (file_info+td(minutes=30)).time()
         right_pad_df.loc[len(right_pad_df.index)] = [recording_name, date, st_row, et_row, None, None]
         
-    day_df = pd.concat([day_df, right_pad_df])
+    df_day = pd.concat([df_day, right_pad_df])
     
-    return day_df
+    return df_day
 
 
 def plot_separate(df, site, save=False, save_folder="../results/raven_energy_detector_raw/call_num_summary/default/FIGS"):
@@ -231,11 +231,11 @@ def plot_separate(df, site, save=False, save_folder="../results/raven_energy_det
     
     # We plot for each date in our unique dates
     for date in unique_dates:
-        day_df = df.loc[df['Date'] == date]
+        df_day = df.loc[df['Date'] == date]
         
-        day_df = pad_day_of_df(day_df, date)
+        df_day = pad_day_of_df(df_day, date)
         
-        fig = day_df.plot.bar(x="Start Time (UTC)", figsize=(12, 4), fontsize=12, rot=60)
+        fig = df_day.plot.bar(x="Start Time (UTC)", figsize=(12, 4), fontsize=12, rot=60)
         fig.set_xlabel("Start Time (UTC)", fontsize=14)
         fig.set_ylabel("# of LF/HF detections", fontsize=14)
         fig.set_title(f"{date} in {site}", fontsize=14)
@@ -289,7 +289,7 @@ def plot_total(df, site, save=False, save_folder=f"../results/raven_energy_detec
         fig.get_figure().savefig(save_path, facecolor='w', bbox_inches = "tight")
 
 
-def plot_matrix(df, site, type):
+def plot_matrix(df, site, call_type):
     """Plots a colormap activity grid where each column represents a date, each row represents a time, 
     and each cell value represents the # of detections of the given type of call.
 
@@ -300,7 +300,7 @@ def plot_matrix(df, site, type):
         - Consists of [File Names, Date, Start Time (UTC), End Time (UTC), # of LF detections, # of HF detections].
     site : `str`
         - The location where the recordings were gathered from.
-    type : `str`
+    call_type : `str`
         - Parameter for which type of call activity the user wants to look at
         - Can either be "LF" or "HF", case-sensitive.
     """
@@ -309,7 +309,7 @@ def plot_matrix(df, site, type):
     
     # Cuts out the time columns from the dataframe to only show the cell values
     plt.imshow(df.to_numpy()[:,2:].astype("float64"))
-    plt.title(f"{type} Activity from {site}", fontsize=14)
+    plt.title(f"{call_type} Activity from {site}", fontsize=14)
     plt.ylabel("Start Time of Recording (UTC)", fontsize=14)
     plt.xlabel("Date of Recording (YYYY-MM-DD)", fontsize=14)
 
@@ -336,18 +336,18 @@ def get_field_records(path_to_records):
     """
 
     if (path_to_records.is_file()):
-        fr = pd.read_csv(path_to_records, sep=',') 
+        df_fr = pd.read_csv(path_to_records, sep=',') 
 
-    return fr
+    return df_fr
 
 
-def get_site_name(fr, DATE, SD_CARD_NUM):
+def get_site_name(df_fr, DATE, SD_CARD_NUM):
     """Gets the location where an AudioMoth was deployed at a certain date
     using the deployment field records.
 
     Parameters
     ------------
-    fr : `pandas.DataFrame`
+    df_fr : `pandas.DataFrame`
         - DataFrame table that matches the information in the .md file 
         - stored as `repo_root_level/field_records/ubna_2022b.md`
     DATE : `str`
@@ -363,9 +363,9 @@ def get_site_name(fr, DATE, SD_CARD_NUM):
         - If the deployment is not recorded, site_name will be "(Site not found in Field Records)"
     """
 
-    cond1 = fr["Upload folder name"]==f"recover-{DATE}"
-    cond2 =  fr["SD card #"]==int(SD_CARD_NUM)
-    site = fr.loc[cond1&cond2, "Site"]
+    cond1 = df_fr["Upload folder name"]==f"recover-{DATE}"
+    cond2 =  df_fr["SD card #"]==int(SD_CARD_NUM)
+    site = df_fr.loc[cond1&cond2, "Site"]
     
     if (site.empty):
         site_name = "(Site not found in Field Records)"
@@ -375,7 +375,7 @@ def get_site_name(fr, DATE, SD_CARD_NUM):
     return site_name
 
 
-def generate_dtype_matrix_from_df(df, dtype, audio_dur=[0, 29, 55]):
+def generate_call_type_matrix_from_df(df, call_type, audio_dur=[0, 29, 55]):
     """This function creates a matrix where each row represents a time slot, 
     each column represents a date in the given session, and each cell holds the # of detections
     for the given type of bat call.
@@ -392,7 +392,7 @@ def generate_dtype_matrix_from_df(df, dtype, audio_dur=[0, 29, 55]):
           end times of each recording.
         - # of LF/HF detections are `int` objects that represent the # of call detections 
           of the respective type in each recording.
-    dtype : `str`
+    call_type : `str`
         - The type of calls that we want the matrix's cell values to represent.
         - Can either be "LF" or "HF", case-sensitive
     audio_dur : `list` [`int`], optional
@@ -401,7 +401,7 @@ def generate_dtype_matrix_from_df(df, dtype, audio_dur=[0, 29, 55]):
 
     Returns
     ------------
-    time_df : `pandas.DataFrame` [[`str`, `str`, `datetime.date`, `datetime.date`, ...], 
+    df_time : `pandas.DataFrame` [[`str`, `str`, `datetime.date`, `datetime.date`, ...], 
                                   [`datetime.time`, `datetime.time`, `int`, `int`, ...], 
                                   [`datetime.time`, `datetime.time`, `int`, `int`, ...], 
                                   ...]
@@ -416,9 +416,9 @@ def generate_dtype_matrix_from_df(df, dtype, audio_dur=[0, 29, 55]):
     """
     
     # Create empty DataFrame object with all the required columns    
-    time_df = pd.DataFrame(columns=["Start (UTC)", "End (UTC)"])
+    df_time = pd.DataFrame(columns=["Start (UTC)", "End (UTC)"])
 
-    # By the end of this loop, time_df will be a dataframe with time rows from 00:00 to 23:30 
+    # By the end of this loop, df_time will be a dataframe with time rows from 00:00 to 23:30 
     # corresponding to all AudioMoth recordings
     time_row = time()
     # Since there are guaranteed 48 values from 00:00 to 23:30 every 00:30, this part is hard-coded
@@ -429,7 +429,7 @@ def generate_dtype_matrix_from_df(df, dtype, audio_dur=[0, 29, 55]):
         e_time = (file_info + td(minutes=(audio_dur[1]-(file_info.minute%30)), seconds=(audio_dur[2]-file_info.second))).time()
 
         # Add new row with the extracted information: "Start (UTC)" is time_row and "End (UTC)" is e_time
-        time_df.loc[len(time_df.index)] = [time_row, e_time]
+        df_time.loc[len(df_time.index)] = [time_row, e_time]
 
         # Increase time_row by 30 minutes because AudioMoth recording/sleep sessions are 30min long
         time_row = (file_info+td(minutes=30)).time()
@@ -437,25 +437,25 @@ def generate_dtype_matrix_from_df(df, dtype, audio_dur=[0, 29, 55]):
     # Gather a list of all unique dates from DataFrame
     unique_dates = df["Date"].unique()
 
-    # This loop will populate time_df with new columns where each columns will represent a day's detections from 00:00 to 23:30
+    # This loop will populate df_time with new columns where each columns will represent a day's detections from 00:00 to 23:30
     for date in unique_dates:
         # Get the DataFrame corresponding to each date
-        day_df = df.loc[df["Date"]==date]
+        df_day = df.loc[df["Date"]==date]
 
         # Create an empty DataFrame column for that date which we will populate
         dets = pd.DataFrame(columns=[date])
         # By the end of this loop, dets will be populated where there is data.
-        for e_time in time_df["End (UTC)"]:
-            # We use the fact that end times in our correct time_df DataFrame must exist in our day_df DataFrame
-            sr = day_df.loc[day_df["End Time (UTC)"]==e_time][f"# of {dtype} detections"]
-            # If the end time does not exist, that recording's detections does not exist in our day_df DataFrame
+        for e_time in df_time["End (UTC)"]:
+            # We use the fact that end times in our correct df_time DataFrame must exist in our df_day DataFrame
+            sr = df_day.loc[df_day["End Time (UTC)"]==e_time][f"# of {call_type} detections"]
+            # If the end time does not exist, that recording's detections does not exist in our df_day DataFrame
             # This allows us to check for NaN cases and skip over those rows to insert the right data in the right location
             if (sr.empty):
                 dets.loc[len(dets.index)] = float('nan')
             else:
                 dets.loc[len(dets.index)] = sr.iloc[0]
 
-        # Create a new column in time_df and assign dets to it
-        time_df[date] = dets
+        # Create a new column in df_time and assign dets to it
+        df_time[date] = dets
     
-    return time_df
+    return df_time
