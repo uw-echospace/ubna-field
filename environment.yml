@@ -1,0 +1,10 @@
+name: call-summary
+channels:
+  - defaults
+dependencies:
+  - numpy
+  - jupyter
+  - pip
+  - python=3.9
+  - pandas
+  - matplotlib

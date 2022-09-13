@@ -3,3 +3,6 @@
 
 # Excluding macOS System Files
 .DS_Store
+
+# Excluding __pycache__ files
+__pycache__/
