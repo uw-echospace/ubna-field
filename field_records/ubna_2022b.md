@@ -87,6 +87,12 @@ NOT DEPLOYED AT LOCATION | - | B | - | Fallen Tree | - | - | - | - | - | - | - |
 2022-09-05T13:49:00 | 2022-09-08T14:52:00 | D | 002 | Foliage | 47° 39' 18.600'' N | 122° 17' 26.778'' W | 192000 | Medium | None | None | 4.258 | 3.797 | AK | JS | AK | recover-20220908 | Ikea; No rain during session; Recordings were all full and complete.
 2022-09-05T14:01:00 | 2022-09-08T15:00:00 | E | 003 | Central Pond | 47° 39' 17.310'' N | 122° 17' 34.062'' W | 192000 | Medium | None | None | 4.107 | 3.699 | JS | AK | AK | recover-20220908 | Panasonic; No rain during session; Recordings were all full and complete.
 NOT DEPLOYED AT LOCATION | - | F | - | Fallen Tree | - | - | - | - | - | - | - | - | - | - | - | - | Moved to location "Carp Pond" because Audiomoth C's battery connection wires needed to be re-soldered.
+2022-09-08T17:29:00 | 2022-09-12T15:13:00 | A | 007 | Telephone Field | 47° 39' 24.318'' N | 122° 17' 29.718'' W | 192000 | Medium | None | None | 4.195 | 3.080 | JS | AK | AK | recover-20220912 | Ikea; Deployed during Bolt Creek wildfire on 2022-09-10
+2022-09-08T17:40:00 | 2022-09-12T15:36:00 | B | 008 | Foliage | 47° 39' 18.468'' N | 122° 17' 27.078'' W | 192000 | Medium | None | None | 4.155 | 3.544 | AK | JS | AK | recover-20220912 | Ikea; Deployed during Bolt Creek wildfire on 2022-09-10
+2022-09-08T17:48:00 | 2022-09-12T15:52:00 | C | 009 | Central Pond | 47° 39' 17.898'' N | 122° 17' 34.062'' W | 192000 | Medium | None | None | 4.194 | 3.756 | JS | AK | AK | recover-20220912 | Panasonic; Deployed during Bolt Creek wildfire on 2022-09-10
+2022-09-08T17:56:00 | 2022-09-12T16:06:00 | D | 010 | Carp Pond | 47° 39' 15.690'' N | 122° 17' 42.462'' W | 192000 | Medium | None | None | 4.143 | 3.785 | JS | JS | AK | recover-20220912 | Ikea; Deployed during Bolt Creek wildfire on 2022-09-10
+2022-09-08T18:09:00 | 2022-09-12T16:27:00 | E | 011 | Fallen Tree | 47° 39' 22.680'' N | 122° 17' 34.332'' W | 192000 | Medium | None | None | 4.100 | 3.471 | JS | AK | AK | recover-20220912 | Panasonic; Deployed during Bolt Creek wildfire on 2022-09-10
+2022-09-08T18:27:00 | 2022-09-12T16:56:00 | F | 012 | Opposite Central Pond | 47° 39' 19.662'' N | 122° 17' 36.012'' W | 192000 | Medium | None | None | 4.177 | 4.088 | AK | JS | AK | recover-20220912 | Ikea; Deployed during Bolt Creek wildfire on 2022-09-10; SD card had popped out sometime while deploying; No Data
  <!-- 
  =================================================================================
  ====== LINE BELOW TO COPY-PASTE:  FILL IN BEFORE AND AFTER DEPLOYMENT ===========
