@@ -382,7 +382,7 @@ def generate_call_type_matrix_from_df(df, call_type, audio_dur=[0, 29, 55]):
     
     Parameters
     ------------
-    df : df : `pandas.DataFrame` [`str`, `datetime.date`, `datetime.time`, `datetime.time`, `int`, `int`]
+    df : df : `pandas.DataFrame`
         - A table of columns: File Names, Date, Start Time (UTC), End Time (UTC), # of LF and HF detections.
         - File Names are `str` objects corresponding to recordings formatted as "DATE_TIME.WAV".
         - Date are `datetime.datetime` objects corresponding to the date of each recording.
