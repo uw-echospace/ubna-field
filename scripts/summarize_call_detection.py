@@ -62,7 +62,7 @@ def generate_df(detection_dir, audio_dur=[0, 29, 55]):
 
     Returns
     ------------
-    df : `pandas.DataFrame` [`str`, `datetime.date`, `datetime.time`, `datetime.time`, `int`, `int`]
+    df : `pandas.DataFrame`
         - A table of columns: File Names, Date, Start Time (UTC), End Time (UTC), # of LF and HF detections.
         - File Names are `str` objects corresponding to recordings formatted as "DATE_TIME.WAV".
         - Date are `datetime.datetime` objects corresponding to the date of each recording.
@@ -128,7 +128,7 @@ def generate_all_df_from_site(df_fr, site_name, detection_dir):
 
     Returns
     ------------
-    `pandas.DataFrame` [`str`, `datetime.date`, `datetime.time`, `datetime.time`, `int`, `int`]
+    `pandas.DataFrame`
         - An assembled DataFrame table made from smaller DataFrame tables to represent the total detected activity
           from the given location.
         - Smaller DataFrame tables follow the same structure as the ones produced by generate_df()
@@ -155,14 +155,14 @@ def pad_day_of_df(df_day, date):
 
     Parameters
     ------------
-    df_day : `pandas.DataFrame` [`str`, `datetime.date`, `datetime.time`, `datetime.time`, `int`, `int`]
+    df_day : `pandas.DataFrame`
         - A DataFrame table corresponding to all data gathered from a date.
     date : `datetime.date`
         - The date that the DataFrame table corresponds to
 
     Returns
     ------------
-    df_day : `pandas.DataFrame` [`str`, `datetime.date`, `datetime.time`, `datetime.time`, `int`, `int`]
+    df_day : `pandas.DataFrame`
         - If df_day originally had missing time slots as an effect of the recorder either stopping before 24:00 
           or starting after 00:00, df_day will now be padded with rows representing data from the missing time slots.
         - The # of LF and HF detections in these padded time slots will be None type objects.
@@ -212,7 +212,7 @@ def plot_separate(df, site, save=False, save_folder="../results/raven_energy_det
 
     Parameters
     ------------
-    df : `pandas.DataFrame` [`str`, `datetime.date`, `datetime.time`, `datetime.time`, `int`, `int`]
+    df : `pandas.DataFrame`
         - A DataFrame table corresponding to all detection data gathered from the recording of a deployment session.
         - Consists of [File Names, Date, Start Time (UTC), End Time (UTC), # of LF detections, # of HF detections].
     site : `str`
@@ -256,7 +256,7 @@ def plot_total(df, site, save=False, save_folder=f"../results/raven_energy_detec
 
     Parameters
     ------------
-    df : `pandas.DataFrame` [`str`, `datetime.date`, `datetime.time`, `datetime.time`, `int`, `int`]
+    df : `pandas.DataFrame`
         - A DataFrame table corresponding to all detection data gathered from the recording of a deployment session.
         - Consists of [File Names, Date, Start Time (UTC), End Time (UTC), # of LF detections, # of HF detections].
     site : `str`
@@ -295,7 +295,7 @@ def plot_matrix(df, site, call_type):
 
     Parameters
     ------------
-    df : `pandas.DataFrame` [`str`, `datetime.date`, `datetime.time`, `datetime.time`, `int`, `int`]
+    df : `pandas.DataFrame`
         - A DataFrame table corresponding to all detection data gathered from the recording of a deployment session.
         - Consists of [File Names, Date, Start Time (UTC), End Time (UTC), # of LF detections, # of HF detections].
     site : `str`
@@ -401,18 +401,13 @@ def generate_call_type_matrix_from_df(df, call_type, audio_dur=[0, 29, 55]):
 
     Returns
     ------------
-    df_time : `pandas.DataFrame` [[`str`, `str`, `datetime.date`, `datetime.date`, ...], 
-                                  [`datetime.time`, `datetime.time`, `int`, `int`, ...], 
-                                  [`datetime.time`, `datetime.time`, `int`, `int`, ...], 
-                                  ...]
+    df_time : `pandas.DataFrame`
         - A grid of activity across dates and over times.
-        - The first row is for headers. This is where the first column says "Start (UTC)"
-          and the second column says "End (UTC)". Every column after displays the date
-          as a `datetime.date` object for the dates in the given session.
-        - All rows after the first row in the first two columns hold the starting time and
-          ending time for the recordings as `datetime.time` objects.
-        - All cells after the first two columns and the first row are `int` values
-          representing the # of detections detected at that time and day of the given type.
+        - The first two columns of this DataFrame represent times, start and end, for each recording
+          throughout the date.
+        - All columns after represent the # of detections of the given call type where each
+          columns's header holds a `datetime.date` object representing the date when the calls
+          were detected.
     """
     
     # Create empty DataFrame object with all the required columns    
