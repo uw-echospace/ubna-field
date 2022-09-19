@@ -99,6 +99,12 @@ NOT DEPLOYED AT LOCATION | - | F | - | Fallen Tree | - | - | - | - | - | - | - |
 2022-09-12T16:14:00 | 2022-09-15T16:35:00 | D | 004 | Carp Pond | 47° 39' 15.702'' N | 122° 17' 42.288'' W | 192000 | Medium | None | None | 4.073 | 3.653 | JS | JS | AK | recover-20220915 | Ikea
 2022-09-12T16:42:00 | 2022-09-15T16:55:00 | E | 005 | Fallen Tree | 47° 39' 23.148'' N | 122° 17' 33.972'' W | 192000 | Medium | None | None | 4.074 | 3.384 | JS | AK | AK | recover-20220915 | Panasonic
 2022-09-12T16:57:00 | 2022-09-15T17:10:00 | F | 006 | Opposite Central Pond | 47° 39' 19.512'' N | 122° 17' 35.448'' W | 192000 | Medium | None | None | 4.088 | 3.438 | AK | JS | AK | recover-20220915 | Ikea; Only replaced SD card from last session because batteries were fully charged.
+2022-09-15T15:54:00 | RECOVER_YYYY-MM-DDThh:mm:ss | A | 007 | Telephone Field | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | 4.220 | VOLT_END | JS | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Panasonic
+2022-09-15T16:12:00 | RECOVER_YYYY-MM-DDThh:mm:ss | B | 008 | Foliage | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | 4.204 | VOLT_END | AK | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Ikea
+2022-09-15T16:27:00 | RECOVER_YYYY-MM-DDThh:mm:ss | C | 009 | Central Pond | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | 4.169 | VOLT_END | JS | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Panasonic
+2022-09-15T16:41:00 | RECOVER_YYYY-MM-DDThh:mm:ss | D | 010 | Carp Pond | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | 4.167 | VOLT_END | JS | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Ikea
+2022-09-15T17:00:00 | RECOVER_YYYY-MM-DDThh:mm:ss | E | 011 | Fallen Tree | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | 4.245 | VOLT_END | AK | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Panasonic
+2022-09-15T17:15:00 | RECOVER_YYYY-MM-DDThh:mm:ss | F | 012 | Opposite Central Pond | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | 4.161 | VOLT_END | AK | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Ikea
  <!-- 
  =================================================================================
  ====== LINE BELOW TO COPY-PASTE:  FILL IN BEFORE AND AFTER DEPLOYMENT ===========
