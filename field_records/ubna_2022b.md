@@ -117,6 +117,7 @@ NOT DEPLOYED AT LOCATION | - | F | - | Fallen Tree | - | - | - | - | - | - | - |
 2022-09-22T16:13:00 | RECOVER_YYYY-MM-DDThh:mm:ss | D | 010 | Carp Pond | 47° 39' 15.762'' N | 122° 17' 41.958'' W | 192000 | Medium | None | None | 4.248 | VOLT_END | AK | YJC | UPLOAD_PERSON | UPLOAD_FOLDER | Panasonic
 2022-09-22T16:35:00 | RECOVER_YYYY-MM-DDThh:mm:ss | E | 011 | Fallen Tree | 47° 39' 22.992'' N | 122° 17' 33.858'' W | 192000 | Medium | None | None | 4.206 | VOLT_END | AK | YJC | UPLOAD_PERSON | UPLOAD_FOLDER | Panasonic
 2022-09-22T16:52:00 | RECOVER_YYYY-MM-DDThh:mm:ss | F | 012 | Opposite Central Pond | 47° 39' 19.572'' N | 122° 17' 35.682'' W | 192000 | Medium | None | None | 4.173 | VOLT_END | AK | YJC | UPLOAD_PERSON | UPLOAD_FOLDER | Ikea
+
  <!-- 
  =================================================================================
  ====== LINE BELOW TO COPY-PASTE:  FILL IN BEFORE AND AFTER DEPLOYMENT ===========
