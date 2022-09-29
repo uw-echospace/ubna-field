@@ -111,18 +111,18 @@ NOT DEPLOYED AT LOCATION | - | F | - | Fallen Tree | - | - | - | - | - | - | - |
 2022-09-19T17:49:00 | 2022-09-22T16:09:00 | D | 004 | Carp Pond | 47° 39' 15.870'' N | 122° 17' 42.132'' W | 192000 | Medium | None | None | 4.216 | 3.743 | AK | WJL | AK | recover-20220922 | Panasonic; Temperatures have begun dropping as we enter Fall season
 2022-09-19T18:18:00 | 2022-09-22T16:29:00 | E | 005 | Fallen Tree | 47° 39' 21.060'' N | 122° 17' 34.092'' W | 192000 | Medium | None | None | 4.140 | 3.793 | AK | WJL | AK | recover-20220922 | Ikea; Temperatures have begun dropping as we enter Fall season
 2022-09-19T18:31:00 | 2022-09-22T16:45:00 | F | 006 | Opposite Central Pond | 47° 39' 19.770'' N | 122° 17' 35.952'' W | 192000 | Medium | None | None | 4.143 | 3.744 | AK | WJL | AK | recover-20220922 | Ikea; Temperatures have begun dropping as we enter Fall season
-2022-09-22T15:26:00 | 2022-09-26T15:35:00 | A | 007 | Telephone Field | 47° 39' 24.348'' N | 122° 17' 29.598'' W | 192000 | Medium | None | None | 4.281 | 3.7 | AK | YJC | JS | recover-20220926 | Panasonic
-2022-09-22T15:42:00 | 2022-09-26T15:54:00 | B | 008 | Foliage | 47° 39' 18.612'' N | 122° 17' 26.832'' W | 192000 | Medium | None | None | 4.180 | V3.7 | AK | YJC | JS | recover-20220926 | Ikea
-2022-09-22T16:00:00 | 2022-09-26T16:00:00 | C | 009 | Central Pond | 47° 39' 16.908'' N | 122° 17' 34.578'' W | 192000 | Medium | None | None | 4.168 | 3.9 | AK | YJC | JS | recover-20220926 | Ikea
-2022-09-22T16:13:00 | 2022-09-26T16:23:00 | D | 010 | Carp Pond | 47° 39' 15.762'' N | 122° 17' 41.958'' W | 192000 | Medium | None | None | 4.248 | 4.2 | AK | YJC | JS | recover-20220926 | Panasonic
-2022-09-22T16:35:00 | 2022-09-26T16:42:00 | E | 011 | Fallen Tree | 47° 39' 22.992'' N | 122° 17' 33.858'' W | 192000 | Medium | None | None | 4.206 | 3.7 | AK | YJC | JS | recover-20220926 | Panasonic
-2022-09-22T16:52:00 | 2022-09-26T16:55:00 | F | 012 | Opposite Central Pond | 47° 39' 19.572'' N | 122° 17' 35.682'' W | 192000 | Medium | None | None | 4.173 | 3.6 | AK | YJC | JS | recover-20220926 | Ikea
-2022-09-26T15:45:00 | RECOVER_YYYY-MM-DDThh:mm:ss | A | 001 | Telephone Field | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | 4.3 | VOLT_END | AK | SCRIBE_PERSON | JS | UPLOAD_FOLDER | IKEA
-2022-09-26T15:57:00 | RECOVER_YYYY-MM-DDThh:mm:ss | B | 002 | Foliage | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | 4.3 | VOLT_END | AK | SCRIBE_PERSON | JS | UPLOAD_FOLDER | IKEA
-2022-09-26T16:11:00 | RECOVER_YYYY-MM-DDThh:mm:ss | C | 003 | Central Pond | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | 4.3 | VOLT_END | AK | SCRIBE_PERSON | JS | UPLOAD_FOLDER | Panasonic
-2022-09-26T16:26:00 | RECOVER_YYYY-MM-DDThh:mm:ss | D | 004 | Carp Pond | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | 4.3 | VOLT_END | AK | SCRIBE_PERSON | JS | UPLOAD_FOLDER | IKEA
-2022-09-26T16:46:00 | RECOVER_YYYY-MM-DDThh:mm:ss | E | 005 | Fallen Tree | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | 4.3 | VOLT_END | AK | SCRIBE_PERSON | JS | UPLOAD_FOLDER | Panasonic
-2022-09-26T17:00:00 | RECOVER_YYYY-MM-DDThh:mm:ss | F | 006 | Opposite Central Pond | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | 4.2 | VOLT_END | AK | SCRIBE_PERSON | JS | UPLOAD_FOLDER | IKEA
+2022-09-22T15:26:00 | 2022-09-26T15:35:00 | A | 007 | Telephone Field | 47° 39' 24.348'' N | 122° 17' 29.598'' W | 192000 | Medium | None | None | 4.281 | (3.7) | AK | YJC | JS | recover-20220926 | Panasonic
+2022-09-22T15:42:00 | 2022-09-26T15:54:00 | B | 008 | Foliage | 47° 39' 18.612'' N | 122° 17' 26.832'' W | 192000 | Medium | None | None | 4.180 | (3.7) | AK | YJC | JS | recover-20220926 | Ikea
+2022-09-22T16:00:00 | 2022-09-26T16:00:00 | C | 009 | Central Pond | 47° 39' 16.908'' N | 122° 17' 34.578'' W | 192000 | Medium | None | None | 4.168 | (3.9) | AK | YJC | JS | recover-20220926 | Ikea
+2022-09-22T16:13:00 | 2022-09-26T16:23:00 | D | 010 | Carp Pond | 47° 39' 15.762'' N | 122° 17' 41.958'' W | 192000 | Medium | None | None | 4.248 | (4.2) | AK | YJC | JS | recover-20220926 | Panasonic
+2022-09-22T16:35:00 | 2022-09-26T16:42:00 | E | 011 | Fallen Tree | 47° 39' 22.992'' N | 122° 17' 33.858'' W | 192000 | Medium | None | None | 4.206 | (3.7) | AK | YJC | JS | recover-20220926 | Panasonic
+2022-09-22T16:52:00 | 2022-09-26T16:55:00 | F | 012 | Opposite Central Pond | 47° 39' 19.572'' N | 122° 17' 35.682'' W | 192000 | Medium | None | None | 4.173 | (3.6) | AK | YJC | JS | recover-20220926 | Ikea
+2022-09-26T15:45:00 | RECOVER_YYYY-MM-DDThh:mm:ss | A | 001 | Telephone Field | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | (4.3) | VOLT_END | AK | SCRIBE_PERSON | JS | UPLOAD_FOLDER | IKEA
+2022-09-26T15:57:00 | RECOVER_YYYY-MM-DDThh:mm:ss | B | 002 | Foliage | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | (4.3) | VOLT_END | AK | SCRIBE_PERSON | JS | UPLOAD_FOLDER | IKEA
+2022-09-26T16:11:00 | RECOVER_YYYY-MM-DDThh:mm:ss | C | 003 | Central Pond | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | (4.3) | VOLT_END | AK | SCRIBE_PERSON | JS | UPLOAD_FOLDER | Panasonic
+2022-09-26T16:26:00 | RECOVER_YYYY-MM-DDThh:mm:ss | D | 004 | Carp Pond | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | (4.3) | VOLT_END | AK | SCRIBE_PERSON | JS | UPLOAD_FOLDER | IKEA
+2022-09-26T16:46:00 | RECOVER_YYYY-MM-DDThh:mm:ss | E | 005 | Fallen Tree | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | (4.3) | VOLT_END | AK | SCRIBE_PERSON | JS | UPLOAD_FOLDER | Panasonic
+2022-09-26T17:00:00 | RECOVER_YYYY-MM-DDThh:mm:ss | F | 006 | Opposite Central Pond | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | (4.2) | VOLT_END | AK | SCRIBE_PERSON | JS | UPLOAD_FOLDER | IKEA
  <!-- 
  =================================================================================
  ====== LINE BELOW TO COPY-PASTE:  FILL IN BEFORE AND AFTER DEPLOYMENT ===========
