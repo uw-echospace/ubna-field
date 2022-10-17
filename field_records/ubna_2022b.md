@@ -143,14 +143,14 @@ NOT DEPLOYED AT LOCATION | - | F | - | Fallen Tree | - | - | - | - | - | - | - |
 2022-10-06T17:50:00 | 2022-10-10T11:28:00 | F | 012 | Opposite Central Pond | 47° 39' 19.548'' N | 122° 17' 35.592'' W | 192000 | Medium | None | None | 4.125 | 3.592 | AK | JS | AK | recover-20221010 | IKEA
 2022-10-10T10:20:00 | 2022-10-13T16:43:00 | A | 001 | Telephone Field | 47° 39' 24.882'' N | 122° 17' 26.718'' W | 192000 | Medium | None | None | 4.132 | 3.669 | JS | JS | AK | recover-20221013 | IKEA
 2022-10-10T10:33:00 | 2022-10-13T17:00:00 | B | 002 | Foliage | 47° 39' 19.092'' N | 122° 17' 26.592'' W | 192000 | Medium | None | None | 4.178 | 3.658 | AK | JS | AK | recover-20221013 | Panasonic
-2022-10-10T10:49:00 | 2022-10-13T17:12:00  | C | 003 | Central Pond | No Valid Info | No Valid Info | 192000 | Medium | None | None | 4.201 | 3.690 | JS | JS | AK | recover-20221013 | Panasonic
-2022-10-10T11:10:00 | 2022-10-13T17:24:00 | D | 004 | Carp Pond | 47° 39' 17.058'' N | 122° 17' 34.218'' W | 192000 | Medium | None | None | 4.165 | 3.707 | JS | JS | AK | recover-20221013 | IKEA
+2022-10-10T10:49:00 | 2022-10-13T17:12:00  | C | 003 | Central Pond | 47° 39' 17.058'' N | 122° 17' 34.218'' W | 192000 | Medium | None | None | 4.201 | 3.690 | JS | JS | AK | recover-20221013 | Panasonic
+2022-10-10T11:10:00 | 2022-10-13T17:24:00 | D | 004 | Carp Pond | 47° 39' 15.918'' N | 122° 17' 41.940'' W | 192000 | Medium | None | None | 4.165 | 3.707 | JS | JS | AK | recover-20221013 | IKEA
 2022-10-10T11:34:00 | 2022-10-13T17:42:00  | E | 005 | Fallen Tree | 47° 39' 21.018'' N | 122° 17' 33.618'' W | 192000 | Medium | None | None | 4.149 | 3.684 | JS | JS | AK | recover-20221013 | Mixed Batteries (4 IKEA, 2 Panasonic)
 2022-10-10T11:51:00 | 2022-10-13T17:52:00 | F | 006 | Opposite Central Pond | 47° 39' 19.902'' N | 122° 17' 35.760'' W | 192000 | Medium | None | None | 4.790 | 3.818 | AK | JS | AK | recover-20221013 | 6 Duracell non-rechargeable batteries
-2022-10-13T16:50:00 | 2022-10-17T10:03:00 | A | 007 | Telephone Field | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | 4.198 | 3.568 | JS | JS | AK | recover-20221017 | IKEA
+2022-10-13T16:50:00 | 2022-10-17T10:03:00 | A | 007 | Telephone Field | No Valid Info | No Valid Info | 192000 | Medium | None | None | 4.198 | 3.568 | JS | JS | AK | recover-20221017 | IKEA
 2022-10-13T17:03:00 | 2022-10-17T10:20:00 | B | 008 | Foliage | No Valid Info | No Valid Info | 192000 | Medium | None | None | 4.152 | 3.498 | AK | JS | AK | recover-20221017 | Panasonic
-2022-10-13T17:15:00 | 2022-10-17T10:28:00 | C | 009 | Central Pond | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | 4.174 | 3.741 | JS | JS | AK | recover-20221017 | IKEA
-2022-10-13T17:28:00 | 2022-10-17T10:37:00 | D | 010 | Carp Pond | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | 4.166 | 3.790 | JS | JS | AK | recover-20221013 | IKEA
+2022-10-13T17:15:00 | 2022-10-17T10:28:00 | C | 009 | Central Pond | 47° 39' 17.010'' N | 122° 17' 34.302'' W | 192000 | Medium | None | None | 4.174 | 3.741 | JS | JS | AK | recover-20221017 | IKEA
+2022-10-13T17:28:00 | 2022-10-17T10:37:00 | D | 010 | Carp Pond | 47° 39' 17.058'' N | 122° 17' 42.162'' W | 192000 | Medium | None | None | 4.166 | 3.790 | JS | JS | AK | recover-20221013 | IKEA
 2022-10-13T17:45:00 | 2022-10-17T10:49:00 | E | 011 | Fallen Tree | 47° 39' 23.082'' N | 122° 17' 33.918'' W | 192000 | Medium | None | None | 4.137 | 3.513 | AK | JS | AK | recover-20221017 | Panasonic
 2022-10-13T17:57:00 | 2022-10-17T10:58:00 | F | 012 | Opposite Central Pond | 47° 39' 19.740'' N | 122° 17' 35.538'' W | 192000 | Medium | None | None | 4.161 | 3.581 | AK | JS | AK | recover-20221017 | Panasonic
  <!-- 
