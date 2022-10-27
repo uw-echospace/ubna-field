@@ -161,6 +161,12 @@ NOT DEPLOYED AT LOCATION | - | F | - | Fallen Tree | - | - | - | - | - | - | - |
 2022-10-17T10:40:00 | 2022-10-27T12:52:00 | D | 004 | Carp Pond | No Valid Info | No Valid Info | 192000 | Medium | None | None | 4.145 | 3.867 | JS | JS | AK | recover-20221027 | Panasonic
 2022-10-17T10:51:00 | 2022-10-27T13:04:00 | E | 005 | Fallen Tree | No Valid Info | No Valid Info | 192000 | Medium | None | None | 4.122 | 3.880 | JS | JS | AK | recover-20221027 | IKEA
 2022-10-17T11:01:00 | 2022-10-27T13:13:00 | F | 006 | Opposite Central Pond | No Valid Info | No Valid Info | 192000 | Medium | None | None | 4.123 | 3.882 | AK | JS | AK | recover-20221027 | IKEA
+2022-10-27T12:24:00 | RECOVER_YYYY-MM-DDThh:mm:ss | A | 007 | Telephone Field | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | 4.240 | VOLT_END | JS | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Panasonic
+2022-10-27T12:34:00 | RECOVER_YYYY-MM-DDThh:mm:ss | B | 008 | Foliage | 47° 39' 17.778'' N | 122° 17' 27.192'' W | 192000 | Medium | None | None | 4.175 | VOLT_END | AK | JS | UPLOAD_PERSON | UPLOAD_FOLDER | IKEA
+2022-10-27T12:46:00 | RECOVER_YYYY-MM-DDThh:mm:ss | C | 009 | Central Pond | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | 4.240 | VOLT_END | JS | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Panasonic
+2022-10-27T12:55:00 | RECOVER_YYYY-MM-DDThh:mm:ss | D | 010 | Carp Pond | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | 4.127 | VOLT_END | JS | JS | UPLOAD_PERSON | UPLOAD_FOLDER | IKEA
+2022-10-27T13:06:00 | RECOVER_YYYY-MM-DDThh:mm:ss | E | 011 | Fallen Tree | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | 4.203 | VOLT_END | JS | JS | UPLOAD_PERSON | UPLOAD_FOLDER | IKEA
+2022-10-27T13:16:00 | RECOVER_YYYY-MM-DDThh:mm:ss | F | 012 | Opposite Central Pond | 47° 39' 20.022'' N | 122° 17' 35.982'' W | 192000 | Medium | None | None | 4.238 | VOLT_END | AK | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Panasonic
  <!-- 
  =================================================================================
  ====== LINE BELOW TO COPY-PASTE:  FILL IN BEFORE AND AFTER DEPLOYMENT ===========
