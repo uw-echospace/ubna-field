@@ -167,6 +167,12 @@ NOT DEPLOYED AT LOCATION | - | F | - | Fallen Tree | - | - | - | - | - | - | - |
 2022-10-27T12:55:00 | 2022-11-10T12:43:00 | D | 010 | Carp Pond | No Valid Info | No Valid Info | 192000 | Medium | None | None | 4.127 | 3.861 | JS | JS | AK | recover-20221110 | IKEA
 2022-10-27T13:06:00 | 2022-11-10T12:58:00 | E | 011 | Fallen Tree | 47° 39' 22.878'' N | 122° 17' 33.732'' W | 192000 | Medium | None | None | 4.203 | 3.830 | JS | JS | AK | recover-20221110 | IKEA
 2022-10-27T13:16:00 | 2022-11-10T13:08:00 | F | 012 | Opposite Central Pond | 47° 39' 20.022'' N | 122° 17' 35.982'' W | 192000 | Medium | None | None | 4.238 | 3.829 | AK | JS | AK | recover-20221110 | Panasonic
+2022-11-10T12:13:00 | 2022-11-23T12:49:00 | A | 001 | TF | No Valid Info | No Valid Info | 192000 | Medium | None | None | 4.209 | 3.877 | JS | AK | JS | recover-20221123 | Panasonic
+2022-11-10T12:24:00 | 2022-11-23T13:45:00 | B | 002 | Foliage | 47° 39' 18.750'' N | 122° 17' 26.778'' W | 192000 | Medium | None | None | 4.225 | 3.828 | AK | JS | JS | recover-20221123 | IKEA
+2022-11-10T12:35:00 | 2022-11-23T14:03:00 | C | 003 | Central Pond | No Valid Data | No Valid Data | 192000 | Medium | None | None | 4.182 | 3.814 | JS | AK | JS | recover-20221123 | IKEA
+2022-11-10T12:47:00 | 2022-11-23T14:28:00 | D | 004 | Carp Pond | 47° 39' 15.942'' N | 122° 17' 41.940'' W | 192000 | Medium | None | None | 4.206 | 1.974 | JS | AK | JS | recover-20221123 | IKEA
+2022-11-10T13:02:00 | 2022-11-23T13:13:00 | E | 005 | Fallen Tree | 47° 39' 23.340'' N | 122° 17' 34.080'' W | 192000 | Medium | None | None | 4.226 | 3.819 | JS | AK | JS | recover-20221123 | IKEA
+2022-11-10T13:11:00 | 2022-11-23T13:23:00 | F | 006 | Opposite Central Pond | 47° 39' 19.668'' N | 122° 17' 35.682'' W | 192000 | Medium | None | None | 4.181 | 3.824 | AK | JS | JS | recover-20221123 | IKEA
  <!-- 
  =================================================================================
  ====== LINE BELOW TO COPY-PASTE:  FILL IN BEFORE AND AFTER DEPLOYMENT ===========
