@@ -177,18 +177,18 @@ NOT DEPLOYED AT LOCATION | - | F | - | Fallen Tree | - | - | - | - | - | - | - |
 2022-11-23T13:53:00 | 2022-12-08T13:58:00 | B | 008 | Foliage | 47° 39' 18.750'' N | 122° 17' 26.778'' W | 192000 | Medium | None | None | 4.195 | 3.771 | AK | JS | JS | recover-20221208 | IKEA
 2022-11-23T14:10:00 | 2022-12-08T13:44:00 | C | 009 | Central Pond | No Valid Data | No Valid Data | 192000 | Medium | None | None | 4.197 | 3.839 | JS | AK | JS | recover-20221208 | IKEA
 2022-11-23T14:38:00 | 2022-12-08T14:31:00 | D | 010 | Carp Pond | 47° 39' 15.942'' N | 122° 17' 41.940'' W | 192000 | Medium | None | None | 4.100 | 3.764 | JS | AK | JS | recover-20221208 | Panasonic
-NOT DEPLOYED AT LOCATION | - | E | - | Fallen Tree | - | - | - | - | - | - | - | - | - | - | - | - | No longer deploying at this location moving forward
+NOT DEPLOYED AT LOCATION | - | E | - | Fallen Tree | - | - | - | - | - | - | - | - | - | - | - | - | No longer deploying at this location moving forward because water level required wading suit (diminishing returns)
 2022-11-23T13:29:00 | 2022-12-08T13:08:00 | F | 011 | Opposite Central Pond | 47° 39' 19.668'' N | 122° 17' 35.682'' W | 192000 | Medium | None | None | 4.158 | 3.747 | AK | JS | JS | recover-20221208 | Panasonic
 2022-12-08T12:16:00 | 2022-12-14T15:02:00 | F | 001 | Opposite Central Pond | 47° 39' 19.668'' N | 122° 17' 35.262'' W | 192000 | Medium | None | None | 4.192 | 3.879 | AK | JS | JS | recover-20221214 | IKEA
 2022-12-08T12:35:00 | 2022-12-14T15:27:00 | D | 002 | Carp Pond | 47° 39' 15.888'' N | 122° 17' 41.880'' W | 192000 | Medium | None | None | 4.132 | 3.834 | JS | AK | JS | recover-20221214 | IKEA
 2022-12-08T12:52:00 | 2022-12-14T15:47:00 | C | 003 | Central Pond | No Valid Data | No Valid Data | 192000 | Medium | None | None | 4.254 | 3.930 | JS | AK | JS | recover-20221214 | IKEA
 2022-12-08T13:04:00 | 2022-12-14T16:07:00 | B | 004 | Foliage | No Valid Data | No Valid Data | 192000 | Medium | None | None | 4.242 | 3.922 | AK | JS | JS | recover-20221214 | Panasonic
 2022-12-08T13:15:00 | 2022-12-14T16:36:00 | A | 005 | TF | No Valid Data | No Valid Data | 192000 | Medium | None | None | 4.275 | 3.926 | JS | AK | JS | recover-20221214 | Panasonic
-2022-12-14T15:09:00 | RECOVER_YYYY-MM-DDThh:mm:ss | F | 007 | Opposite Central Pond | LAT_XX.XXXXXX | LON_XX.XXXXXX | 192000 | Medium | None | None | 4.374 | VOLT_END | AK | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Panasonic
-2022-12-14T15:32:00 | RECOVER_YYYY-MM-DDThh:mm:ss | D | 008 | Carp Pond | 47° 39' 15.942'' N | 122° 17' 42.432'' W | 192000 | Medium | None | None | 4.236 | VOLT_END | AK | JS | UPLOAD_PERSON | UPLOAD_FOLDER | IKEA
-2022-12-14T15:54:00 | RECOVER_YYYY-MM-DDThh:mm:ss | C | 009 | Central Pond | 47° 39' 17.538'' N | 122° 17' 34.110'' W | 192000 | Medium | None | None | 4.242 | VOLT_END | JS | JS | UPLOAD_PERSON | UPLOAD_FOLDER | IKEA
-2022-12-14T16:19:00 | RECOVER_YYYY-MM-DDThh:mm:ss | B | 010 | Foliage | 47° 39' 18.888'' N | 122° 17' 26.670'' W | 192000 | Medium | None | None | 4.288 | VOLT_END | AK | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Panasonic
-2022-12-14T16:44:00 | RECOVER_YYYY-MM-DDThh:mm:ss | A | 011 | TF | 47° 39' 24.642'' N | 122° 17' 29.502'' W | 192000 | Medium | None | None | 4.231 | VOLT_END | AK | JS | UPLOAD_PERSON | UPLOAD_FOLDER | Panasonic
+2022-12-14T15:09:00 | 2023-01-10T15:14:00 | F | 007 | Opposite Central Pond | No Valid Data | No Valid Data | 192000 | Medium | None | None | 4.374 | 3.599 | AK | JS | AK | recover-20230110 | Panasonic
+2022-12-14T15:32:00 | 2023-01-10T15:23:00 | D | 008 | Carp Pond | 47° 39' 15.942'' N | 122° 17' 42.432'' W | 192000 | Medium | None | None | 4.236 | 3.593 | AK | JS | AK | recover-20230110 | IKEA
+2022-12-14T15:54:00 | 2023-01-10T15:29:00 | C | 009 | Central Pond | 47° 39' 17.538'' N | 122° 17' 34.110'' W | 192000 | Medium | None | None | 4.242 | 3.742 | JS | JS | AK | recover-20230110 | IKEA
+2022-12-14T16:19:00 | 2023-01-10T14:30:00 | B | 010 | Foliage | 47° 39' 18.888'' N | 122° 17' 26.670'' W | 192000 | Medium | None | None | 4.288 | 3.754 | AK | JS | AK | recover-20230110 | Panasonic
+2022-12-14T16:44:00 | 2023-01-10T14:23:00 | A | 011 | TF | 47° 39' 24.642'' N | 122° 17' 29.502'' W | 192000 | Medium | None | None | 4.231 | 3.545 | AK | JS | AK | recover-20230110 | Panasonic
  <!-- 
  =================================================================================
  ====== LINE BELOW TO COPY-PASTE:  FILL IN BEFORE AND AFTER DEPLOYMENT ===========
