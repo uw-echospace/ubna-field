@@ -113,14 +113,14 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
         """
         Checks if string is valid battery start voltage.
         """
-        regex_pattern = r'^4\.\d{3}$'
+        regex_pattern = r'^(3|4)\.\d{3}$'
         return re.match(regex_pattern, str(entry)) is not None
 
     def is_valid_battery_end(entry: str) -> bool:
         """
         Checks if string is valid battery end voltage.
         """
-        regex_pattern = r'^3\.\d{3}$'
+        regex_pattern = r'^(3|4)\.\d{3}$'
         return re.match(regex_pattern, str(entry)) is not None
 
     def is_valid_person(entry: str) -> bool:
@@ -147,10 +147,14 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
 
     def is_valid_notes(entry: str) -> bool:
         """
-        Checks if string is valid notes.
+        Checks if string is valid notes. Valid notes must contain the following pattern, but other text may
+        also be included.
         """
-        regex_pattern = r'^(Panasonic|Ikea) Batteries (Daytime|Nighttime) (0:00-24:00|3:00-13:30) UTC$'
-        return re.match(regex_pattern, entry) is not None
+        regex_pattern = r'(Panasonic|Ikea) Batteries (Daytime|Nighttime) (0:00-24:00|3:00-13:30) UTC'
+        if len(re.findall(regex_pattern, entry)) == 1:
+            return True
+        else:
+            return False
 
     reader = csv.reader(csv_file_fixture)
     for row_index, row in enumerate(reader):
