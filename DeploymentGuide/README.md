@@ -94,9 +94,9 @@ https://www.openacousticdevices.info/led-guide
 
 5) Switch the Audiomoth to CUSTOM mode to turn it on. The Audiomoth will wait for a chime if it was not reconfigured using a laptop. Play the acoustic chime for the Audiomoth until it turns to blinking green/red LED that indicate an Audiomoth turned ON. This means that it can begin recording without any errors.
 
-	![Recording](/DeploymentGuide/CommonLEDs/on_recording.png) for Daytime recorders
+	![Recording](/DeploymentGuide/CommonLEDs/on_recording.png) for Daytime recorders ![Recording](/DeploymentGuide/CommonLEDs/on_sleep.png) for Nighttime recorders
 	
-	![Recording](/DeploymentGuide/CommonLEDs/on_sleep.png) for Nighttime recorders
+	
 
 6) Pack up all your materials. You are now ready to deploy.
 		
