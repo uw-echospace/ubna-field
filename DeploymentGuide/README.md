@@ -92,9 +92,11 @@ https://www.openacousticdevices.info/led-guide
 
 4) If the Audiomoth requires configuration, you can find pre-saved configs [here](/ConfigurationDetails) and use them to reconfigure the Audiomoth using the Configuration App. If the configuration was already loaded in for the previous deployment, you don’t have to load it in again. Time is the only setting that the Audiomoth resets after having batteries taken out, the configuration will remain with the Audiomoth.
 
-5) Switch the Audiomoth to CUSTOM mode to turn it on. The Audiomoth will wait for a chime if it was not reconfigured using a laptop. Play the acoustic chime for the Audiomoth until it turns from solid green LED to blinking green/red LED. This means that it is recording without any errors.
+5) Switch the Audiomoth to CUSTOM mode to turn it on. The Audiomoth will wait for a chime if it was not reconfigured using a laptop. Play the acoustic chime for the Audiomoth until it turns to blinking green/red LED that indicate an Audiomoth turned ON. This means that it can begin recording without any errors.
 
-	![Recording](/DeploymentGuide/CommonLEDs/on.png)
+	![Recording](/DeploymentGuide/CommonLEDs/on_recording.png) for Daytime recorders
+	
+	![Recording](/DeploymentGuide/CommonLEDs/on_sleep.png) for Nighttime recorders
 
 6) Pack up all your materials. You are now ready to deploy.
 		
