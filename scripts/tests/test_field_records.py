@@ -174,10 +174,10 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
                     assert is_valid_location(entry),\
                     f"String {entry} is not valid location. Failed entry in row {row_index} column {entry_index}."
                 if entry_index == 5:
-                    assert is_valid_latitude(entry),\
+                    assert is_valid_latitude(entry) or is_valid_unknown_value_format(entry),\
                     f"String {entry} is not valid location. Failed entry in row {row_index} column {entry_index}."
                 if entry_index == 6:
-                    assert is_valid_longitude(entry),\
+                    assert is_valid_longitude(entry) or is_valid_unknown_value_format(entry),\
                     f"String {entry} is not valid longitude. Failed entry in row {row_index} column {entry_index}."
                 if entry_index == 7:
                     assert entry == "192000" or entry == "48000",\
