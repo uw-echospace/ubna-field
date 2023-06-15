@@ -19,4 +19,5 @@ Go through the following for each deployment/recovery
     - Latitude / longitude (from picture)
     - Deployer initial
     - Scribe initial
-    - Notes: any worth noting events / observations
+    - Notes: Useful for information not found in previous columns
+      - Pattern: (Panasonic|Ikea) Batteries (Daytime|Nighttime) (0:00-24:00|3:00-13:30) UTC + additional info.

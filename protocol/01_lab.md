@@ -5,10 +5,10 @@
 
 1. Log into GitHub if you are not already logged in
 2. Navigate to the project repository [union_bay_bats](https://github.com/uw-echospace/union-bay-bats)
-3. Navigate to [field_records/ubna_2022b.md](https://github.com/uw-echospace/union-bay-bats/tree/main/field_records/ubna_2022b.md)
+3. Navigate to [field_records/ubna_2023.csv](https://github.com/uw-echospace/union-bay-bats/tree/main/field_records/ubna_2023.csv)
 4. Click the pencil button on the upper-right corner of the file view so that you can edit this md file
-5. Start a new row in `field_records/ubna_2022b.md` by copy-pasting the template row at the bottom of file (but don't remove the template)
-
+5. Start a new row in `field_records/ubna_2023.csv` by copy-pasting the template row at the bottom of file (but don't remove the template)
+6. Run the pytest functionality (will first need to pip install Pytest) to check if the changes made in `ubna_2023.csv` are valid/of the right form. A tutorial for installing and running Pytest can be found in the following link [Pytest Quick Start](https://docs.pytest.org/en/7.1.x/getting-started.html). The command-line function will be of the form `python -m pytest` `py -m pytest` `python3 -m pytest` depending on your device's configuration.
 
 ## Prepare AudioMoth units
 
@@ -17,8 +17,8 @@ For each AudioMoth, go through the following so that you partially fill in 1 row
 2. Take an AudioMoth unit and record the unit number
 3. Insert an SD card into the AudioMoth and record the SD card number
 4. Put in fully charged batteries, measure the total voltage from the +/- pins on the board, and record the beginning voltage
-5. Connect AudioMoth to the computer, load the pre-saved [BatAudio.config](../ConfigurationDetails/BatAudio.config) file, and click on `Configure AudioMoth`
-6. Go through the configured sampling rate (250 kHz), gain (medium), filter (none), and amplitude threshold (none) to make sure all are configured correctly, and record all settings on the field datasheet
+5. Connect AudioMoth to the computer, load a pre-saved [audiomoth.config](../ConfigurationDetails) file, and click on `Configure AudioMoth`
+6. Go through the configured sampling rate (192 kHz), gain (medium), filter (none), and amplitude threshold (none) to make sure all are configured correctly, and record all settings on the field datasheet
 7. Disconnect the Audiomoth and switch the Audiomoth to CUSTOM mode briefly. After a few seconds, the Audiomoth’s red LED should start rapidly flashing. This means that it is recording without any errors.
 8. Switch it back into USB/OFF mode so that the AudioMoth is in stand-by mode
 9. Put AudioMoth in a ziploc bag and make sure the blinking lights are covered with tape

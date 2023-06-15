@@ -7,7 +7,7 @@
 2. Open up terminal on the computer
 3. Copy paste the following line to terminal, hit ENTER and make sure files start to transfer
     ```bash
-    $ rsync -ahvP /media/USERNAME/UBNA_* /mnt/ubna_data_01/recover-DATE
+    $ rsync -ahvP /media/USERNAME/UBNA_* /mnt/ubna_data_02/recover-DATE
     ```
     Remember to swap out USERNAME with your actual username and DATE with today's date in YYYYMMDD format (e.g. `recover-20220715`)
 
@@ -17,7 +17,7 @@
 1. Log into GitHub if you are not already logged in
 2. Navigate to the project repository [union_bay_bats](https://github.com/uw-echospace/union-bay-bats)
 3. Go to the branch you created earlier today with branch name: `deploy-DATE`, where `DATE` is today's date in YYYYMMDD format
-3. Navigate to `field_records/ubna_2022b.md` (make sure you are still in the above branch!)
+3. Navigate to `field_records/ubna_2023.csv` (make sure you are still in the above branch!)
 4. Click the pencil button on the upper-right corder of the file view so that you can edit this md file
 
 
