@@ -59,7 +59,7 @@ Open Acoustic Devices, the creators of the Audiomoth, also host a support forum 
 
 2) Take Audiomoth out of the case/ziploc bag and check the LED status. There are many Audiomoth LED statuses but a few are the most common ones after a deployment session.
 	
-	a) No Green Light; Flashing Red Light w/ flash rate dependent on sampling rate: The Audiomoth is still recording. This means that neither the battery has died nor the SD card is full yet.
+	a) No Green Light; Flashing Red Light, with flash rate dependent on sampling rate: The Audiomoth is still recording. This means that neither the battery has died nor the SD card is full yet.
 	
 	![Recording](/DeploymentGuide/CommonLEDs/on_recording.png)
 	
