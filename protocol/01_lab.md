@@ -8,7 +8,9 @@
 3. Navigate to [field_records/ubna_2023.csv](https://github.com/uw-echospace/union-bay-bats/tree/main/field_records/ubna_2023.csv)
 4. Click the pencil button on the upper-right corner of the file view so that you can edit this md file
 5. Start a new row in `field_records/ubna_2023.csv` by copy-pasting the template row at the bottom of file (but don't remove the template)
-6. Run the pytest functionality (will first need to pip install Pytest) to check if the changes made in `ubna_2023.csv` are valid/of the right form. A tutorial for installing and running Pytest can be found in the following link [Pytest Quick Start](https://docs.pytest.org/en/7.1.x/getting-started.html). The command-line function will be of the form `python -m pytest` `py -m pytest` `python3 -m pytest` depending on your device's configuration.
+6. Run the pytest functionality to check if the changes made in `ubna_2023.csv` are valid/of the right form.
+   -  You will first need to install Pytest using pip via `pip install -U pytest`. A tutorial for installing and running Pytest can be found in the following link [Pytest Quick Start](https://docs.pytest.org/en/7.1.x/getting-started.html).
+   -  The command-line function will be of the form `python -m pytest` `py -m pytest` `python3 -m pytest` depending on your device's configuration.
 
 ## Prepare AudioMoth units
 
