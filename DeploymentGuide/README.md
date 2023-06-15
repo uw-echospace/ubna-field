@@ -98,7 +98,9 @@ https://www.openacousticdevices.info/led-guide
 		
 7) Put the Audiomoth back in its case/ziploc bag, and go back to your deployment site. Make sure you do not apply too much pressure onto the microSD card area when wrapping the cord around the Audiomoth. Sufficient pressure will make the card pop back out.
 
-8) Use the rubber cord to reattach it to its branch and finally take a picture of the Audiomoth with your phone camera to remember when and where you deployed.
+8) Use the rubber cord to reattach the Audiomoth to a branch.
+
+9) Take a picture of the Audiomoth with your phone camera to remember when and where you deployed it. Certain metadata apps like Exif tools can access the lat/lon details that phones typically store with each picture.
 
 ## Preparing for the next deployment:
 
