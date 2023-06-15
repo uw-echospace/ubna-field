@@ -96,7 +96,7 @@ https://www.openacousticdevices.info/led-guide
 	
 6) Pack up all your materials. You are now ready to deploy.
 		
-7) Put the Audiomoth back in its case/ziploc bag, and go back to your deployment site. Make sure you do not apply too much pressure onto the microSD card area when wrapping the cord around the Audiomoth. Sufficient pressure will make the card pop back out.
+7) Put the Audiomoth back in its case/ziploc bag, and go back to your deployment site. **Make sure you do not apply too much pressure onto the microSD card area when wrapping the cord around the Audiomoth. Too much pressure will make the card pop back out.**
 
 8) Use the rubber cord to reattach the Audiomoth to a branch.
 
