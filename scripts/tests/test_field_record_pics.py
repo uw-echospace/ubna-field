@@ -3,10 +3,12 @@ import os
 import re
 from io import TextIOWrapper
 import csv
+
 from scripts.tests.test_field_records import csv_file_fixture
 
 FOLDER_PATH = "field_records/pics/"
 
+@pytest.mark.pics
 def test_folder_files_regex_and_extension(csv_file_fixture: TextIOWrapper):
     """
     Tests deployment picture file names.

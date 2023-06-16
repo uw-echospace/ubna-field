@@ -16,6 +16,7 @@ def csv_file_fixture() -> TextIOWrapper:
     file = open(csv_path, 'r', encoding='utf-8')
     return file
 
+@pytest.mark.csv
 def test_csv_dimensions(csv_file_fixture: TextIOWrapper) -> None:
     """
     Tests CSV dimensions.
@@ -35,7 +36,7 @@ def test_csv_dimensions(csv_file_fixture: TextIOWrapper) -> None:
     assert num_columns == 18, "The CSV file does not have 18 columns."
     assert num_rows % 6 == 0, "The number of rows in the CSV file is not a multiple of 6."
 
-
+@pytest.mark.csv
 def test_check_spaces(csv_file_fixture: TextIOWrapper) -> None:
     """
     Checks if entries begin and end with a single space. Fence cases are first column, 
@@ -55,6 +56,7 @@ def test_check_spaces(csv_file_fixture: TextIOWrapper) -> None:
                     assert entry.startswith(' ') and not entry.startswith('  '), f"Entry '{entry}' does not start with a single space."
                     assert entry.endswith(' ') and not entry.endswith('  '), f"Entry '{entry}' does not end with a single space."
 
+@pytest.mark.csv
 def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
     """
     Checks format of each individual column.
