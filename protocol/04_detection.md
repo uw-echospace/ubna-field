@@ -7,6 +7,8 @@
 - Fork `aditya-uw/bat-detector-msds` to access the batdetect2-pipeline branch in that repository.
   - This is where the bash script that runs the pipeline is stored.
 - Download the forked repository with `git clone (your forked repository)` on the Linux machine with the mounted UBNA hard drives.
+- Follow the forked repository's README.md instructions about `pip install -r requirements.txt` and updating the submodule.
+  - It is ideal to install requirements and dependencies in a virtual environment with python=3.x.
 
 ## Pipeline steps:
 1) Open the cloned repository with `cd ~/bat-detector-msds`
