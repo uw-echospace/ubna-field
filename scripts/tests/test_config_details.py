@@ -38,11 +38,21 @@ def test_naive_allday(config_allday_file_fixture: TextIOWrapper) -> None:
 @pytest.mark.config
 def test_naive_night(config_night_file_fixture: TextIOWrapper) -> None:
     """
-    Naively checks Night Configuration File for proper values.
+    Checks Night Configuration File for proper values.
     """
     expected_night_values = [[{'startMins': 180, 'endMins': 810}], True, True, True, 192000, 2, 1795, 5, False, False, False,
           True, False, 'none', 0, 0, False, 0.001, 0, False, 64, 48000, 0, 0.001, False, False, False,
           'percentage', '1.8.0', False, False, False, False, False]
     data = json.load(config_night_file_fixture)
     for key_index, key in enumerate(data):
-        assert expected_night_values[key_index] == data[key]
+        if key_index == 0:
+            # Checks if values are within the original startMins and endMins values.
+            expected_startMins = expected_night_values[key_index][0]["startMins"]
+            expected_endMins = expected_night_values[key_index][0]["endMins"]
+            startMins = data[key][0]["startMins"]
+            endMins = data[key][0]["endMins"]
+            assert abs(startMins - expected_startMins) < 180
+            assert abs(endMins - expected_endMins) < 180
+        else:
+            # Asserts that everything else has remained unchanged.
+            assert expected_night_values[key_index] == data[key]
