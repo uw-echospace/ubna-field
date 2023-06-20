@@ -16,6 +16,7 @@ def csv_file_fixture() -> TextIOWrapper:
     file = open(csv_path, 'r', encoding='utf-8')
     return file
 
+@pytest.mark.csv
 def test_csv_dimensions(csv_file_fixture: TextIOWrapper) -> None:
     """
     Tests CSV dimensions.
@@ -35,7 +36,7 @@ def test_csv_dimensions(csv_file_fixture: TextIOWrapper) -> None:
     assert num_columns == 18, "The CSV file does not have 18 columns."
     assert num_rows % 6 == 0, "The number of rows in the CSV file is not a multiple of 6."
 
-
+@pytest.mark.csv
 def test_check_spaces(csv_file_fixture: TextIOWrapper) -> None:
     """
     Checks if entries begin and end with a single space. Fence cases are first column, 
@@ -55,6 +56,7 @@ def test_check_spaces(csv_file_fixture: TextIOWrapper) -> None:
                     assert entry.startswith(' ') and not entry.startswith('  '), f"Entry '{entry}' does not start with a single space."
                     assert entry.endswith(' ') and not entry.endswith('  '), f"Entry '{entry}' does not end with a single space."
 
+@pytest.mark.csv
 def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
     """
     Checks format of each individual column.
@@ -125,9 +127,9 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
 
     def is_valid_person(entry: str) -> bool:
         """
-        Checks if string is valid initials of person.
+        Checks if string is valid initials of valid deployer, scribe, and uploader.
         """
-        valid_strings = ['AK', 'MB', 'WL', 'CT']
+        valid_strings = ['AK', 'MB', 'WL', 'CT', 'YC']
         return entry in valid_strings
     
     def is_valid_recovery_date(entry: str) -> bool:
@@ -163,46 +165,46 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
                 entry = entry.strip()
                 if entry_index == 0 or entry_index == 1:
                     assert is_datetime_format(entry) or is_valid_unknown_value_format(entry),\
-                    f"String {entry} is not in proper datetime format. Failed entry in row {row_index} column {entry_index}."
+                    f"String {entry} is not in proper datetime format. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 2:
                     assert is_valid_audiomoth_label(entry),\
-                    f"String {entry} is not valid AudioMoth label. Failed entry in row {row_index} column {entry_index}."
+                    f"String {entry} is not valid AudioMoth label. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 3:
                     assert is_valid_sd_card(entry),\
-                    f"String {entry} is not valid SD Card label. Failed entry in row {row_index} column {entry_index}."
+                    f"String {entry} is not valid SD Card label. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 4:
                     assert is_valid_location(entry),\
-                    f"String {entry} is not valid location. Failed entry in row {row_index} column {entry_index}."
+                    f"String {entry} is not valid location. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 5:
                     assert is_valid_latitude(entry) or is_valid_unknown_value_format(entry),\
-                    f"String {entry} is not valid location. Failed entry in row {row_index} column {entry_index}."
+                    f"String {entry} is not valid location. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 6:
                     assert is_valid_longitude(entry) or is_valid_unknown_value_format(entry),\
-                    f"String {entry} is not valid longitude. Failed entry in row {row_index} column {entry_index}."
+                    f"String {entry} is not valid longitude. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 7:
                     assert entry == "192000" or entry == "48000",\
-                    f"String {entry} is not valid sampling rate. Failed entry in row {row_index} column {entry_index}."
+                    f"String {entry} is not valid sampling rate. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 8:
                     assert entry == "Medium",\
-                    f"String {entry} is not valid gain. Failed entry in row {row_index} column {entry_index}."
+                    f"String {entry} is not valid gain. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 9:
                     assert entry == "None",\
-                    f"String {entry} is not valid filter. Failed entry in row {row_index} column {entry_index}."
+                    f"String {entry} is not valid filter. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 10:
                     assert entry == "None",\
-                    f"String {entry} is not valid amplitude threshold. Failed entry in row {row_index} column {entry_index}."
+                    f"String {entry} is not valid amplitude threshold. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 11:
                     assert is_valid_battery_start(entry),\
-                    f"String {entry} is not valid battery start voltage. Failed entry in row {row_index} column {entry_index}."
+                    f"String {entry} is not valid battery start voltage. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 12:
                     assert is_valid_battery_end(entry) or is_valid_unknown_value_format(entry),\
-                    f"String {entry} is not valid battery end voltage. Failed entry in row {row_index} column {entry_index}."
+                    f"String {entry} is not valid battery end voltage. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 13 or entry_index == 14 or entry_index == 15:
                     assert is_valid_person(entry) or is_valid_unknown_value_format(entry),\
-                    f"String {entry} is not valid initials of person. Failed entry in row {row_index} column {entry_index}."
+                    f"String {entry} is not valid initials of person. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 16:
                     assert is_valid_recovery_date(entry) or is_valid_unknown_value_format(entry),\
-                    f"String {entry} is not valid recovery date. Failed entry in row {row_index} column {entry_index}."
+                    f"String {entry} is not valid recovery date. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 17:
                     assert is_valid_notes(entry),\
-                    f"String {entry} is not valid notes. Failed entry in row {row_index} column {entry_index}."
+                    f"String {entry} is not valid notes. Failed entry in row {row_index + 1} column {entry_index + 1}."

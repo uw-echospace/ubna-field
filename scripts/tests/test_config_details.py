@@ -23,6 +23,7 @@ def config_night_file_fixture() -> TextIOWrapper:
     file = open(text_file_path, 'r', encoding='utf-8')
     return file
 
+@pytest.mark.config
 def test_naive_allday(config_allday_file_fixture: TextIOWrapper) -> None:
     """
     Naively checks All Day Configuration File for proper values.
@@ -34,6 +35,7 @@ def test_naive_allday(config_allday_file_fixture: TextIOWrapper) -> None:
     for key_index, key in enumerate(data):
         assert expected_allday_values[key_index] == data[key]
 
+@pytest.mark.config
 def test_naive_night(config_night_file_fixture: TextIOWrapper) -> None:
     """
     Naively checks Night Configuration File for proper values.
