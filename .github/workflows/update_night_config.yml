@@ -1,11 +1,11 @@
 # .github/workflows/update_night_config.yml
 name: Update Night Config
 
-on: push, 
+on: [push, 
     pull_request, 
     workflow_dispatch,
     schedule: 
-      - cron: '0 9 * * 0-6' 
+      - cron: '0 9 * * 0-6']
 
 jobs:
   update_night_config:
