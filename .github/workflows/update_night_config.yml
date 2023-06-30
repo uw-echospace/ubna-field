@@ -1,0 +1,32 @@
+# .github/workflows/update_night_config.yml
+name: Update Night Config
+
+on: push, 
+    pull_request, 
+    workflow_dispatch,
+    schedule: 
+      - cron: '0 9 * * 0-6' 
+
+jobs:
+  update_night_config:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: "3.x"
+      - name: Install pytest dependencies
+        run: |
+          sudo apt-get install libgeos-dev
+          python -m pip install --upgrade pip
+          python -m pip install --upgrade setuptools wheel
+          pip install -r requirements-dev.txt
+          pip install -e .
+
+      - name: Update Night Config
+        run: python scripts/update_night_config.py
+      - name: Run config tests
+        run: pytest -m config
