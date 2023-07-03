@@ -13,7 +13,7 @@
 ## Pipeline steps:
 1) Open the cloned repository with `cd ~/bat-detector-msds`
 2) Use `git fetch upstream` to update your repository according to the updated pipeline:
-  - If there is recovered data you wish to run the pipeline on, check the updated repository's outputs to ensure the pipeline has not already been run on the desired data.
+   - If there is recovered data you wish to run the pipeline on, check the updated repository's outputs to ensure the pipeline has not already been run on the desired data.
 4) Use the field records to find where your recovered nighttime recorder data has been uploaded. For example, `/mnt/ubna_data_02/recover-20230609/UBNA_012`
 5) Use the command in this format: `nohup sh scripts/pipeline_for_recovered_deployments.sh "/mnt/ubna_data_02/recover-20230609" "UBNA_012" "true" "true" &`
    - `nohup (command) &` will keep the pipeline running regardless of ssh connection and write the output into a nohup.out file. This file will be stored amidst the files in bat-detector-msds
@@ -31,6 +31,7 @@
 9) If you wish to cancel the command:
    - Use `ps e` to view the currently running processes; the above command will be linked to python. The PID is the ID of that process displayed to the left of the process.
    - Use `kill PID` where you type the processes' ID in place for PID to cancel the command.
+   - **Note: Only cancel the command that you wish to cancel, you can see how much time has passed since each job has been started in `ps e`.** 
   
 ## Pipeline Outputs
 1) Once the pipeline command has been run, some details will be displayed for user sanity:
