@@ -55,6 +55,8 @@
    - 0:00:05 is the time that has passed for generating detections. (HH:MM:SS)
    - 9:29:27 is the time the pipeline still needs to generate detections for all segments. (HH:MM:SS)
    - 4.55s/it is the time it takes to generate detections per segment for our pipeline on our chosen machine.
+      - It should take <10s/it for the pipeline. If it takes much longer, consider that multiple pipelines are running at once and need to be cancelled so that 1 pipeline can run at once.
+      - As it should take <10s/it, it should also take <17hrs for ~6000 segments. Use this to know if you need to cancel commands. It's better to cancel long processes early than to wait for them to get faster.
 
 ### Slight modifications to pipeline:
 Deleting segments after detections have been generated for all files recovered.
