@@ -12,8 +12,10 @@
 
 ## Pipeline steps:
 1) Open the cloned repository with `cd ~/bat-detector-msds`
-2) Use the field records to find where your recovered nighttime recorder data has been uploaded. For example, `/mnt/ubna_data_02/recover-20230609/UBNA_012`
-3) Use the command in this format: `nohup sh scripts/pipeline_for_recovered_deployments.sh "/mnt/ubna_data_02/recover-20230609" "UBNA_012" "true" "true" &`
+2) Use `git fetch upstream` to update your repository according to the updated pipeline:
+  - If there is recovered data you wish to run the pipeline on, check the updated repository's outputs to ensure the pipeline has not already been run on the desired data.
+4) Use the field records to find where your recovered nighttime recorder data has been uploaded. For example, `/mnt/ubna_data_02/recover-20230609/UBNA_012`
+5) Use the command in this format: `nohup sh scripts/pipeline_for_recovered_deployments.sh "/mnt/ubna_data_02/recover-20230609" "UBNA_012" "true" "true" &`
    - `nohup (command) &` will keep the pipeline running regardless of ssh connection and write the output into a nohup.out file. This file will be stored amidst the files in bat-detector-msds
    - `sh scripts/pipeline_for_recovered_deployments.sh` runs the bash script that runs the detection pipeline. It takes 4 arguments:
       - Upload folder path: `/mnt/ubna_data_02/recover-20230609`
@@ -21,12 +23,12 @@
       - String “boolean” whether detector should be run: “true”
       - String “boolean” whether summary figure should be generated: “true”
          - The reason for the booleans is because generating detections is only a 1-time operation but generating figures can be needed multiple times to update figure format using the detections.csv.
-4) The detections.csv and figures are saved into `bat-detector-msds/output_dir/recover-DATE/SD_UNIT` .
+6) The detections.csv and figures are saved into `bat-detector-msds/output_dir/recover-DATE/SD_UNIT` .
    - The naming conventions of each file will remember recover-DATE and SD_UNIT to trace back to where the data came from.
-5) Once you hit `ENTER` on the above command, you will see this message: `nohup: ignoring input and appending output to 'nohup.out'`
-6) Use `CTRL+C` to exit the dialog and use the command `tail -f nohup.out` to view the nohup.out file.
+7) Once you hit `ENTER` on the above command, you will see this message: `nohup: ignoring input and appending output to 'nohup.out'`
+8) Use `CTRL+C` to exit the dialog and use the command `tail -f nohup.out` to view the nohup.out file.
    - The nohup.out file will update dynamically and independently so the command will run even if you `CTRL+C` again to exit viewing.
-7) If you wish to cancel the command:
+9) If you wish to cancel the command:
    - Use `ps e` to view the currently running processes; the above command will be linked to python. The PID is the ID of that process displayed to the left of the process.
    - Use `kill PID` where you type the processes' ID in place for PID to cancel the command.
   
