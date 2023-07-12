@@ -152,7 +152,7 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
         Checks if string is valid notes. Valid notes must contain the following pattern, but other text may
         also be included.
         """
-        regex_pattern = r'(Panasonic|Ikea) Batteries (Daytime|Nighttime) (0:00-24:00|3:00-13:30) UTC'
+        regex_pattern = r'(Panasonic|Ikea|Panasonic-Ikea) Batteries (Daytime|Nighttime) (0:00-24:00|3:00-13:30) UTC'
         if len(re.findall(regex_pattern, entry)) == 1:
             return True
         else:
