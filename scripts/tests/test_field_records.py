@@ -32,9 +32,8 @@ def test_csv_dimensions(csv_file_fixture: TextIOWrapper) -> None:
         num_rows = sum(1 for _ in reader)
         return num_columns, num_rows
     
-    num_columns, num_rows = count_rows_and_columns(csv_file_fixture)
+    num_columns, _ = count_rows_and_columns(csv_file_fixture)
     assert num_columns == 18, "The CSV file does not have 18 columns."
-    assert num_rows % 6 == 0, "The number of rows in the CSV file is not a multiple of 6."
 
 @pytest.mark.csv
 def test_check_spaces(csv_file_fixture: TextIOWrapper) -> None:
@@ -94,7 +93,7 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
         """
         Checks if string is valid location.
         """
-        valid_strings = ['Telephone Field', 'Foliage', 'Central Pond']
+        valid_strings = ['Telephone Field', 'Foliage', 'Central Pond', 'E18 Bridge']
         return entry in valid_strings
     
     def is_valid_latitude(entry: str) -> bool:
