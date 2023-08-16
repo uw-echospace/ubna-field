@@ -1,3 +1,0 @@
-Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Occupancy
-1	Waveform 1	1	695.571330729	695.583330729	22000.000	38000.000	0.1111
-1	Spectrogram 1	1	695.571330729	695.583330729	22000.000	38000.000	0.1111
