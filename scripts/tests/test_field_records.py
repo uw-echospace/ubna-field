@@ -193,7 +193,7 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
                     assert entry == "None",\
                     f"String {entry} is not valid amplitude threshold. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 11:
-                    assert is_valid_battery_start(entry) or is_valid_unknown_value_format(entry),\
+                    assert is_valid_battery_start(entry),\
                     f"String {entry} is not valid battery start voltage. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 12:
                     assert is_valid_battery_end(entry) or is_valid_unknown_value_format(entry),\
