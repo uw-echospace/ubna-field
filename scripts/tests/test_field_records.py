@@ -79,7 +79,7 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
         """
         Checks if string is valid AudioMoth Label.
         """
-        valid_strings = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
+        valid_strings = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L']
         return entry in valid_strings
     
     def is_valid_sd_card(entry: str) -> bool:
