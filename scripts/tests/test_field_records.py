@@ -128,7 +128,7 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
         """
         Checks if string is valid initials of valid deployer, scribe, and uploader.
         """
-        valid_strings = ['AK', 'MB', 'WL', 'CT', 'YC', 'MS']
+        valid_strings = ['AK', 'MB', 'WL', 'CT', 'YC', 'MS', 'VK']
         return entry in valid_strings
     
     def is_valid_recovery_date(entry: str) -> bool:
