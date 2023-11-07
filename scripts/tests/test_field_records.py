@@ -121,7 +121,7 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
         """
         Checks if string is valid battery end voltage.
         """
-        regex_pattern = r'^(2|3|4)\.\d{3}$'
+        regex_pattern = r'^[2-4]\.\d{3}$'
         return re.match(regex_pattern, str(entry)) is not None
 
     def is_valid_person(entry: str) -> bool:
