@@ -121,14 +121,14 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
         """
         Checks if string is valid battery end voltage.
         """
-        regex_pattern = r'^(3|4)\.\d{3}$'
+        regex_pattern = r'^[2-4]\.\d{3}$'
         return re.match(regex_pattern, str(entry)) is not None
 
     def is_valid_person(entry: str) -> bool:
         """
         Checks if string is valid initials of valid deployer, scribe, and uploader.
         """
-        valid_strings = ['AK', 'MB', 'WL', 'CT', 'YC', 'MS']
+        valid_strings = ['AK', 'MB', 'WL', 'CT', 'YC', 'MS', 'VK']
         return entry in valid_strings
     
     def is_valid_recovery_date(entry: str) -> bool:
