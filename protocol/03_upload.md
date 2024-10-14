@@ -10,7 +10,15 @@
     $ rsync -ahvP /media/USERNAME/UBNA_* /mnt/ubna_data_02/recover-DATE
     ```
     Remember to swap out USERNAME with your actual username and DATE with today's date in YYYYMMDD format (e.g. `recover-20220715`)
-4. **Only in specific circumstances**: In the case where Audiomoths were configured prior to the previous deployment, the uploader must check to see if the configuration change actually occured and was recorded properly. Navigate to the folder containing the uploaded data of each newly configured Audiomoth (e.g `/mnt/ubna_data_02/recover-20220715/UBNA_001`) using `cd` commands. In each folder, run the `cat CONFIG.TXT` command, examine the configuration records, and report any discrepencies between the configuration values and the field record data.
+
+    Explanation of flags:
+   
+        -a        archive; recursion and want to preserve almost everything
+        -h        human-readable; outputs numbers in a human readable format
+        -v        verbose; increase verbosity
+        -P        show progress and keep partially transferred files
+   
+5. **Only in specific circumstances**: In the case where Audiomoths were configured prior to the previous deployment, the uploader must check to see if the configuration change actually occured and was recorded properly. Navigate to the folder containing the uploaded data of each newly configured Audiomoth (e.g `/mnt/ubna_data_02/recover-20220715/UBNA_001`) using `cd` commands. In each folder, run the `cat CONFIG.TXT` command, examine the configuration records, and report any discrepencies between the configuration values and the field record data.
 
 ## Navigate to GitHub field record
 
@@ -28,7 +36,7 @@
     - Time recovered (local) of the previous units
 3. Measure the total voltage from the +/- pins on the board, and record the ending voltage
 4. Record the upload folder name
-5. Record the uploader initial
+5. Record the uploader's initials
 
 
 ## Add deployment pictures
@@ -48,4 +56,4 @@ Once you are done with entering information for all the AudioMoth units you just
 
 1. Put all batteries from the recovered units to charge
 2. Double check field kit and replace/refill any needed items
-3. Check out with @leewujung or @yjcheong, either in-person or on Slack
+3. Check out with @aditya-uw, either in-person or on Slack
