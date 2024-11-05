@@ -100,4 +100,3 @@ Date and Time deployed (local) , Date and Time recovered (local) , AudioMoth # ,
 2024-10-04T13:54:00 , (DATE-TIME) , P , 021 , Telephone Field , (LATITUDE) , (LONGITUDE) , 192003 , Medium , None , None , 300 , 300 , 4.136 , (VOLT-END) , AL , AK , (UPLOADER) , (RECOVER-DATE) , Ikea Batteries 0:00-24:00 UTC; All new batteries; all 9-battery; newly soldered and flashed from Aidan's computer
 2024-10-04T13:54:00 , (DATE-TIME) , C , 004 , Carp Pond , (LATITUDE) , (LONGITUDE) , 192004 , Medium , None , None , 300 , 300 , 4.134 , (VOLT-END) , AL , AK , (UPLOADER) , (RECOVER-DATE) , Ikea Batteries 0:00-24:00 UTC; All new batteries; all 9-battery; newly soldered and flashed from Aidan's computer
 (DATE-TIME) , (DATE-TIME) , (AUDIOMOTH-NAME) , (SD-NUM) , (SITE) , (LATITUDE) , (LONGITUDE) , (SAMPLE-RATE) , (GAIN) , (FILTER) , (AMP-THRESHOLD) , (TIME-ON) , (TIME-OFF) , (VOLTAGE) , (VOLTAGE) , (DEPLOYER) , (SCRIBE) , (UPLOADER) , (RECOVER-DATE) , (NOTES)
-
