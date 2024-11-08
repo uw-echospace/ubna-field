@@ -105,4 +105,3 @@ Date and Time deployed (local) , Date and Time recovered (local) , AudioMoth # ,
 2024-10-11T14:05:00 , (DATE-TIME) , J , 001 , Telephone Field , 47° 39' 25.248'' N , 122° 17' 29.520'' W , 192008 , Medium , None , None , 300 , 300 , 4.137 , (VOLT-END) , AL , AK , (UPLOADER) , (RECOVER-DATE) , Ikea Batteries 0:00-24:00 UTC; All new batteries; all 9-battery;  updated firmware and configured with laptop
 2024-10-11T14:05:00 , (DATE-TIME) , I , 002 , Foliage , 47° 39' 18.822'' N , 122° 17' 27.270'' W , 192009 , Medium , None , None , 300 , 300 , 4.13 , (VOLT-END) , AK , AL , (UPLOADER) , (RECOVER-DATE) , Ikea Batteries 0:00-24:00 UTC; All new batteries; all 9-battery;  updated firmware and configured with laptop
 (DATE-TIME) , (DATE-TIME) , (AUDIOMOTH-NAME) , (SD-NUM) , (SITE) , (LATITUDE) , (LONGITUDE) , (SAMPLE-RATE) , (GAIN) , (FILTER) , (AMP-THRESHOLD) , (TIME-ON) , (TIME-OFF) , (VOLTAGE) , (VOLTAGE) , (DEPLOYER) , (SCRIBE) , (UPLOADER) , (RECOVER-DATE) , (NOTES)
-
