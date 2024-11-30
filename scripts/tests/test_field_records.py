@@ -5,7 +5,7 @@ from typing import Tuple, Union
 from datetime import datetime
 import re
 
-PATH = "field_records/ubna_2023.csv"
+PATH = "field_records/ubna_2024.csv"
 
 @pytest.fixture(scope="function", autouse=True)
 def csv_file_fixture() -> TextIOWrapper:
@@ -79,7 +79,7 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
         """
         Checks if string is valid AudioMoth Label.
         """
-        valid_strings = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N']
+        valid_strings = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q']
         return entry in valid_strings
     
     def is_valid_sd_card(entry: str) -> bool:
@@ -93,7 +93,7 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
         """
         Checks if string is valid location.
         """
-        valid_strings = ['Telephone Field', 'Foliage', 'Central Pond', 'E18 Bridge']
+        valid_strings = ['Telephone Field', 'Foliage', 'Central Pond', 'E18 Bridge', 'Carp Pond']
         return entry in valid_strings
     
     def is_valid_latitude(entry: str) -> bool:
