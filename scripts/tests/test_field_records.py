@@ -153,6 +153,21 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
                 return False
         return False
 
+    def is_valid_batcatch_date(entry: str) -> bool:
+        """
+        Checks if string is of valid batcatch-date.
+        """
+        regex_pattern = r'^batcatch-(\d{8})$'
+        match = re.match(regex_pattern, entry)
+        if match:
+            date_str = match.group(1)
+            try:
+                datetime.strptime(date_str, '%Y%m%d')
+                return True
+            except ValueError:
+                return False
+        return False
+
     def is_valid_notes(entry: str) -> bool:
         """
         Checks if string is valid notes. Valid notes must contain the following pattern, but other text may
@@ -215,7 +230,7 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
                     assert is_valid_person(entry) or is_valid_unknown_value_format(entry),\
                     f"String {entry} is not valid initials of person. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 18:
-                    assert is_valid_recovery_date(entry) or is_valid_unknown_value_format(entry),\
+                    assert is_valid_recovery_date(entry) or is_valid_batcatch_date(entry) or is_valid_unknown_value_format(entry),\
                     f"String {entry} is not valid recovery date. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 19:
                     assert is_valid_notes(entry),\
