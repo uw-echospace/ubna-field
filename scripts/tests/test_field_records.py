@@ -199,10 +199,10 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
                 if entry_index == 10:
                     assert entry == "None",\
                     f"String {entry} is not valid amplitude threshold. Failed entry in row {row_index + 1} column {entry_index + 1}."
-                if entry_index == 11;
+                if entry_index == 11:
                     assert is_valid_time(entry),\
                     f"String {entry} is not valid on time. Failed entry in row {row_index + 1} column {entry_index + 1}."
-                if entry_index == 12;
+                if entry_index == 12:
                     assert is_valid_time(entry),\
                     f"String {entry} is not valid off time. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 13:
