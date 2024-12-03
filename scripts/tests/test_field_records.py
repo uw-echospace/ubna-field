@@ -93,7 +93,7 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
         """
         Checks if string is valid location.
         """
-        valid_strings = ['Telephone Field', 'Foliage', 'Central Pond', 'E18 Bridge', 'Carp Pond', 'Creek Point']
+        valid_strings = ['Telephone Field', 'Foliage', 'Central Pond', 'E18 Bridge', 'Carp Pond', 'Creek Point', 'Processing Station']
         return entry in valid_strings
     
     def is_valid_latitude(entry: str) -> bool:
