@@ -48,9 +48,9 @@ def test_check_spaces(csv_file_fixture: TextIOWrapper) -> None:
                 if entry_index == 0:
                     assert not entry.startswith(' ') and not entry.startswith('  '), f"Entry '{entry}' does not start with a single space."
                     assert entry.endswith(' ') and not entry.endswith('  '), f"Entry '{entry}' does not end with a single space."
-                elif entry_index == 20:
+                elif entry_index == 19:
                     assert entry.startswith(' ') and not entry.startswith('  '), f"Entry '{entry}' does not start with a single space."
-                    # assert not entry.endswith(' ') and not entry.endswith('  '), f"Entry '{entry}' does not end with a single space."
+                    assert not entry.endswith(' ') and not entry.endswith('  '), f"Entry '{entry}' does not end with a single space."
                 else:
                     assert entry.startswith(' ') and not entry.startswith('  '), f"Entry '{entry}' does not start with a single space."
                     assert entry.endswith(' ') and not entry.endswith('  '), f"Entry '{entry}' does not end with a single space."
