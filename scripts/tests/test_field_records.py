@@ -86,7 +86,7 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
         """
         Checks if string is valid SD card.
         """
-        regex_pattern = r'^(0\d{2}|[1-9]\d{2})$'
+        regex_pattern = r'^(0\d{2}|[1-9]\d{2}|\(SD-NUM\))$'
         return re.match(regex_pattern, entry) is not None
     
     def is_valid_location(entry: str) -> bool:
