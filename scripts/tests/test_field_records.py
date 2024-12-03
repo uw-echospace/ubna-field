@@ -93,35 +93,35 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
         """
         Checks if string is valid location.
         """
-        valid_strings = ['Telephone Field', 'Foliage', 'Central Pond', 'E18 Bridge', 'Carp Pond', 'Creek Point', 'Processing Station', 'Bat Boxes']
+        valid_strings = ['Telephone Field', 'Foliage', 'Central Pond', 'E18 Bridge', 'Carp Pond', 'Creek Point', 'Processing Station', 'Bat Boxes', '(SITE)']
         return entry in valid_strings
     
     def is_valid_latitude(entry: str) -> bool:
         """
         Checks if string is valid latitude.
         """
-        regex_pattern = r'^\d{1,2}° \d{1,2}\' \d{1,2}\.\d{3}\'\' [NS]$'
+        regex_pattern = r'^\d{1,2}° \d{1,2}\' \d{1,2}\.\d{3}\'\' [NS]|\(LATITUDE\)$'
         return re.match(regex_pattern, entry) is not None
 
     def is_valid_longitude(entry: str) -> bool:
         """
         Checks if string is valid longitude.
         """
-        regex_pattern = r'^\d{1,3}° \d{1,2}\' \d{1,2}\.\d{3}\'\' [EW]$'
+        regex_pattern = r'^\d{1,3}° \d{1,2}\' \d{1,2}\.\d{3}\'\' [EW]|\(LONGITUDE\)$'
         return re.match(regex_pattern, entry) is not None
     
     def is_valid_battery_start(entry: str) -> bool:
         """
         Checks if string is valid battery start voltage.
         """
-        regex_pattern = r'^(3|4)\.\d{3}$'
+        regex_pattern = r'^(3|4)\.\d{3}|\(VOLTAGE\)$'
         return re.match(regex_pattern, str(entry)) is not None
 
     def is_valid_battery_end(entry: str) -> bool:
         """
         Checks if string is valid battery end voltage.
         """
-        regex_pattern = r'^[2-4]\.\d{3}$'
+        regex_pattern = r'^[2-4]\.\d{3}|\(VOLTAGE\)|\(VOLT-END\)$'
         return re.match(regex_pattern, str(entry)) is not None
 
     def is_valid_time(entry: str) -> bool:
@@ -142,7 +142,7 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
         """
         Checks if string is of valid recovery-date.
         """
-        regex_pattern = r'^recover-(\d{8})$'
+        regex_pattern = r'^recover-(\d{8})|\(RECOVER-DATE\)$'
         match = re.match(regex_pattern, entry)
         if match:
             date_str = match.group(1)
