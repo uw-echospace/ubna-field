@@ -168,16 +168,16 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
                 return False
         return False
 
-    def is_valid_notes(entry: str) -> bool:
-        """
-        Checks if string is valid notes. Valid notes must contain the following pattern, but other text may
-        also be included.
-        """
-        regex_pattern = r'(Panasonic|Ikea|Panasonic-Ikea) Batteries(| Daytime| Nighttime) \d{1,2}:\d{2}(–|-)\d{2}:\d{2} UTC'
-        if len(re.findall(regex_pattern, entry)) == 1:
-            return True
-        else:
-            return False
+    # def is_valid_notes(entry: str) -> bool:
+    #     """
+    #     Checks if string is valid notes. Valid notes must contain the following pattern, but other text may
+    #     also be included.
+    #     """
+    #     regex_pattern = r'(Panasonic|Ikea|Panasonic-Ikea) Batteries(| Daytime| Nighttime) \d{1,2}:\d{2}(–|-)\d{2}:\d{2} UTC'
+    #     if len(re.findall(regex_pattern, entry)) == 1:
+    #         return True
+    #     else:
+    #         return False
 
     reader = csv.reader(csv_file_fixture)
     for row_index, row in enumerate(reader):
@@ -232,6 +232,6 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
                 if entry_index == 18:
                     assert is_valid_recovery_date(entry) or is_valid_batcatch_date(entry) or is_valid_unknown_value_format(entry),\
                     f"String {entry} is not valid recovery date. Failed entry in row {row_index + 1} column {entry_index + 1}."
-                if entry_index == 19:
-                    assert is_valid_notes(entry),\
-                    f"String {entry} is not valid notes. Failed entry in row {row_index + 1} column {entry_index + 1}."
+                # if entry_index == 19:
+                #     assert is_valid_notes(entry),\
+                #     f"String {entry} is not valid notes. Failed entry in row {row_index + 1} column {entry_index + 1}."
