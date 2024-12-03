@@ -33,7 +33,7 @@ def test_csv_dimensions(csv_file_fixture: TextIOWrapper) -> None:
         return num_columns, num_rows
     
     num_columns, _ = count_rows_and_columns(csv_file_fixture)
-    assert num_columns == 18, "The CSV file does not have 18 columns."
+    assert num_columns == 20, "The CSV file does not have 20 columns."
 
 @pytest.mark.csv
 def test_check_spaces(csv_file_fixture: TextIOWrapper) -> None:
@@ -48,7 +48,7 @@ def test_check_spaces(csv_file_fixture: TextIOWrapper) -> None:
                 if entry_index == 0:
                     assert not entry.startswith(' ') and not entry.startswith('  '), f"Entry '{entry}' does not start with a single space."
                     assert entry.endswith(' ') and not entry.endswith('  '), f"Entry '{entry}' does not end with a single space."
-                elif entry_index == 17:
+                elif entry_index == 20:
                     assert entry.startswith(' ') and not entry.startswith('  '), f"Entry '{entry}' does not start with a single space."
                     assert not entry.endswith(' ') and not entry.endswith('  '), f"Entry '{entry}' does not end with a single space."
                 else:
@@ -124,11 +124,18 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
         regex_pattern = r'^[2-4]\.\d{3}$'
         return re.match(regex_pattern, str(entry)) is not None
 
+    def is_valid_time(entry: str) -> bool:
+        """
+        Checks if string is valid number of seconds for Audiomoth to be on.
+        """
+        regex_pattern = r'^\d+$'
+        return re.match(regex_pattern, str(entry)) is not None
+
     def is_valid_person(entry: str) -> bool:
         """
         Checks if string is valid initials of valid deployer, scribe, and uploader.
         """
-        valid_strings = ['AK', 'MB', 'WL', 'CT', 'YC', 'MS', 'VK', 'BL']
+        valid_strings = ['AK', 'MB', 'WL', 'CT', 'YC', 'MS', 'VK', 'BL', 'AL', 'AM']
         return entry in valid_strings
     
     def is_valid_recovery_date(entry: str) -> bool:
@@ -192,18 +199,24 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
                 if entry_index == 10:
                     assert entry == "None",\
                     f"String {entry} is not valid amplitude threshold. Failed entry in row {row_index + 1} column {entry_index + 1}."
-                if entry_index == 11:
+                if entry_index == 11;
+                    assert is_valid_time(entry),\
+                    f"String {entry} is not valid on time. Failed entry in row {row_index + 1} column {entry_index + 1}."
+                if entry_index == 12;
+                    assert is_valid_time(entry),\
+                    f"String {entry} is not valid off time. Failed entry in row {row_index + 1} column {entry_index + 1}."
+                if entry_index == 13:
                     assert is_valid_battery_start(entry) or is_valid_unknown_value_format(entry),\
                     f"String {entry} is not valid battery start voltage. Failed entry in row {row_index + 1} column {entry_index + 1}."
-                if entry_index == 12:
+                if entry_index == 14:
                     assert is_valid_battery_end(entry) or is_valid_unknown_value_format(entry),\
                     f"String {entry} is not valid battery end voltage. Failed entry in row {row_index + 1} column {entry_index + 1}."
-                if entry_index == 13 or entry_index == 14 or entry_index == 15:
+                if entry_index == 15 or entry_index == 16 or entry_index == 17:
                     assert is_valid_person(entry) or is_valid_unknown_value_format(entry),\
                     f"String {entry} is not valid initials of person. Failed entry in row {row_index + 1} column {entry_index + 1}."
-                if entry_index == 16:
+                if entry_index == 18:
                     assert is_valid_recovery_date(entry) or is_valid_unknown_value_format(entry),\
                     f"String {entry} is not valid recovery date. Failed entry in row {row_index + 1} column {entry_index + 1}."
-                if entry_index == 17:
+                if entry_index == 19:
                     assert is_valid_notes(entry),\
                     f"String {entry} is not valid notes. Failed entry in row {row_index + 1} column {entry_index + 1}."
