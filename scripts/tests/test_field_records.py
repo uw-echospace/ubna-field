@@ -142,7 +142,7 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
         """
         Checks if string is of valid recovery-date.
         """
-        regex_pattern = r'^recover-(\d{8})|\(RECOVER-DATE\)|^batcatch-(\d{8})$'
+        regex_pattern = r'^(?:recover-(\d{8})|\(RECOVER-DATE\)|batcatch-(\d{8}))$'
         match = re.match(regex_pattern, entry)
         if match:
             date_str = match.group(1)
