@@ -41,5 +41,5 @@ def test_folder_files_regex_and_extension(csv_file_fixture: TextIOWrapper):
             if re.match(regex_pattern, file_name):
                 found = True
         if not found:
-            pytest.fail(f"No such file matches the regex pattern {regex_pattern} for the deployment date " f"{deployment_date_reformatted}."
+            pytest.fail(f"No such file matches the regex pattern {regex_pattern} for the deployment date " f"{deployment_date_reformatted}.")
 
