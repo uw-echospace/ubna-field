@@ -145,12 +145,13 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
         regex_pattern = r'^(?:recover-(\d{8})|\(RECOVER-DATE\)|batcatch-(\d{8}))$'
         match = re.match(regex_pattern, entry)
         if match:
-            date_str = match.group(1)
-            try:
-                datetime.strptime(date_str, '%Y%m%d')
-                return True
-            except ValueError:
-                return False
+            date_str = match.group(1) or match.group(2)
+            if date_str:
+                try:
+                    datetime.strptime(date_str, '%Y%m%d')
+                    return True
+                except ValueError:
+                    return False
         return False
 
     #def is_valid_batcatch_date(entry: str) -> bool:
