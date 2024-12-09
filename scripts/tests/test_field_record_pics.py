@@ -24,7 +24,7 @@ def test_folder_files_regex_and_extension(csv_file_fixture: TextIOWrapper):
                 deployment_date_reformatted = row[0].split("T")[0].replace("-", "")
                 deployment_dates_reformatted.append(deployment_date_reformatted)
         # Remove duplicate values
-        deployment_dates_reformatted = [*set(deployment_dates_reformatted)]
+        deployment_dates_reformatted = list(set(deployment_dates_reformatted))
         return deployment_dates_reformatted
 
     deployment_dates_reformatted = get_all_deployment_dates(csv_file_fixture)
@@ -36,11 +36,12 @@ def test_folder_files_regex_and_extension(csv_file_fixture: TextIOWrapper):
 
     for deployment_date_reformatted in deployment_dates_reformatted:
         found = False
-        regex_pattern = fr"deploy-{deployment_date_reformatted}-audiomoth-(\w+)\.(jpg|jpeg|JPG|JPEG)"
+        regex_pattern = rf"^deploy-{deployment_date_reformatted}-audiomoth-(\w+)\.(?:jpg|jpeg|JPG|JPEG)$"
         for file_name in files:
             if re.match(regex_pattern, file_name):
                 found = True
         if not found:
             pytest.fail(f"No such file matches the regex pattern {regex_pattern} for the deployment date "
-                        "deployment_date_reformatted.")
+                        f"{deployment_date_reformatted}.")
+
 
