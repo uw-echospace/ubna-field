@@ -9,14 +9,6 @@ from scripts.tests.test_field_records import csv_file_fixture
 FOLDER_PATH = "field_records/pics/"
 
 @pytest.mark.pics
-import csv
-import os
-import re
-from typing import TextIOWrapper
-import pytest
-
-FOLDER_PATH = "path/to/your/folder"
-
 def test_folder_files_regex_and_extension(csv_file_fixture: TextIOWrapper):
     """
     Tests deployment picture file names.
