@@ -204,7 +204,7 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
                     assert is_valid_longitude(entry) or is_valid_unknown_value_format(entry),\
                     f"String {entry} is not valid longitude. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 7:
-                    assert entry == "192000" or entry == "48000",\
+                    assert entry == "192000" or entry == "48000" or entry == "(SAMPLE-RATE)",\
                     f"String {entry} is not valid sampling rate. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 8:
                     assert entry == "Medium",\
