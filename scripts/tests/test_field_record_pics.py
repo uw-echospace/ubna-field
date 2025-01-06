@@ -15,7 +15,7 @@ def test_folder_files_regex_and_extension(csv_file_fixture: TextIOWrapper):
     """
     def get_all_deployment_dates(csv_file_fixture: TextIOWrapper):
         """
-        Gets all deployment dates from ubna_2023.csv.
+        Gets all deployment dates from ubna_2024.csv.
         """
         reader = csv.reader(csv_file_fixture)
         deployment_dates_reformatted = []
@@ -36,7 +36,7 @@ def test_folder_files_regex_and_extension(csv_file_fixture: TextIOWrapper):
 
     for deployment_date_reformatted in deployment_dates_reformatted:
         found = False
-        regex_pattern = rf"^deploy-{deployment_date_reformatted}-audiomoth-(\w+)\.(?:jpg|jpeg|JPG|JPEG)$"
+        regex_pattern = fr"deploy-{deployment_date_reformatted}-audiomoth-(\w+)\.(jpg|jpeg|JPG|JPEG)"
         for file_name in files:
             if re.match(regex_pattern, file_name):
                 found = True

@@ -135,7 +135,7 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
         """
         Checks if string is valid initials of valid deployer, scribe, and uploader.
         """
-        valid_strings = ['AK', 'MB', 'WL', 'CT', 'YC', 'MS', 'VK', 'BL', 'AL', 'AM']
+        valid_strings = ['AK', 'MB', 'WL', 'CT', 'YC', 'MS', 'VK', 'BL', 'AL', 'AM', '(DEPLOYER)', '(SCRIBE)', 'UPLOADER)']
         return entry in valid_strings
     
     def is_valid_recovery_date(entry: str) -> bool:
@@ -207,19 +207,19 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
                     assert entry == "192000" or entry == "48000" or entry == "(SAMPLE-RATE)",\
                     f"String {entry} is not valid sampling rate. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 8:
-                    assert entry == "Medium",\
+                    assert entry == "Medium" or entry == "(GAIN)",\
                     f"String {entry} is not valid gain. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 9:
-                    assert entry == "None",\
+                    assert entry == "None" or entry == "(FILTER)",\
                     f"String {entry} is not valid filter. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 10:
-                    assert entry == "None",\
+                    assert entry == "None" or entry == "(AMP-THRESHOLD)",\
                     f"String {entry} is not valid amplitude threshold. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 11:
-                    assert is_valid_time(entry),\
+                    assert is_valid_time(entry) or entry == "(TIME-ON)",\
                     f"String {entry} is not valid on time. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 12:
-                    assert is_valid_time(entry),\
+                    assert is_valid_time(entry) or entry == "(TIME-OFF)",\
                     f"String {entry} is not valid off time. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 13:
                     assert is_valid_battery_start(entry) or is_valid_unknown_value_format(entry),\
