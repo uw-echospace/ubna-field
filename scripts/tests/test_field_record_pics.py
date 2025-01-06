@@ -20,7 +20,7 @@ def test_folder_files_regex_and_extension(csv_file_fixture: TextIOWrapper):
         reader = csv.reader(csv_file_fixture)
         deployment_dates_reformatted = []
         for row_index, row in enumerate(reader):
-            if row_index != 0:
+            if row_index != 0 and row[0] != "(DATE-TIME)":
                 deployment_date_reformatted = row[0].split("T")[0].replace("-", "")
                 deployment_dates_reformatted.append(deployment_date_reformatted)
         # Remove duplicate values
