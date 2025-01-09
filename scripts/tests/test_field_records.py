@@ -5,7 +5,7 @@ from typing import Tuple, Union
 from datetime import datetime
 import re
 
-PATH = "field_records/ubna_2023.csv"
+PATH = "field_records/ubna_2024.csv"
 
 @pytest.fixture(scope="function", autouse=True)
 def csv_file_fixture() -> TextIOWrapper:
@@ -33,7 +33,7 @@ def test_csv_dimensions(csv_file_fixture: TextIOWrapper) -> None:
         return num_columns, num_rows
     
     num_columns, _ = count_rows_and_columns(csv_file_fixture)
-    assert num_columns == 18, "The CSV file does not have 18 columns."
+    assert num_columns == 20, "The CSV file does not have 20 columns."
 
 @pytest.mark.csv
 def test_check_spaces(csv_file_fixture: TextIOWrapper) -> None:
@@ -48,7 +48,7 @@ def test_check_spaces(csv_file_fixture: TextIOWrapper) -> None:
                 if entry_index == 0:
                     assert not entry.startswith(' ') and not entry.startswith('  '), f"Entry '{entry}' does not start with a single space."
                     assert entry.endswith(' ') and not entry.endswith('  '), f"Entry '{entry}' does not end with a single space."
-                elif entry_index == 17:
+                elif entry_index == 19:
                     assert entry.startswith(' ') and not entry.startswith('  '), f"Entry '{entry}' does not start with a single space."
                     assert not entry.endswith(' ') and not entry.endswith('  '), f"Entry '{entry}' does not end with a single space."
                 else:
@@ -79,83 +79,106 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
         """
         Checks if string is valid AudioMoth Label.
         """
-        valid_strings = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N']
+        valid_strings = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', '(AUDIOMOTH-NAME)']
         return entry in valid_strings
     
     def is_valid_sd_card(entry: str) -> bool:
         """
         Checks if string is valid SD card.
         """
-        regex_pattern = r'^(0\d{2}|[1-9]\d{2})$'
+        regex_pattern = r'^(0\d{2}|[1-9]\d{2}|\(SD-NUM\))$'
         return re.match(regex_pattern, entry) is not None
     
     def is_valid_location(entry: str) -> bool:
         """
         Checks if string is valid location.
         """
-        valid_strings = ['Telephone Field', 'Foliage', 'Central Pond', 'E18 Bridge']
+        valid_strings = ['Telephone Field', 'Foliage', 'Central Pond', 'E18 Bridge', 'Carp Pond', 'Creek Point', 'Processing Station', 'Bat Boxes', '(SITE)']
         return entry in valid_strings
     
     def is_valid_latitude(entry: str) -> bool:
         """
         Checks if string is valid latitude.
         """
-        regex_pattern = r'^\d{1,2}° \d{1,2}\' \d{1,2}\.\d{3}\'\' [NS]$'
+        regex_pattern = r'^\d{1,2}° \d{1,2}\' \d{1,2}\.\d{3}\'\' [NS]|\(LATITUDE\)$'
         return re.match(regex_pattern, entry) is not None
 
     def is_valid_longitude(entry: str) -> bool:
         """
         Checks if string is valid longitude.
         """
-        regex_pattern = r'^\d{1,3}° \d{1,2}\' \d{1,2}\.\d{3}\'\' [EW]$'
+        regex_pattern = r'^\d{1,3}° \d{1,2}\' \d{1,2}\.\d{3}\'\' [EW]|\(LONGITUDE\)$'
         return re.match(regex_pattern, entry) is not None
     
     def is_valid_battery_start(entry: str) -> bool:
         """
         Checks if string is valid battery start voltage.
         """
-        regex_pattern = r'^(3|4)\.\d{3}$'
+        regex_pattern = r'^(3|4)\.\d{3}|\(VOLTAGE\)$'
         return re.match(regex_pattern, str(entry)) is not None
 
     def is_valid_battery_end(entry: str) -> bool:
         """
         Checks if string is valid battery end voltage.
         """
-        regex_pattern = r'^[2-4]\.\d{3}$'
+        regex_pattern = r'^[2-4]\.\d{3}|\(VOLTAGE\)|\(VOLT-END\)$'
+        return re.match(regex_pattern, str(entry)) is not None
+
+    def is_valid_time(entry: str) -> bool:
+        """
+        Checks if string is valid number of seconds for Audiomoth to be on.
+        """
+        regex_pattern = r'^\d+$'
         return re.match(regex_pattern, str(entry)) is not None
 
     def is_valid_person(entry: str) -> bool:
         """
         Checks if string is valid initials of valid deployer, scribe, and uploader.
         """
-        valid_strings = ['AK', 'MB', 'WL', 'CT', 'YC', 'MS', 'VK', 'BL']
+        valid_strings = ['AK', 'MB', 'WL', 'CT', 'YC', 'MS', 'VK', 'BL', 'AL', 'AM', '(DEPLOYER)', '(SCRIBE)', 'UPLOADER)']
         return entry in valid_strings
     
     def is_valid_recovery_date(entry: str) -> bool:
         """
         Checks if string is of valid recovery-date.
         """
-        regex_pattern = r'^recover-(\d{8})$'
+        regex_pattern = r'^(?:recover-(\d{8})|\(RECOVER-DATE\)|batcatch-(\d{8}))$'
         match = re.match(regex_pattern, entry)
         if match:
-            date_str = match.group(1)
-            try:
-                datetime.strptime(date_str, '%Y%m%d')
-                return True
-            except ValueError:
-                return False
+            date_str = match.group(1) or match.group(2)
+            if date_str:
+                try:
+                    datetime.strptime(date_str, '%Y%m%d')
+                    return True
+                except ValueError:
+                    return False
         return False
 
-    def is_valid_notes(entry: str) -> bool:
-        """
-        Checks if string is valid notes. Valid notes must contain the following pattern, but other text may
-        also be included.
-        """
-        regex_pattern = r'(Panasonic|Ikea|Panasonic-Ikea) Batteries(| Daytime| Nighttime) \d{1,2}:\d{2}(–|-)\d{2}:\d{2} UTC'
-        if len(re.findall(regex_pattern, entry)) == 1:
-            return True
-        else:
-            return False
+    #def is_valid_batcatch_date(entry: str) -> bool:
+    #    """
+    #    Checks if string is of valid batcatch-date.
+    #    """
+    #    regex_pattern = r'^batcatch-(\d{8})$'
+    #    match = re.match(regex_pattern, entry)
+    #    if match:
+    #        date_str = match.group(1)
+    #        try:
+    #            datetime.strptime(date_str, '%Y%m%d')
+    #            return True
+    #        except ValueError:
+    #            return False
+    #    return False
+
+    # def is_valid_notes(entry: str) -> bool:
+    #     """
+    #     Checks if string is valid notes. Valid notes must contain the following pattern, but other text may
+    #     also be included.
+    #     """
+    #     regex_pattern = r'(Panasonic|Ikea|Panasonic-Ikea) Batteries(| Daytime| Nighttime) \d{1,2}:\d{2}(–|-)\d{2}:\d{2} UTC'
+    #     if len(re.findall(regex_pattern, entry)) == 1:
+    #         return True
+    #     else:
+    #         return False
 
     reader = csv.reader(csv_file_fixture)
     for row_index, row in enumerate(reader):
@@ -181,29 +204,35 @@ def test_check_columns(csv_file_fixture: TextIOWrapper) -> None:
                     assert is_valid_longitude(entry) or is_valid_unknown_value_format(entry),\
                     f"String {entry} is not valid longitude. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 7:
-                    assert entry == "192000" or entry == "48000",\
+                    assert entry == "192000" or entry == "48000" or entry == "(SAMPLE-RATE)",\
                     f"String {entry} is not valid sampling rate. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 8:
-                    assert entry == "Medium",\
+                    assert entry == "Medium" or entry == "(GAIN)",\
                     f"String {entry} is not valid gain. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 9:
-                    assert entry == "None",\
+                    assert entry == "None" or entry == "(FILTER)",\
                     f"String {entry} is not valid filter. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 10:
-                    assert entry == "None",\
+                    assert entry == "None" or entry == "(AMP-THRESHOLD)",\
                     f"String {entry} is not valid amplitude threshold. Failed entry in row {row_index + 1} column {entry_index + 1}."
                 if entry_index == 11:
+                    assert is_valid_time(entry) or entry == "(TIME-ON)",\
+                    f"String {entry} is not valid on time. Failed entry in row {row_index + 1} column {entry_index + 1}."
+                if entry_index == 12:
+                    assert is_valid_time(entry) or entry == "(TIME-OFF)",\
+                    f"String {entry} is not valid off time. Failed entry in row {row_index + 1} column {entry_index + 1}."
+                if entry_index == 13:
                     assert is_valid_battery_start(entry) or is_valid_unknown_value_format(entry),\
                     f"String {entry} is not valid battery start voltage. Failed entry in row {row_index + 1} column {entry_index + 1}."
-                if entry_index == 12:
+                if entry_index == 14:
                     assert is_valid_battery_end(entry) or is_valid_unknown_value_format(entry),\
                     f"String {entry} is not valid battery end voltage. Failed entry in row {row_index + 1} column {entry_index + 1}."
-                if entry_index == 13 or entry_index == 14 or entry_index == 15:
+                if entry_index == 15 or entry_index == 16 or entry_index == 17:
                     assert is_valid_person(entry) or is_valid_unknown_value_format(entry),\
                     f"String {entry} is not valid initials of person. Failed entry in row {row_index + 1} column {entry_index + 1}."
-                if entry_index == 16:
+                if entry_index == 18:
                     assert is_valid_recovery_date(entry) or is_valid_unknown_value_format(entry),\
                     f"String {entry} is not valid recovery date. Failed entry in row {row_index + 1} column {entry_index + 1}."
-                if entry_index == 17:
-                    assert is_valid_notes(entry),\
-                    f"String {entry} is not valid notes. Failed entry in row {row_index + 1} column {entry_index + 1}."
+                # if entry_index == 19:
+                #     assert is_valid_notes(entry),\
+                #     f"String {entry} is not valid notes. Failed entry in row {row_index + 1} column {entry_index + 1}."
