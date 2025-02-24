@@ -15,7 +15,8 @@ def get_wav_file_sizes(folder_path):
     file_sizes = []
     timestamps = []
     
-    for file in os.listdir(folder_path):
+    
+    for file in sorted(os.listdir(folder_path)):
         if file.lower().endswith(".wav"):
             timestamp = extract_timestamp(file)
             if timestamp:
@@ -26,14 +27,15 @@ def get_wav_file_sizes(folder_path):
     
     return timestamps, file_sizes
 
-def plot_file_sizes(timestamps, file_sizes):
+def plot_file_sizes(timestamps, file_sizes, folder_path):
     plt.figure(figsize=(10, 5))
     plt.scatter(timestamps, file_sizes, label='File Size (MB)', color='b', marker='o')
     plt.plot(timestamps, file_sizes, linestyle='-', alpha=0.6)
     plt.xlabel('Time')
     plt.ylabel('File Size (MB)')
-    plt.title('WAV File Size Over Time')
-    plt.xticks(rotation=45)
+    plt.xlim(datetime(2025,2,10), datetime(2025,2,24))
+    plt.title('WAV File Size Over Time for ' +str(os.path.basename(folder_path)))
+    plt.xticks(rotation=30)
     
     min_time = min(timestamps)
     max_time = max(timestamps)
@@ -49,7 +51,7 @@ def plot_file_sizes(timestamps, file_sizes):
         tick_times.append(current_time)
         current_time += time_interval
     
-    plt.xticks(tick_times, [t.strftime('%Y-%m-%d %H:%M') for t in tick_times])
+    plt.xticks(tick_times, [t.strftime('%m-%d %H:%M') for t in tick_times])
     
     plt.legend()
     plt.grid()
@@ -64,6 +66,6 @@ if __name__ == "__main__":
     timestamps, file_sizes = get_wav_file_sizes(folder_path)
     
     if timestamps:
-        plot_file_sizes(timestamps, file_sizes)
+        plot_file_sizes(timestamps, file_sizes, folder_path)
     else:
         print("No valid WAV files found in the specified directory.")
