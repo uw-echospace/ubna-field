@@ -1,4 +1,4 @@
-  GNU nano 6.2                                                                                                                                                                                                                                       filesize_tests1.py                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                    filesize_tests1.py                                                                                                                                                                                                                                                 
 import os
 import sys
 import re
