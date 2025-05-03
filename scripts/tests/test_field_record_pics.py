@@ -4,7 +4,7 @@ import re
 from io import TextIOWrapper
 import csv
 
-from test_field_records import csv_file_fixture
+from scripts.tests.test_field_records import csv_file_fixture
 
 FOLDER_PATH = "field_records/pics/"
 
