@@ -35,13 +35,16 @@ def test_folder_files_regex_and_extension(csv_file_fixture: TextIOWrapper):
         return deployment_dates_reformatted
 
     deployment_dates_reformatted = get_all_deployment_dates(csv_file_fixture)
-    folder_path = FOLDER_PATH
-    files = []
-    for file_name in os.listdir(folder_path):
-        if file_name.lower().endswith((".jpg", ".jpeg")):
-            files.append(file_name)
 
     for deployment_date_reformatted in deployment_dates_reformatted:
+        year = deployment_date_reformatted[:4]
+        folder_path = os.path.join(FOLDER_PATH, f"deploy-{year}-pictures")
+
+        files = []
+        for file_name in os.listdir(folder_path):
+            if file_name.lower().endswith((".jpg", ".jpeg")):
+                files.append(file_name)
+
         found = False
         escaped_date = re.escape(deployment_date_reformatted)
         regex_pattern = fr"deploy-{escaped_date}-audiomoth-(\w+)\.(jpg|jpeg|JPG|JPEG)"
